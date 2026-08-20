@@ -727,6 +727,7 @@
       <p><a href="/ceefax/">CEEFAX 1928</a> · <a href="/diskmag/">DISKMAG 01</a> · <a href="/scif/">UNWRITTEN LAW</a> · <a href="/win95/">HALL 95</a> · DH2:Guide is a correspondence stub, not Codex's Tree. DH3:Plates is the folio's figures; the Tree is a file map.</p>
       <p>CODEX keeps the Hebrew desk and the Tree gadget. BBSBENCH dials other boards. This node <i>is</i> a board.</p>
       <p>Homage to Workbench 1.3 / Kickstart — not a Commodore product.</p>
+      <p>Sysop coffee — <a href="https://www.buymeacoffee.com/jaramie" target="_blank" rel="noopener">buymeacoffee.com/jaramie</a></p>
       <h3>WHO</h3>
       ${seers.map((u) =>
         `<div>${esc(u.handle)}  ${esc(u.status)}  idle ${esc(u.idle)}</div>`

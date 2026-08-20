@@ -633,6 +633,7 @@ table.wb tr.pin td { background: #ffe0b0; }
   margin-top: 8px;
 }
 #scroll-also { margin-top: 8px; }
+#about-body a { color: var(--blue); }
 
 .plate-grid {
   display: grid;

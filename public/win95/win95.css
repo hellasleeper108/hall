@@ -311,6 +311,7 @@ button, input { font: inherit; }
   text-align: right;
 }
 .calc .hint, .about p, .find-body p { margin: 6px 0 0; }
+.about a { color: #000080; }
 .calc .hint { grid-column: 1 / -1; color: #000080; }
 
 .find-body, .dialog-body, .about {

@@ -512,6 +512,7 @@
       Hour of ${esc(s?.planet || "—")} (${esc(s?.metal || "")})</p>
       <p>Homage to Windows 95. Not a Microsoft product.<br>
       Codex keeps the Hebrew desk. This node <i>is</i> a board.</p>
+      <p>Shareware-shaped. Support: <a href="https://www.buymeacoffee.com/jaramie" target="_blank" rel="noopener">buymeacoffee.com/jaramie</a></p>
       <div class="btns"><button type="button" data-act="close">OK</button></div>`;
     $("#about-body [data-act=close]")?.addEventListener("click", () => closeWin($("#win-about")));
   }
