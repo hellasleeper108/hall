@@ -67,7 +67,7 @@ F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR · F6 GUIDE · F7 CEEFAX 
 
 ## DH3:Plates
 
-Ten figures from the Lampić PDF. Desktop stamps are Workbench four-color; double-click opens the source plate in **PIC:**. Everyone can see the image. Fellowcraft unlocks the longer caption; adept adds the folio page. The Tree is an imagemap — click a sephira to read its chapter or hop to DH2:Guide. Not Codex's SVG gadget.
+The Lampić PDF's figures as a G-file drawer. Desktop stamps are Workbench four-color; double-click opens the source plate in **PIC:**. Filter by echo. Everyone can see the image. Fellowcraft unlocks the longer caption; adept adds the folio page. The Tree is an imagemap — click a sephira to read its chapter or hop to DH2:Guide. Not Codex's SVG gadget.
 
 ```
 1> plates

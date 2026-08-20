@@ -659,7 +659,12 @@ table.wb tr.pin td { background: #ffe0b0; }
   margin: 0 auto 4px;
   background: var(--blue);
 }
-.plate-stamp .name { display: block; }
+.plate-stamp .name {
+  display: block;
+  max-height: 32px;
+  overflow: hidden;
+  word-break: break-word;
+}
 .win .body.plate-body {
   display: flex;
   flex-direction: column;

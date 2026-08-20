@@ -11,7 +11,7 @@ Source: Manly P. Hall, *The Secret Teachings of All Ages* (1928, no renewal). PD
 1c. **DH2:Guide** — AmigaGuide stub (`data/guide.json`). Correspondence walk, not Codex's Tree gadget.
 1d. **DISKMAG 01** — `/diskmag` Loadstar sitting. Hermes only. HOUR.BAS / GEMATRIA.BAS. Issue 02 (Pyramid) not cut.
 1e. **UNWRITTEN LAW** — `/scif` clearance skin. Period patrons only. EXOTERIC/ACROAMATIC/ADYTUM = NFO/TXT/FOL. Not Threatbench.
-1f. **DH3:Plates** — ten curated figures. Four-color stamps, full-color PIC viewer. Tree is an imagemap (not Codex's SVG). Caption depth follows degree; Knapp is never hidden.
+1f. **DH3:Plates** — the folio's figures. Four-color stamps, full-color PIC viewer, echo filter. Tree is an imagemap (not Codex's SVG). Caption depth follows degree; Knapp is never hidden.
 
 ## Next doors (still the BBS)
 
@@ -19,7 +19,7 @@ Source: Manly P. Hall, *The Secret Teachings of All Ages* (1928, no renewal). PD
 3. **The Chemical Marriage** — one-sitting CYOA of Christian Rosenkreuz's wedding; Hall in the status bar.
 4. **The Bembine Table** — bronze tablet as a map. Cannot leave a square until you name its correspondence.
 5. **Sysop mail** — constrained replies in 1928 English, quoting the folio only.
-6. **Knapp plates as G-files** — built as DH3:Plates (ten figures). Later: Bembine as a second map, Ceefax/SCIF cousins, more of the 1928 color plates if we find them.
+6. **Knapp plates as G-files** — built as DH3:Plates (Lampić figures). Later: Bembine as a second map, Ceefax/SCIF cousins, 1928 color Knapp if a color scan turns up.
 7. **Cryptogram of the week** — live the cryptogram chapter: biliteral / acrostic hidden in banners.
 
 ## Other formats (same corpus, different shell)

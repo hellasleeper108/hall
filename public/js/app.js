@@ -15,6 +15,7 @@
     plates: null,
     plateId: null,
     hotspotId: null,
+    plateEcho: "all",
     selected: null,
     chapter: null,
     depth: "signal",
@@ -572,12 +573,13 @@
     const n = String(q || "").toLowerCase().trim();
     if (!n) return null;
     const plates = state.plates?.plates || [];
-    return plates.find((p) =>
-      p.id === n ||
-      (p.title && p.title.toLowerCase() === n) ||
-      p.id.startsWith(n) ||
-      (p.title && p.title.toLowerCase().includes(n))
-    ) || null;
+    return (
+      plates.find((p) => p.id === n) ||
+      plates.find((p) => p.title && p.title.toLowerCase() === n) ||
+      plates.find((p) => p.id.startsWith(n + "-")) ||
+      plates.find((p) => p.title && p.title.toLowerCase().includes(n)) ||
+      null
+    );
   }
 
   function findHotspot(q) {
@@ -592,20 +594,39 @@
     return null;
   }
 
+  function renderPlateFilters() {
+    const box = $("#plate-filters");
+    if (!box) return;
+    const echoes = [{ id: "all", name: "ALL" }, ...(state.catalog?.echoes || [])];
+    box.innerHTML = echoes.map((e) =>
+      `<button data-pecho="${esc(e.id)}" class="${state.plateEcho === e.id ? "on" : ""}">${esc(e.id === "all" ? "ALL" : e.id)}</button>`
+    ).join("");
+    box.querySelectorAll("[data-pecho]").forEach((b) => {
+      b.addEventListener("click", () => {
+        state.plateEcho = b.dataset.pecho;
+        renderPlateFilters();
+        renderPlates();
+      });
+    });
+  }
+
   function renderPlates() {
     const box = $("#plate-list");
     const src = $("#plate-src");
     if (!box) return;
-    const plates = state.plates?.plates || [];
-    if (src) src.textContent = `${plates.length} figures  ${state.degree.toUpperCase()}`;
-    if (!plates.length) {
+    const all = state.plates?.plates || [];
+    const plates = all.filter((p) =>
+      state.plateEcho === "all" || p.echo === state.plateEcho
+    );
+    if (src) src.textContent = `${plates.length} / ${all.length}  ${state.degree.toUpperCase()}`;
+    if (!all.length) {
       box.innerHTML = "<p class='dim'>DH3 not mounted.</p>";
       return;
     }
     box.innerHTML = plates.map((p) => `
       <button class="plate-stamp${state.plateId === p.id ? " on" : ""}" data-id="${esc(p.id)}" type="button">
         <img src="${esc(p.stamp || "/plates/stamps/" + p.id + "@2.png")}" alt="" width="96" height="80">
-        <span class="name">${esc(p.id.toUpperCase())}</span>
+        <span class="name">${esc((p.title || p.id).toUpperCase())}</span>
       </button>`).join("");
     box.querySelectorAll(".plate-stamp").forEach((el) => {
       el.addEventListener("click", () => {
@@ -702,7 +723,7 @@
         <span>node <b>${esc(s?.node || "1:1928/1")}</b></span>
       </div>
       <p>Copied ${s?.copied ?? "—"} / ${s?.chapters ?? 50} chapters. Three depths: NFO / TXT / FOL.</p>
-      <p><a href="/ceefax/">CEEFAX 1928</a> · <a href="/diskmag/">DISKMAG 01</a> · <a href="/scif/">UNWRITTEN LAW</a> · DH2:Guide is a correspondence stub, not Codex's Tree. DH3:Plates is ten figures; the Tree is a file map.</p>
+      <p><a href="/ceefax/">CEEFAX 1928</a> · <a href="/diskmag/">DISKMAG 01</a> · <a href="/scif/">UNWRITTEN LAW</a> · DH2:Guide is a correspondence stub, not Codex's Tree. DH3:Plates is the folio's figures; the Tree is a file map.</p>
       <p>CODEX keeps the Hebrew desk and the Tree gadget. BBSBENCH dials other boards. This node <i>is</i> a board.</p>
       <p>Homage to Workbench 1.3 / Kickstart — not a Commodore product.</p>
       <h3>WHO</h3>
@@ -987,6 +1008,7 @@ Adept unlocks FOL. Read three, pass a rite.`;
     renderHour();
     renderEchoFilters();
     renderFiles();
+    renderPlateFilters();
     renderPlates();
     renderAbout();
   }

@@ -62,13 +62,17 @@ def load_diskmag():
 
 def load_plates():
     rec = _read_json(DATA / "plates.json")
-    chapters = {c["id"] for c in load_catalog()["chapters"]}
+    cat = {c["id"]: c for c in load_catalog()["chapters"]}
+    chapters = set(cat)
     guide_ids = {n["id"] for n in load_guide().get("nodes") or []}
     for plate in rec.get("plates") or []:
         plate["stamp"] = f"/plates/stamps/{plate['id']}@2.png"
         plate["src"] = f"/plates/full/{plate['file']}"
         if plate.get("chapter") and plate["chapter"] not in chapters:
             plate["chapter"] = None
+        meta = cat.get(plate.get("chapter") or "")
+        if meta:
+            plate["echo"] = meta.get("echo")
         for spot in plate.get("hotspots") or []:
             if spot.get("chapter") and spot["chapter"] not in chapters:
                 spot["chapter"] = None

@@ -1,6 +1,6 @@
 {
   "title": "DH3:Plates",
-  "note": "Curated figures from the Lampić 2009 PDF. Workbench stamps are four-color; the viewer may show the source. The Tree is the map.",
+  "note": "Figures from the Lampić 2009 PDF. Workbench stamps are four-color; the viewer may show the source. The Tree is the map. 205 figures.",
   "plates": [
     {
       "id": "cover",
@@ -12,6 +12,42 @@
       "caption": "The 1928 binding was the argument: a plate you could hold. This is the door of the BBS."
     },
     {
+      "id": "babbitts-atom",
+      "file": "babbitts-atom.jpg",
+      "pdf_page": 21,
+      "chapter": "introduction",
+      "title": "Babbitt's Atom",
+      "legend": "From Babbitt’sPrinciples of Light and Color",
+      "caption": "since the postulation of the atomic theory by Democritus, many efforts have been made to determine the structure of atoms and the method by which they unite to form vari-ous elements, Even science has not refrained from entering this field of speculation and presents for consid-eration most detailed and elaborate representations of these minute bod-ies."
+    },
+    {
+      "id": "figure-folio-p-25",
+      "file": "figure-folio-p-25.jpg",
+      "pdf_page": 25,
+      "chapter": "introduction",
+      "title": "Plato",
+      "legend": "From Thomasin’s Recuil des Figures, Groupes, Thermes, Fontaines, Vases et autres Ornaments",
+      "caption": "When his father brought him to study with socrates, the great skeptic declared that on the previous night he had dreamed of a white swan, which was an omen that his new disciple was to become one of the world’s illumined."
+    },
+    {
+      "id": "the-problem-of-diversity",
+      "file": "the-problem-of-diversity.jpg",
+      "pdf_page": 27,
+      "chapter": "introduction",
+      "title": "The Problem of Diversity",
+      "legend": "From Kircher’s Ars Magna Sciendi",
+      "caption": "In the above diagram Kircher arranges eighteen objects in two vertical columns and then determines he number of arrangements in which they can be combined."
+    },
+    {
+      "id": "neas-at-the-gate-of-hell",
+      "file": "neas-at-the-gate-of-hell.jpg",
+      "pdf_page": 29,
+      "chapter": "introduction",
+      "title": "Aeneas at the Gate of Hell",
+      "legend": "From Virgil’s Æneid",
+      "caption": "(Dryden’s translation.) virgil describes part of the ritual of a Greek mystery – possibly the Eleusinian – in his account of the descent of Æneas, to the gate of hell under the guidance of the sibyl."
+    },
+    {
       "id": "empyreum",
       "file": "empyreum.png",
       "pdf_page": 33,
@@ -19,6 +55,168 @@
       "title": "Coelum Empyreum",
       "legend": "Spheres from Luna to the primum mobile.",
       "caption": "Hall's solar chapter in one diagram: planets nested, zodiac on the rim, the empyrean as God's habitation."
+    },
+    {
+      "id": "the-tree-ofclassicalmythology",
+      "file": "the-tree-ofclassicalmythology.jpg",
+      "pdf_page": 35,
+      "chapter": "introduction",
+      "title": "The Tree of Classical Mythology",
+      "legend": "from the idealism of Fich- te and von schelling",
+      "caption": "to herbart the true basis of philosophy was the great mass of phenom- ena continually moving through the human mind."
+    },
+    {
+      "id": "a-christian-trinity",
+      "file": "a-christian-trinity.jpg",
+      "pdf_page": 39,
+      "chapter": "introduction",
+      "title": "A Christian Trinity",
+      "legend": "From Hone’sAncient Mysteries Described",
+      "caption": "in an effort to set forth in an appropri-ate figure the Christian doctrine of the trinity, it was necessary to devise an image in which the three persons – Father, Son, and Holy Ghost – were separate and yet one."
+    },
+    {
+      "id": "the-orphic-egg",
+      "file": "the-orphic-egg.jpg",
+      "pdf_page": 42,
+      "chapter": "mysteries-1",
+      "title": "The Orphic Egg",
+      "legend": "From Bryant’s an Analysis of Ancient Mythology",
+      "caption": "the ancient symbol of the orphic mysteries was the serpent-entwined egg, which signified Cos - mos as encircled by the fiery Creative Spirit."
+    },
+    {
+      "id": "a-female-hierophantof-the-mysteries",
+      "file": "a-female-hierophantof-the-mysteries.jpg",
+      "pdf_page": 45,
+      "chapter": "mysteries-1",
+      "title": "A Female Hierophant of the Mysteries",
+      "legend": "from whose cult has been borrowed much of the sacerdotalism of the modem church",
+      "caption": "the ancient philosophers believed that no man could live intelligently who did not have a fundamental knowledge of nature and her laws."
+    },
+    {
+      "id": "the-arch-druid-in-his-ceremonial-robes",
+      "file": "the-arch-druid-in-his-ceremonial-robes.jpg",
+      "pdf_page": 49,
+      "chapter": "mysteries-1",
+      "title": "The Arch-Druid in his Ceremonial Robes",
+      "legend": "From Wellcome’s Ancient Cymric Medicine",
+      "caption": "the most striking adornment of the arch-Druid was the iodhan moran, or breastplate of judg-ment, which possessed the mysterious Power of strangling any who made an untrue statement while wearing it."
+    },
+    {
+      "id": "the-ground-plan-of-stonehenge",
+      "file": "the-ground-plan-of-stonehenge.jpg",
+      "pdf_page": 52,
+      "chapter": "mysteries-1",
+      "title": "The Ground Plan of Stonehenge",
+      "legend": "From Maurice’s Indian Antiquities",
+      "caption": "the Druid temples of places of religious worship were not patterned after those of other nations."
+    },
+    {
+      "id": "mithras-slaying-the-bull",
+      "file": "mithras-slaying-the-bull.jpg",
+      "pdf_page": 53,
+      "chapter": "mysteries-1",
+      "title": "Mithras Slaying the Bull",
+      "legend": "From Lundy’s Monumental Christianity",
+      "caption": "the most famous sculpturings and reliefs of this prototokos show mithras kneeling upon the recumbent form of a great bull, into whose throat he is driving a sword."
+    },
+    {
+      "id": "the-death-ofsimon-the-magician",
+      "file": "the-death-ofsimon-the-magician.jpg",
+      "pdf_page": 57,
+      "chapter": "mysteries-2",
+      "title": "The Death of Simon the Magician",
+      "legend": "from one root, which is the power invisible, inapprehensible silence [Bythos]",
+      "caption": "Of these shoots one is manifested from above, which is the Great Power, the Universal Mind ordering all things, male, and the other, [is manifested] from be-low, the Great thought, female, producing all things."
+    },
+    {
+      "id": "the-alexandrian-serapis",
+      "file": "the-alexandrian-serapis.jpg",
+      "pdf_page": 62,
+      "chapter": "mysteries-2",
+      "title": "The Alexandrian Serapis",
+      "legend": "From Mosaize Historie der Hebreeuwse Kerke",
+      "caption": "serapis is often shown standing on the back of the sacred crocodile, carrying in his left hand a rule with which to measure the in-undations of the nile, and balancing with his right hand a curious emblem consist-ing of an animal with the heads."
+    },
+    {
+      "id": "a-symbolic-labyrinth",
+      "file": "a-symbolic-labyrinth.jpg",
+      "pdf_page": 64,
+      "chapter": "mysteries-2",
+      "title": "A Symbolic Labyrinth",
+      "legend": "from an examination of the chambers and passageways in which the initiations were given",
+      "caption": "under the temple of serapis destroyed by theodosius were found strange mechanical contrivances constructed by the priests in the subterranean crypts and caverns where the nocturnal initiatory rites were celebrated."
+    },
+    {
+      "id": "the-nine-worlds-of-the-odinic-mys-teries",
+      "file": "the-nine-worlds-of-the-odinic-mys-teries.jpg",
+      "pdf_page": 68,
+      "chapter": "mysteries-3",
+      "title": "The Nine Worlds of the Odinic Mysteries",
+      "legend": "The Nine Worlds of the Odinic Mysteries",
+      "caption": "67the original story, the ring operas, declared to be the grandest tetralogy of music dramas the world possesses, have caught and preserved in a remarkable manner the majesty and power of the original sagas."
+    },
+    {
+      "id": "the-rape-of-persephone",
+      "file": "the-rape-of-persephone.jpg",
+      "pdf_page": 71,
+      "chapter": "mysteries-3",
+      "title": "The Rape of Persephone",
+      "legend": "From Thomassin’s Recucil des Figures, Groupes, Themes, Fontaines, Vases et autres Ornements",
+      "caption": "Pluto, the lord of the underworld, represents the body intelligence of man; and the rape of Perse-phone is symbolic of the divine nature assaulted and defiled by the animal soul and dragged down - ward into the somber darkness of hades, which is here used as a synonym for the material, or objec-tive, sphere of consciousness.in his Disquisitions upon the."
+    },
+    {
+      "id": "ceres-the-patron-of-the-mysteries",
+      "file": "ceres-the-patron-of-the-mysteries.jpg",
+      "pdf_page": 72,
+      "chapter": "mysteries-3",
+      "title": "Ceres, the Patron of the Mysteries",
+      "legend": "from this ancient word, for faith is belief in the reality of things unseen or veiled",
+      "caption": "The Greater Mysteries (into which the candidate was admitted only after he had success- fully passed through the ordeals of the lesser, and not always then) were sacred to Ceres, the mother of Persephone, and represent her as wandering through the world in quest of her abducted daughter."
+    },
+    {
+      "id": "the-processional-of-the-bacchic-rites",
+      "file": "the-processional-of-the-bacchic-rites.jpg",
+      "pdf_page": 78,
+      "chapter": "mysteries-3",
+      "title": "The Processional of the Bacchic Rites",
+      "legend": "From Ovid’s Metamorphosis",
+      "caption": "in the initiation, of the bacchic mysteries, the rôle of bacchus is played by the candidate who, set upon by priests in the guise of the Titans, is slain and finally restored to life amidst great rejoicing."
+    },
+    {
+      "id": "the-scheme-of-the-universe-according-to-the-gree",
+      "file": "the-scheme-of-the-universe-according-to-the-gree.jpg",
+      "pdf_page": 84,
+      "chapter": "atlantis",
+      "title": "The Scheme of the Universe according to the Greeks and Romans and Romans",
+      "legend": "From Cartari’s Imagini degli Dei degli Antichi",
+      "caption": "by ascending successively through the fiery sphere of Hades, the spheres of water, Earth, and air, and the heavens of the moon, the plane of mercury is reached."
+    },
+    {
+      "id": "the-great-god-pan",
+      "file": "the-great-god-pan.jpg",
+      "pdf_page": 89,
+      "chapter": "atlantis",
+      "title": "The Great God Pan",
+      "legend": "From Kircher’s Œdipus Ægyptiacus",
+      "caption": "the great Pan was celebrated as the author and director of the sacred dances which he is supposed to have instituted to symbolize the circumambulations of the heavenly bodies."
+    },
+    {
+      "id": "hermes-mercuriustrismegistus",
+      "file": "hermes-mercuriustrismegistus.jpg",
+      "pdf_page": 95,
+      "chapter": "hermes",
+      "title": "Hermes Mercurius Trismegistus",
+      "legend": "From Historia Deorum Fatidicorum",
+      "caption": "perfect in all crafts, ruler of the three Worlds, Scribe of the Gods, and Keeper of the books of life, thoth hermes tris- megistus – the three times Greatest, the “First Intelligencer” – was re - garded by the ancient Egyptians as the embodiment of the universal mind."
+    },
+    {
+      "id": "a-greek-form-of-hermes",
+      "file": "a-greek-form-of-hermes.jpg",
+      "pdf_page": 103,
+      "chapter": "hermes",
+      "title": "A Greek Form of Hermes",
+      "legend": "From Bryant’ s Mythology",
+      "caption": "the name hermes is derived from “herm,” a form of CHiram, the Per - sonified Universal Life Principle, generally represented by fire."
     },
     {
       "id": "pyramid",
@@ -30,6 +228,15 @@
       "caption": "A sermon in stone: ascending passage, gallery, king's chamber, the forced hole of al-Mamun."
     },
     {
+      "id": "dipus-and-the-sphinx",
+      "file": "dipus-and-the-sphinx.jpg",
+      "pdf_page": 114,
+      "chapter": "pyramid",
+      "title": "Oedipus and the Sphinx",
+      "legend": "From Levi’s Les Mystères de la Kaballe",
+      "caption": "the Egyptian sphinx is closely related to the Greek legend of Œdipus, who first solved the famous riddle propounded by the mysterious creature with the body of a winged lion and the head of a woman which frequent- ed the highway leading to thebes."
+    },
+    {
       "id": "isis",
       "file": "isis.png",
       "pdf_page": 121,
@@ -37,6 +244,69 @@
       "title": "Isis",
       "legend": "The virgin of the world, sistrum in hand.",
       "caption": "Widow and womb. Osiris is the light cut up; she gathers the pieces."
+    },
+    {
+      "id": "the-sistrum",
+      "file": "the-sistrum.jpg",
+      "pdf_page": 125,
+      "chapter": "isis",
+      "title": "The Sistrum",
+      "legend": "from the leaves of the vic- torious palm tree covered her immortal feet",
+      "caption": "“The sistrum is designed (...) to represent to us, that every thing must be kept in continual agitation, and never cease from motion; that they ought to be mused and well-shaken, whenever they begin to grow drowsy as it were, and to droop in their motion."
+    },
+    {
+      "id": "the-egyptian-madonna",
+      "file": "the-egyptian-madonna.jpg",
+      "pdf_page": 128,
+      "chapter": "isis",
+      "title": "The Egyptian Madonna",
+      "legend": "From Lenoir’s La Franche-Maconnerie",
+      "caption": "isis is shown with her son horus in her arms."
+    },
+    {
+      "id": "osiris-king-of-the-underworld",
+      "file": "osiris-king-of-the-underworld.jpg",
+      "pdf_page": 131,
+      "chapter": "isis",
+      "title": "Osiris, King of the Underworld",
+      "legend": "from their evil influences",
+      "caption": "osiris is often represented with the lower par, of his body enclosed in a mummy case or wrapped about with funeral bandages."
+    },
+    {
+      "id": "the-lion-of-the-sun",
+      "file": "the-lion-of-the-sun.jpg",
+      "pdf_page": 134,
+      "chapter": "sun",
+      "title": "The Lion of the Sun",
+      "legend": "From Maurice’ s Indian Antiquities",
+      "caption": "the sun rising over the back of the lion or, astrologically, in the back of the lion, has always been considered symbolic of power and rulership."
+    },
+    {
+      "id": "the-three-suns",
+      "file": "the-three-suns.jpg",
+      "pdf_page": 140,
+      "chapter": "sun",
+      "title": "The Three Suns",
+      "legend": "From Lilly’s Astrological Predictions for 1648, 1649, and 1650",
+      "caption": ") The following description of this phenomenon appears in a letter written by Jeremiah Shakerley in Lancashire, March 4th, 1648: – “On Monday the 28th of February last, there arose with the Sun two Parelii, on either side one; their distance from him was by estimation, about ten degrees; they continued still of the same distance from the Zenith, or."
+    },
+    {
+      "id": "surya-the-regent-of-the-sun",
+      "file": "surya-the-regent-of-the-sun.jpg",
+      "pdf_page": 143,
+      "chapter": "sun",
+      "title": "Surya, the Regent of the Sun",
+      "legend": "from them emanate four streamers of vril",
+      "caption": "these streamers are often of great length and are in constant motion."
+    },
+    {
+      "id": "the-solar-face",
+      "file": "the-solar-face.jpg",
+      "pdf_page": 146,
+      "chapter": "sun",
+      "title": "The Solar Face",
+      "legend": "From Montfaucon’s Antiquities",
+      "caption": "the corona of the sun is here shown in the form of a lion’s mane."
     },
     {
       "id": "zodiac-man",
@@ -48,6 +318,42 @@
       "caption": "The belt of living signs as anatomy. Pair with the human-body chapter and the Tree."
     },
     {
+      "id": "the-equinoxes-and-solstices",
+      "file": "the-equinoxes-and-solstices.jpg",
+      "pdf_page": 151,
+      "chapter": "zodiac",
+      "title": "The Equinoxes and Solstices",
+      "legend": "The Equinoxes and Solstices",
+      "caption": "For ABRACADABRA is The Bull, the only Bull."
+    },
+    {
+      "id": "the-microcosm",
+      "file": "the-microcosm.jpg",
+      "pdf_page": 154,
+      "chapter": "zodiac",
+      "title": "The Microcosm",
+      "legend": "From Schotus’ Margarita Philosophica",
+      "caption": "The pagans believed that the zodiac formed the body of the Grand Man of the Universe."
+    },
+    {
+      "id": "the-circular-zodiac-of-tentyra",
+      "file": "the-circular-zodiac-of-tentyra.jpg",
+      "pdf_page": 157,
+      "chapter": "zodiac",
+      "title": "The Circular Zodiac of Tentyra",
+      "legend": "From Cole’s Treatise – the Circular Zodiac of Tentyra, in Egypt",
+      "caption": "The oldest circular zodiac known is the one found at Tentyra, in Egypt, and now in the possession of the French government."
+    },
+    {
+      "id": "hermes-of-the-ancient-zodiac",
+      "file": "hermes-of-the-ancient-zodiac.jpg",
+      "pdf_page": 160,
+      "chapter": "bembine",
+      "title": "Hermes, of the Ancient Zodiac",
+      "legend": "from that book of Æsculapius which is called Μυριογενεσις, (i",
+      "caption": "Ten Thousand, or an innumerable mul-titude of Genitures) in order that nothing in the several genitures of men may be found to be discordant with the above-mentioned geniture of the world.” the seven ages of man are under the control of the planets in the following order: in- fancy, the moon; childhood, mercury; adolescence, venus; maturity, the sun;."
+    },
+    {
       "id": "bembine",
       "file": "bembine.jpg",
       "pdf_page": 162,
@@ -55,6 +361,420 @@
       "title": "The Bembine Table of Isis",
       "legend": "Bronze filing cabinet. A later map.",
       "caption": "Mensa Isiaca. Three registers of gods. Hall reads it as a doctrine you can point at. Not the clickable map this round."
+    },
+    {
+      "id": "levis-key-to-the-bembine-table",
+      "file": "levis-key-to-the-bembine-table.jpg",
+      "pdf_page": 164,
+      "chapter": "bembine",
+      "title": "Levi's Key to the Bembine Table",
+      "legend": "from which all the other letters were formed",
+      "caption": "the iYnX is encircled by the ophite triad, answering to the three mother letters of the Egyptian and hebrew alphabets."
+    },
+    {
+      "id": "westcotts-key-to-the-bembine-table",
+      "file": "westcotts-key-to-the-bembine-table.jpg",
+      "pdf_page": 166,
+      "chapter": "bembine",
+      "title": "Westcott's Key to the Bembine Table",
+      "legend": "From Westcott’s the Isiac Tablet",
+      "caption": "Zoroaster declared that the number three shines throughout the world."
+    },
+    {
+      "id": "base-of-a-delphian-tripod",
+      "file": "base-of-a-delphian-tripod.jpg",
+      "pdf_page": 180,
+      "chapter": "wonders",
+      "title": "Base of A Delphian Tripod",
+      "legend": "From Montfaucon’s Antiquities",
+      "caption": "the windings of these serpents formed the base, and the three heads sustained the three feet of the tripod."
+    },
+    {
+      "id": "base-of-a-delphian-tripod-2",
+      "file": "base-of-a-delphian-tripod-2.jpg",
+      "pdf_page": 180,
+      "chapter": "wonders",
+      "title": "Base of A Delphian Tripod",
+      "legend": "From Montfaucon’s Antiquities",
+      "caption": "the windings of these serpents formed the base, and the three heads sustained the three feet of the tripod."
+    },
+    {
+      "id": "the-pythian-apollo",
+      "file": "the-pythian-apollo.jpg",
+      "pdf_page": 181,
+      "chapter": "wonders",
+      "title": "The Pythian Apollo",
+      "legend": "from the fissure of the oracle were supposed to come from the decaying body of Python",
+      "caption": "the name Pythoness, or Pythia, given to the female hierophant of the oracle, means literally one who has been thrown into a religious frenzy by inhaling fumes rising from decomposing matter."
+    },
+    {
+      "id": "dodonean-jupiter",
+      "file": "dodonean-jupiter.jpg",
+      "pdf_page": 185,
+      "chapter": "wonders",
+      "title": "Dodonean Jupiter",
+      "legend": "from the most ancient times had been sacred to Jupiter",
+      "caption": "The grove was further venerated because dryads, fauns, satyrs, and nymphs were believed to dwell in its depths."
+    },
+    {
+      "id": "trophonius-of-lebadia",
+      "file": "trophonius-of-lebadia.jpg",
+      "pdf_page": 186,
+      "chapter": "wonders",
+      "title": "Trophonius of Lebadia",
+      "legend": "from the after effects of their delirium",
+      "caption": "the confused recital of their experiences was interpreted by the priests according to the question to be answered."
+    },
+    {
+      "id": "pythagoras-the-first-philosopher",
+      "file": "pythagoras-the-first-philosopher.jpg",
+      "pdf_page": 191,
+      "chapter": "pythagoras",
+      "title": "Pythagoras, the First Philosopher",
+      "legend": "From Historia Deorum Fatidicorum",
+      "caption": "During his youth, Pythagoras was a disciple of Pherecydes and her - modamas, and while in his teens became renowned for the clarity of his philosophic concepts."
+    },
+    {
+      "id": "symmetrical-geometric-solids",
+      "file": "symmetrical-geometric-solids.jpg",
+      "pdf_page": 197,
+      "chapter": "pythagoras",
+      "title": "Symmetrical Geometric Solids",
+      "legend": "Symmetrical Geometric Solids",
+      "caption": "To the five symmetrical solids of the ancients is added the sphere (1), the most perfect of all created forms."
+    },
+    {
+      "id": "symmetrical-geometric-solids-2",
+      "file": "symmetrical-geometric-solids-2.jpg",
+      "pdf_page": 197,
+      "chapter": "pythagoras",
+      "title": "Symmetrical Geometric Solids",
+      "legend": "Symmetrical Geometric Solids",
+      "caption": "To the five symmetrical solids of the ancients is added the sphere (1), the most perfect of all created forms."
+    },
+    {
+      "id": "the-numerical-v-alues-of-the-hebrew-greek-and-sa",
+      "file": "the-numerical-v-alues-of-the-hebrew-greek-and-sa.jpg",
+      "pdf_page": 204,
+      "chapter": "pythagorean-math",
+      "title": "Numerical Values of the Hebrew, Greek, and Samaritan Lettersmaritan Alphabets",
+      "legend": "From Higgins’ Celtic Druids",
+      "caption": "6the letters marked withasterisks are those brought to Greece from Phœniciaby Cadmus."
+    },
+    {
+      "id": "the-sieve-of-eratosthenes",
+      "file": "the-sieve-of-eratosthenes.jpg",
+      "pdf_page": 208,
+      "chapter": "pythagorean-math",
+      "title": "The Sieve of Eratosthenes",
+      "legend": "from the last number (8) equals the last number (16)",
+      "caption": "Being an odd series, the 4 is left in the center, and this multiplied by itself also equals the last number (16)."
+    },
+    {
+      "id": "the-tetragrammatonin-the-human-heart",
+      "file": "the-tetragrammatonin-the-human-heart.jpg",
+      "pdf_page": 219,
+      "chapter": "human-body",
+      "title": "The Tetragrammaton in the Human Heart",
+      "legend": "from the sun; and the third to the splendour communicated to other natures by this light",
+      "caption": "” THE TETRAGRAMMATONIN THE HUMAN HEART.From Böhme’s Libri Apologetici ."
+    },
+    {
+      "id": "hand-decorated-witheffigies-of-jesus-christ-the-",
+      "file": "hand-decorated-witheffigies-of-jesus-christ-the-.jpg",
+      "pdf_page": 221,
+      "chapter": "human-body",
+      "title": "Hand Decorated with Effigies of Jesus Christ, the Virgin Mary,And the Twelve Apostles",
+      "legend": "from the nature of being,” declares the secret work",
+      "caption": "man is essentially a permanent and immortal principle; only his bodies pass through the cycle of birth and death."
+    },
+    {
+      "id": "threefold-life-of-the-inner-man",
+      "file": "threefold-life-of-the-inner-man.jpg",
+      "pdf_page": 224,
+      "chapter": "human-body",
+      "title": "The Threefold Life of the Inner Man",
+      "legend": "redrawn from Gichtel’s Theosophia Practica",
+      "caption": "Johann Georg Gichtel, a profound Philosopher and mystic, the most illumined of the disciples of Jakob Böhme, secretly circulated the above diagrams among a small group of devoted friends and students."
+    },
+    {
+      "id": "the-divine-tree-in-man",
+      "file": "the-divine-tree-in-man.jpg",
+      "pdf_page": 226,
+      "chapter": "human-body",
+      "title": "The Divine Tree in Man",
+      "legend": "From Law’s Figures of Jakob Böhme",
+      "caption": "Just as the diagram representing the front view of man illustrates his divine principles in their regen- erated state, so the back view of the same figure sets forth the inferior, or “night,” condition of the sun."
+    },
+    {
+      "id": "the-divine-tree-in-man-2",
+      "file": "the-divine-tree-in-man-2.jpg",
+      "pdf_page": 226,
+      "chapter": "human-body",
+      "title": "The Divine Tree in Man",
+      "legend": "From Law’s Figures of Jakob Böhme",
+      "caption": "Just as the diagram representing the front view of man illustrates his divine principles in their regen- erated state, so the back view of the same figure sets forth the inferior, or “night,” condition of the sun."
+    },
+    {
+      "id": "a-masonic-apron-with-symbolic-figures",
+      "file": "a-masonic-apron-with-symbolic-figures.jpg",
+      "pdf_page": 230,
+      "chapter": "hiramic",
+      "title": "A Masonic Apron with Symbolic Figures",
+      "legend": "From an early hand-painted Masonic apron",
+      "caption": "While the mystic symbolism of Freemasonry decrees that the apron shall be a simple square of white lambskin with appropriate flap, Masonic aprons are frequently decorated with curious and impressive fig- ures."
+    },
+    {
+      "id": "the-emblematic-hand-of-the-mysteries",
+      "file": "the-emblematic-hand-of-the-mysteries.jpg",
+      "pdf_page": 234,
+      "chapter": "hiramic",
+      "title": "The Emblematic Hand of the Mysteries",
+      "legend": "From Montfaucon’s Antiquities",
+      "caption": "a hand covered with numerous symbols was extended to the neophytes when they entered into the temple of Wisdom."
+    },
+    {
+      "id": "diana-of-ephesus",
+      "file": "diana-of-ephesus.jpg",
+      "pdf_page": 237,
+      "chapter": "hiramic",
+      "title": "Diana of Ephesus",
+      "legend": "from the realm of mortality into that of eternal life",
+      "caption": "The autumnal equinox is analogous to the mythological fall of man, at which time the human spirit descended into the realms of hades by being immersed in the illusion of terrestrial existence."
+    },
+    {
+      "id": "the-interv-als-and-harmonies-of-the-spheres",
+      "file": "the-interv-als-and-harmonies-of-the-spheres.jpg",
+      "pdf_page": 243,
+      "chapter": "music-color",
+      "title": "The Intervals and Harmonies of the Spheres",
+      "legend": "from the most abstract logical premise to the most concrete geometrical solid",
+      "caption": "From the common agreement of these diversified methods of proof he established the indisputable existence of certain natural laws."
+    },
+    {
+      "id": "the-consonances-of-the-mundane-monochord",
+      "file": "the-consonances-of-the-mundane-monochord.jpg",
+      "pdf_page": 244,
+      "chapter": "music-color",
+      "title": "The Consonances of the Mundane Monochord",
+      "legend": "From Fludd’s De Musica Mundana",
+      "caption": "this diagrammatic sector represents the major gra- dations of energy and sub- stance between elemental earth and absolute uncon- ditioned force."
+    },
+    {
+      "id": "the-mundanemonochord-with-its-proportions-andint",
+      "file": "the-mundanemonochord-with-its-proportions-andint.jpg",
+      "pdf_page": 247,
+      "chapter": "music-color",
+      "title": "The Mundane Monochord with its Proportions and Intervalsv Als",
+      "legend": "From Fludd’sDe Musica Mundana",
+      "caption": "in this chart is set forth a sum- mary of Fludd’s theory of uni-versal music."
+    },
+    {
+      "id": "the-theory-of-elemental-music",
+      "file": "the-theory-of-elemental-music.jpg",
+      "pdf_page": 250,
+      "chapter": "music-color",
+      "title": "The Theory of Elemental Music",
+      "legend": "From Fludd’s De Musica Mundana",
+      "caption": "in this diagram two interpenetrat- ing pyramids are again employed, one of which represents fire and the other earth."
+    },
+    {
+      "id": "the-four-elements-and-their-consonantal-nterv-al",
+      "file": "the-four-elements-and-their-consonantal-nterv-al.jpg",
+      "pdf_page": 253,
+      "chapter": "music-color",
+      "title": "The Four Elements and their Consonantal Intervals",
+      "legend": "From Fludd’sDe Musica Mundana",
+      "caption": "Figure from Hall's chapter “Fishes, Insects, Animals, Reptiles and Birds, Part I,” folio p.253."
+    },
+    {
+      "id": "the-first-incarnation-or-matsya-a-v-atar-of-vish",
+      "file": "the-first-incarnation-or-matsya-a-v-atar-of-vish.jpg",
+      "pdf_page": 255,
+      "chapter": "fishes-1",
+      "title": "Matsya, the Fish Avatar of Vishnunu",
+      "legend": "from this ancient pagan symbol of the divine preservative power",
+      "caption": "The first advocates of Christianity likened converts to fishes, who at the time of baptism “returned again into the sea of Christ.” THE FIRST INCARNATION, OR MATSYA A V ATAR, OF VISHNU.From Picart’s Religious Ceremonials."
+    },
+    {
+      "id": "the-mantichora",
+      "file": "the-mantichora.jpg",
+      "pdf_page": 256,
+      "chapter": "fishes-1",
+      "title": "The Mantichora",
+      "legend": "from the profane",
+      "caption": "the phœnix made its nest of in- cense and flames."
+    },
+    {
+      "id": "the-fleur-de-lis",
+      "file": "the-fleur-de-lis.jpg",
+      "pdf_page": 262,
+      "chapter": "fishes-1",
+      "title": "The Fleur-de-lis",
+      "legend": "from the flowers, so men may extract wisdom from the ex-periences of daily life",
+      "caption": "the bee is sacred to the goddess venus and, according to mystics, it is one of several forms of life which came to the earth from the planet venus millions of years ago."
+    },
+    {
+      "id": "figure-folio-p-264",
+      "file": "figure-folio-p-264.jpg",
+      "pdf_page": 264,
+      "chapter": "fishes-1",
+      "title": "The Uræus",
+      "legend": "From Kircher’s Œdipus Ægyptiacus",
+      "caption": "The spinal cord was symbolized by a snake, and the serpent coiled upon the foreheads of the Egyp- tian initiates represented the Divine Fire which had crawled serpentlike up the tree of life."
+    },
+    {
+      "id": "good-and-evil-contending-for-the-universal-egg",
+      "file": "good-and-evil-contending-for-the-universal-egg.jpg",
+      "pdf_page": 266,
+      "chapter": "fishes-1",
+      "title": "Good and Evil Contending for the Universal Egg",
+      "legend": "From Maurice’s Indian Antiquities",
+      "caption": "Both Mithras, the Persian Redeemer, and Serapis, the Egyptian God of the Earth, are symbolized by serpents coiled about their bodies."
+    },
+    {
+      "id": "nix-on-its-nest-of-flames",
+      "file": "nix-on-its-nest-of-flames.jpg",
+      "pdf_page": 271,
+      "chapter": "fishes-2",
+      "title": "Phoenix on its Nest of Flames",
+      "legend": "from the land of ara- bia into Egypt, to the city called Heliopolis",
+      "caption": "And, in open day, flying in the sight of all men, it places them on the altar of the sun, and having done this, hastens back to its former abode."
+    },
+    {
+      "id": "the-obverse-and-reverse-of-the-great-seal-of-the",
+      "file": "the-obverse-and-reverse-of-the-great-seal-of-the.jpg",
+      "pdf_page": 273,
+      "chapter": "fishes-2",
+      "title": "The Great Seal of the United Statesnited States of America",
+      "legend": "from an examination of the original seal",
+      "caption": "in his sketch of The History of the Seal of the United States, Gaillard hunt unwittingly brings forward much material to substantiate the belief that the original seal carried the Phœnix bird on its obverse surface and the Great Pyramid of Gizeh upon its reverse surface."
+    },
+    {
+      "id": "the-sacred-bull-or-apis",
+      "file": "the-sacred-bull-or-apis.jpg",
+      "pdf_page": 276,
+      "chapter": "fishes-2",
+      "title": "The Sacred Bull, or Apis",
+      "legend": "From Kircher’s Sphinx Mystagoga",
+      "caption": "the importance of the bull as the symbol of the sun at the ver- nal equinox is discussed in the chapter on The Zodiac and Its Signs."
+    },
+    {
+      "id": "thoth-the-dog-headed",
+      "file": "thoth-the-dog-headed.jpg",
+      "pdf_page": 280,
+      "chapter": "fishes-2",
+      "title": "Thoth, the Dog-Headed",
+      "legend": "From Lenoir’s La Franche-Maconnerie",
+      "caption": "aroueris, or thoth, one of the five immortals, protected the infant horus from the wrath of typhon after the murder of osiris."
+    },
+    {
+      "id": "neas-and-the-harpies",
+      "file": "neas-and-the-harpies.jpg",
+      "pdf_page": 281,
+      "chapter": "flowers",
+      "title": "Aeneas and the Harpies",
+      "legend": "From Virgil’s Æneid",
+      "caption": "(Dryden’s translation.) among the mythological creatures of the mysteries were the harpies – projections into material sub- stance of beings existing in the invisible world of nature."
+    },
+    {
+      "id": "the-tree-of-the-knights-of-the-round-table",
+      "file": "the-tree-of-the-knights-of-the-round-table.jpg",
+      "pdf_page": 284,
+      "chapter": "flowers",
+      "title": "The Tree of the Knights of the Round Table",
+      "legend": "from the Chateau de Pierrefonds in the little town of Pier - refonds, northern France",
+      "caption": "The eight side branches end in conventional cup-like flowers, from each of which rises the body of a knight carrying in his hand a ribbon bearing his name."
+    },
+    {
+      "id": "the-tree-of-noah",
+      "file": "the-tree-of-noah.jpg",
+      "pdf_page": 287,
+      "chapter": "flowers",
+      "title": "The Tree of Noah",
+      "legend": "from Father Adam to the advent of Jesus Christ",
+      "caption": "The tree growing from the roof of the Ark represents the body of Noah and its three branches, his sons – Shem, Ham, and Japheth."
+    },
+    {
+      "id": "the-sunflower",
+      "file": "the-sunflower.jpg",
+      "pdf_page": 290,
+      "chapter": "flowers",
+      "title": "The Sunflower",
+      "legend": "From Kircher’s Magnes sive de Arte Magnetica Opus Tripartitum",
+      "caption": "the above diagram illustrates a curi- ous experiment in plant magnetism re- produced with several other experiments in Athanasius Kircher’s rare volume on magnetism."
+    },
+    {
+      "id": "tree-of-alchemy",
+      "file": "tree-of-alchemy.jpg",
+      "pdf_page": 293,
+      "chapter": "stones",
+      "title": "Tree of Alchemy",
+      "legend": "Tree of Alchemy",
+      "caption": "292THE TREE OF ALCHEMY.FromMusæum Hermeticum Reformatumet Amplificatum ."
+    },
+    {
+      "id": "saturn-swallowing-the-stone-substituted-for-jupi",
+      "file": "saturn-swallowing-the-stone-substituted-for-jupi.jpg",
+      "pdf_page": 296,
+      "chapter": "stones",
+      "title": "Saturn Swallowing the Stone Substituted for Jupiterr",
+      "legend": "from these vantage points he hurled loose boulders down upon marauders",
+      "caption": "In caverns or rude huts fashioned from slabs of rock the first hu-mans protected themselves from the rigors of the elements."
+    },
+    {
+      "id": "moses-receiving-the-tables-of-the-law",
+      "file": "moses-receiving-the-tables-of-the-law.jpg",
+      "pdf_page": 298,
+      "chapter": "stones",
+      "title": "Moses Receiving the Tables of the Law",
+      "legend": "From an old Bible",
+      "caption": "Moses Maimonides, the great Jewish Philosopher of the twelfth century, in de- scribing the tables of the law written by the finger of God, divides all productions into two general orders: products of nature and products of art."
+    },
+    {
+      "id": "the-magic-of-metals-and-gems",
+      "file": "the-magic-of-metals-and-gems.jpg",
+      "pdf_page": 302,
+      "chapter": "stones",
+      "title": "The Magic of Metals and Gems",
+      "legend": "from Elagabal, the syro-Phœnician sun god",
+      "caption": "this stone was sacred to the sun and declared to possess great and diversified properties."
+    },
+    {
+      "id": "the-pythagorean-signet-ring",
+      "file": "the-pythagorean-signet-ring.jpg",
+      "pdf_page": 304,
+      "chapter": "stones",
+      "title": "The Pythagorean Signet Ring",
+      "legend": "from his master’s ring or the signet itself",
+      "caption": "the wedding ring originally was intended to imply that in the nature of the one who wore it the state of equilibrium and completion had been attained."
+    },
+    {
+      "id": "baphomet-the-goat-of-mendes",
+      "file": "baphomet-the-goat-of-mendes.jpg",
+      "pdf_page": 309,
+      "chapter": "ceremonial-magic",
+      "title": "Baphomet, the Goat of Mendes",
+      "legend": "From Levi’sTranscendental Magic",
+      "caption": "the practice of magic – either white or black – depends upon the ability of the ad-ept to control the universal life force – that which Eliphas levi calls the great magical agent or the astral light."
+    },
+    {
+      "id": "a-magic-circle",
+      "file": "a-magic-circle.jpg",
+      "pdf_page": 313,
+      "chapter": "ceremonial-magic",
+      "title": "A Magic Circle",
+      "legend": "From the Complete Book of Magic Science (unpublished)",
+      "caption": "The above figure is a complete and faithful representation of a magic circle as designed by mediæval conjurers for the invocation of spirits."
+    },
+    {
+      "id": "form-of-pact-with-the-spirit-of-jupiter",
+      "file": "form-of-pact-with-the-spirit-of-jupiter.jpg",
+      "pdf_page": 316,
+      "chapter": "ceremonial-magic",
+      "title": "Form of Pact with the Spirit of Jupiter",
+      "legend": "From the Complete Book of Magic Science",
+      "caption": "the aforesaid bond of spirits, together with the seal and character of the planetary angel, must be writ- ten m virgin Parchment and laid before the Spirit [for signature] when he appears; at that time the invocant must not lost confidence but be patient, firm, bold, and Persevering, and take care that he asks nor requires nothing of the spirit but with."
     },
     {
       "id": "seals",
@@ -66,6 +786,105 @@
       "caption": "The same Chaldean order as HALL's hour. Magic as leftover liturgy."
     },
     {
+      "id": "conventional-gnomes",
+      "file": "conventional-gnomes.jpg",
+      "pdf_page": 325,
+      "chapter": "elements",
+      "title": "Conventional Gnomes",
+      "legend": "From Gjellerup’sDen Ældre Eddas Gudesange",
+      "caption": "The type of gnome most frequently seen is the brownie, or elf, a mischievous and grotesque little creature from twelve to eighteen inches high, usually dressed in green or russet brown."
+    },
+    {
+      "id": "a-mermaid",
+      "file": "a-mermaid.jpg",
+      "pdf_page": 327,
+      "chapter": "elements",
+      "title": "A Mermaid",
+      "legend": "from the water draped in mist and could not exist very long apart from it",
+      "caption": "A MERMAID.From Lycosthenes’Prodigiorum ac Ostentorum Chronicon."
+    },
+    {
+      "id": "a-salamander-according-to-paracelsus",
+      "file": "a-salamander-according-to-paracelsus.jpg",
+      "pdf_page": 328,
+      "chapter": "elements",
+      "title": "A Salamander, according to Paracelsus",
+      "legend": "from the incense smoke, were able to make their presence felt",
+      "caption": "From Paracelsus’ Auslegung von 30 magischen Figuren."
+    },
+    {
+      "id": "a-sylph",
+      "file": "a-sylph.jpg",
+      "pdf_page": 330,
+      "chapter": "elements",
+      "title": "A Sylph",
+      "legend": "From sketch by Howard Wookey",
+      "caption": "the sylphs were changeable entities, passing to and fro with the rapidity of lightning."
+    },
+    {
+      "id": "the-title-page-ofthe-book-of-alze",
+      "file": "the-title-page-ofthe-book-of-alze.jpg",
+      "pdf_page": 337,
+      "chapter": "pharmacology",
+      "title": "The Title Page of the Book of Alze",
+      "legend": "From Musæum HermeticumReformatum et Amplificatum",
+      "caption": "this title page is a further example of hermetic and alchemical symbolism."
+    },
+    {
+      "id": "johannis-baptistae-von-helmont",
+      "file": "johannis-baptistae-von-helmont.jpg",
+      "pdf_page": 340,
+      "chapter": "pharmacology",
+      "title": "Johannis Baptistae von Helmont",
+      "legend": "From von Helmont’s Ausgang der Artznen-Kunst",
+      "caption": "at the beginning of the seventeenth century von Helmont, the Belgian alchemist (to whom incidentally, the world is indebted for the com- mon term gas, as distinguished from other kinds of air), while experimenting with the root of a – -, touched it to the tip of his tongue, without swallowing any of the substance."
+    },
+    {
+      "id": "nicholas-culpeper",
+      "file": "nicholas-culpeper.jpg",
+      "pdf_page": 343,
+      "chapter": "pharmacology",
+      "title": "Nicholas Culpeper",
+      "legend": "From Culpeper’s Semeiotica Uranica",
+      "caption": "this famous physician, herbalist, and astrolo- ger spent the greater part of his useful life rang-ing the hills and forests of England and cata-loguing literally hundreds of medicinal herbs."
+    },
+    {
+      "id": "the-seventy-two-names-of-god",
+      "file": "the-seventy-two-names-of-god.jpg",
+      "pdf_page": 349,
+      "chapter": "qabbalah",
+      "title": "The Seventy-Two Names of God",
+      "legend": "From Kircher’s Œdipus Ægyptiacus",
+      "caption": "this rare cut shows the name of God in seventy-two languages inscribed upon the petals of a symbolic sunflower."
+    },
+    {
+      "id": "the-hebrew-letters-according-to-the-sepher-yetzi",
+      "file": "the-hebrew-letters-according-to-the-sepher-yetzi.jpg",
+      "pdf_page": 354,
+      "chapter": "qabbalah",
+      "title": "The Hebrew Letters according to the Sepher Yetzirah",
+      "legend": "from which come forth the seven Double letters – the planets and the heavens",
+      "caption": "surrounding the black star are the signs of the zodiac symbolized by the twelve Simple Let - ters."
+    },
+    {
+      "id": "ain-soph",
+      "file": "ain-soph.jpg",
+      "pdf_page": 364,
+      "chapter": "cosmogony",
+      "title": "Ain Soph",
+      "legend": "Ain Soph",
+      "caption": "363now filled by four concentric globes called worlds, or spheres, and the light of the ten Sephiroth was reflected down through each of these in turn."
+    },
+    {
+      "id": "a-table-of-sephirothic-correspondences",
+      "file": "a-table-of-sephirothic-correspondences.jpg",
+      "pdf_page": 377,
+      "chapter": "sephiroth",
+      "title": "A Table of Sephirothic Correspondences",
+      "legend": "From Fludd’s Collectio Operum",
+      "caption": "The above diagram has been specially translated from the Latin as being of unique value to students of Qabbalism and also as an example of Robert Fludd’s unusual ability in assembling tables of correspondenc - es."
+    },
+    {
       "id": "tree",
       "file": "tree.png",
       "pdf_page": 379,
@@ -74,17 +893,197 @@
       "legend": "Ten globes. Click a sephira.",
       "caption": "Kircher's tree as HALL's filesystem. Not Codex's SVG gadget. Globes open chapters and Guide nodes.",
       "hotspots": [
-        {"id": "kether", "label": "Kether", "x": 38, "y": 13, "w": 24, "h": 15, "chapter": "sephiroth", "guide": "sephiroth"},
-        {"id": "chokmah", "label": "Chokmah", "x": 64, "y": 25, "w": 24, "h": 14, "chapter": "qabbalah", "guide": "sephiroth"},
-        {"id": "binah", "label": "Binah", "x": 12, "y": 25, "w": 24, "h": 14, "chapter": "qabbalah", "guide": "sephiroth"},
-        {"id": "chesed", "label": "Chesed", "x": 64, "y": 43, "w": 24, "h": 14, "chapter": "sephiroth", "guide": "sephiroth"},
-        {"id": "geburah", "label": "Geburah", "x": 12, "y": 43, "w": 24, "h": 14, "chapter": "sephiroth", "guide": "hod"},
-        {"id": "tiphereth", "label": "Tiphereth", "x": 38, "y": 58, "w": 24, "h": 14, "chapter": "sun", "guide": "sephiroth"},
-        {"id": "netzach", "label": "Netzach", "x": 64, "y": 66, "w": 24, "h": 13, "chapter": "tarot", "guide": "fool"},
-        {"id": "hod", "label": "Hod", "x": 12, "y": 66, "w": 24, "h": 13, "chapter": "hermes", "guide": "hod"},
-        {"id": "yesod", "label": "Yesod", "x": 38, "y": 76, "w": 24, "h": 11, "chapter": "music-color", "guide": "mercury"},
-        {"id": "malkuth", "label": "Malkuth", "x": 38, "y": 88, "w": 24, "h": 11, "chapter": "human-body", "guide": "pyramid"}
+        {
+          "id": "kether",
+          "label": "Kether",
+          "x": 38,
+          "y": 13,
+          "w": 24,
+          "h": 15,
+          "chapter": "sephiroth",
+          "guide": "sephiroth"
+        },
+        {
+          "id": "chokmah",
+          "label": "Chokmah",
+          "x": 64,
+          "y": 25,
+          "w": 24,
+          "h": 14,
+          "chapter": "qabbalah",
+          "guide": "sephiroth"
+        },
+        {
+          "id": "binah",
+          "label": "Binah",
+          "x": 12,
+          "y": 25,
+          "w": 24,
+          "h": 14,
+          "chapter": "qabbalah",
+          "guide": "sephiroth"
+        },
+        {
+          "id": "chesed",
+          "label": "Chesed",
+          "x": 64,
+          "y": 43,
+          "w": 24,
+          "h": 14,
+          "chapter": "sephiroth",
+          "guide": "sephiroth"
+        },
+        {
+          "id": "geburah",
+          "label": "Geburah",
+          "x": 12,
+          "y": 43,
+          "w": 24,
+          "h": 14,
+          "chapter": "sephiroth",
+          "guide": "hod"
+        },
+        {
+          "id": "tiphereth",
+          "label": "Tiphereth",
+          "x": 38,
+          "y": 58,
+          "w": 24,
+          "h": 14,
+          "chapter": "sun",
+          "guide": "sephiroth"
+        },
+        {
+          "id": "netzach",
+          "label": "Netzach",
+          "x": 64,
+          "y": 66,
+          "w": 24,
+          "h": 13,
+          "chapter": "tarot",
+          "guide": "fool"
+        },
+        {
+          "id": "hod",
+          "label": "Hod",
+          "x": 12,
+          "y": 66,
+          "w": 24,
+          "h": 13,
+          "chapter": "hermes",
+          "guide": "hod"
+        },
+        {
+          "id": "yesod",
+          "label": "Yesod",
+          "x": 38,
+          "y": 76,
+          "w": 24,
+          "h": 11,
+          "chapter": "music-color",
+          "guide": "mercury"
+        },
+        {
+          "id": "malkuth",
+          "label": "Malkuth",
+          "x": 38,
+          "y": 88,
+          "w": 24,
+          "h": 11,
+          "chapter": "human-body",
+          "guide": "pyramid"
+        }
       ]
+    },
+    {
+      "id": "the-sephiroth-in-the-form-of-the-solar-system",
+      "file": "the-sephiroth-in-the-form-of-the-solar-system.jpg",
+      "pdf_page": 382,
+      "chapter": "keys-to-man",
+      "title": "The Sephiroth in the Form of the Solar System",
+      "legend": "From Maurice’s Indian Antiquities",
+      "caption": "Thomas Maurice reproduces the above engraving, which is modification of the elaborate tree on the preceding page."
+    },
+    {
+      "id": "the-vision-of-ezekiel",
+      "file": "the-vision-of-ezekiel.jpg",
+      "pdf_page": 385,
+      "chapter": "keys-to-man",
+      "title": "The Vision of Ezekiel",
+      "legend": "From the “Bear” Bible",
+      "caption": "this plate, which is from the first Protestant Bible published in spanish, shows the Mercavah, or chariot of Jehovah, which ap - peared to Ezekiel by the river Chebar."
+    },
+    {
+      "id": "noah-and-his-zodiacal-ark",
+      "file": "noah-and-his-zodiacal-ark.jpg",
+      "pdf_page": 391,
+      "chapter": "keys-to-man",
+      "title": "Noah and his Zodiacal Ark",
+      "legend": "From Myer’s Qabbalah",
+      "caption": "The early Church Father – notably Tertullian, Firmilian, St."
+    },
+    {
+      "id": "early-portuguese-cards",
+      "file": "early-portuguese-cards.jpg",
+      "pdf_page": 398,
+      "chapter": "tarot",
+      "title": "Early Portuguese Cards",
+      "legend": "From Chatto’s Origin and History of Playing Cards",
+      "caption": "in writing of the deck from which the four cavaliers (jacks) here reproduced were taken, William andrew Chatto notes: “some of the specimens of Portuguese cards given in the ‘Jeux de Cartes, Tarots et de Cartes numérales’ have very much the appearance of having been originally suggested by, if net copied from, an oriental type; more especially in the."
+    },
+    {
+      "id": "a-card-from-the-mantegna-pack",
+      "file": "a-card-from-the-mantegna-pack.jpg",
+      "pdf_page": 405,
+      "chapter": "tarot",
+      "title": "A Card from the Mantegna Pack",
+      "legend": "FROM THE MANTEGNA PACK",
+      "caption": "From Taylor’s The History of Playing Cards."
+    },
+    {
+      "id": "the-ancient-of-days",
+      "file": "the-ancient-of-days.jpg",
+      "pdf_page": 412,
+      "chapter": "tabernacle",
+      "title": "The Ancient of Days",
+      "legend": "From Montfaucon’s Antiquities",
+      "caption": "It is in this form that Jehovah is generally pictured by the Qab- balists."
+    },
+    {
+      "id": "the-breastplate-of-the-high-priest",
+      "file": "the-breastplate-of-the-high-priest.jpg",
+      "pdf_page": 416,
+      "chapter": "tabernacle",
+      "title": "The Breastplate of the High Priest",
+      "legend": "From Calmet’s Dictionary of the Holy Bible",
+      "caption": "the order of the stones and the tribe over which each administered were, according to Calmet, as in the above diagram."
+    },
+    {
+      "id": "the-garments-of-glory",
+      "file": "the-garments-of-glory.jpg",
+      "pdf_page": 419,
+      "chapter": "tabernacle",
+      "title": "The Garments of Glory",
+      "legend": "From Mosaize Historie der Hebreeuwse Kerke",
+      "caption": "robe of the high Priest of israel were often called “the Garments of Glory”, for they resembled the re-generated and spiritualized nature of man, symbolized by a vestment which all must weave from the threads of character and virtue before they can become high Priests after the Order of Melchizedek."
+    },
+    {
+      "id": "the-headdress-of-the-priests",
+      "file": "the-headdress-of-the-priests.jpg",
+      "pdf_page": 421,
+      "chapter": "tabernacle",
+      "title": "The Headdress of the Priests",
+      "legend": "from which are woven the Garments of Glory",
+      "caption": "THE URIM AND THUMMIM in the reverse side of the Essen, or breastplate, was a pocket containing mysterious objects – the Urim and Thummim."
+    },
+    {
+      "id": "the-ark-with-ts-cherubim",
+      "file": "the-ark-with-ts-cherubim.jpg",
+      "pdf_page": 422,
+      "chapter": "tabernacle",
+      "title": "The Ark with its Cherubim",
+      "legend": "from the heavens above",
+      "caption": "This flower over the crown of his head is similar in its esoteric meaning to the rose growing out of a skull, so famous in templar symbology."
     },
     {
       "id": "mysterium",
@@ -96,6 +1095,60 @@
       "caption": "Tincture, faith, hope. The Order's emblem as a German broadside."
     },
     {
+      "id": "the-crucified-rose",
+      "file": "the-crucified-rose.jpg",
+      "pdf_page": 429,
+      "chapter": "rose-cross",
+      "title": "The Crucified Rose",
+      "legend": "from a rose was used in connection with their activities",
+      "caption": "the rosicru- cian rose was drawn upon the Round Table of King arthur, and is the central motif for the links forming the chain from which the “Great George” is suspended among the jewels of the order of the Garter."
+    },
+    {
+      "id": "the-crest-ofjohann-v-alentin",
+      "file": "the-crest-ofjohann-v-alentin.jpg",
+      "pdf_page": 435,
+      "chapter": "rose-cross",
+      "title": "The Crest of Johann Valentin Andreae Andreae",
+      "legend": "from its cross",
+      "caption": "they concealed the processes by which this was accomplished under three alchemical metaphoric expres- sions: “the Casting of the molten sea,” “the making of the rose Diamond,” and “the achieving of the Philosopher’s stone.” While the intellectualist flounders among contradictory theories, the mystic treats the problem in an entirely different manner."
+    },
+    {
+      "id": "johann-v-alentin",
+      "file": "johann-v-alentin.jpg",
+      "pdf_page": 442,
+      "chapter": "rosicrucian-doctrines",
+      "title": "Johann Valentin Andreae",
+      "legend": "From a rare print",
+      "caption": "in certain esoteric circles there are vague ru- mors which intimate that the humble personal- ity of Johann Valentin Andreae Andreæ masked an ex- alted emissary of the rose Cross."
+    },
+    {
+      "id": "a-symbolic-diagram-of-the-operations-of-nature",
+      "file": "a-symbolic-diagram-of-the-operations-of-nature.jpg",
+      "pdf_page": 443,
+      "chapter": "rosicrucian-doctrines",
+      "title": "A Symbolic Diagram of the Operations of Nature",
+      "legend": "From Fludd’ s Collectio Operum",
+      "caption": "this plate, engraved by de bry, is the most famous of the diagrams illustrating the philosophic prin- ciples of Robert Fludd (Robertus de Fluctibus)."
+    },
+    {
+      "id": "the-alchemical-androgyne",
+      "file": "the-alchemical-androgyne.jpg",
+      "pdf_page": 446,
+      "chapter": "rosicrucian-doctrines",
+      "title": "The Alchemical Androgyne",
+      "legend": "From the Turbæ Philosophorum",
+      "caption": "The Turbæ Philosophorum is one of the earli- est known documents on alchemy in the latin tongue."
+    },
+    {
+      "id": "a-rosicrucian-title-page",
+      "file": "a-rosicrucian-title-page.jpg",
+      "pdf_page": 447,
+      "chapter": "rosicrucian-doctrines",
+      "title": "A Rosicrucian Title Page",
+      "legend": "From Maier’s Viatorium",
+      "caption": "Count michael maier, physician to Rudolph II., was an outstanding fig- ure in the rosicrucian controversy."
+    },
+    {
       "id": "mundus",
       "file": "mundus.jpg",
       "pdf_page": 449,
@@ -103,6 +1156,798 @@
       "title": "Mundus Elementaris",
       "legend": "The elementary world in rings.",
       "caption": "Months, planets, elements. One of Hall's fifteen diagrams doing the work of a chapter."
+    },
+    {
+      "id": "figure-folio-p-452",
+      "file": "figure-folio-p-452.jpg",
+      "pdf_page": 452,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table I",
+      "legend": "from both the superior and the inferior regions and is common to both",
+      "caption": "Figure from Hall's chapter “Fifteen Rosicrucian and Qabbalistic Diagrams,” folio p.452."
+    },
+    {
+      "id": "table-ii",
+      "file": "table-ii.jpg",
+      "pdf_page": 453,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table II",
+      "legend": "Fifteen diagrams, Table II",
+      "caption": "452Figure 2 is the Qabbalistic symbol of elemental water; Figure 9 represents the spiritual invisible water."
+    },
+    {
+      "id": "table-iii",
+      "file": "table-iii.jpg",
+      "pdf_page": 455,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table III",
+      "legend": "from the Temple of Jupiter Ammon in an Egyptian desert, where it was found",
+      "caption": "Figure 49 is the character of alum; Figure 50, of alkali, a name of Arabian origin; and Figure 51, of sal tartar, a substance possessing great occult virtue."
+    },
+    {
+      "id": "table-iv",
+      "file": "table-iv.jpg",
+      "pdf_page": 456,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table IV",
+      "legend": "Fifteen diagrams, Table IV",
+      "caption": "455The four globes within the second ring depict the second, third, fourth, and fifth days of creation."
+    },
+    {
+      "id": "table-v",
+      "file": "table-v.jpg",
+      "pdf_page": 457,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table V",
+      "legend": "Fifteen diagrams, Table V",
+      "caption": "456parallel lines descending through the throne of Saturn (the Spirit Orifelis, through whom God manifested himself)."
+    },
+    {
+      "id": "figure-folio-p-458",
+      "file": "figure-folio-p-458.jpg",
+      "pdf_page": 458,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table VI",
+      "legend": "from those of the outer water, air, and fire (d, c, and X)",
+      "caption": "The elementals of the upper strata (the upper half of c, and all of d, e, and X) represent an ascending scale of virtue, while those of the lower strata (the lower half of c , and all of f , g, and A B) represent a descending scale of depravity."
+    },
+    {
+      "id": "table-viii",
+      "file": "table-viii.jpg",
+      "pdf_page": 459,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table VIII",
+      "legend": "from the center of the solar sys-tem and replaced by the earth",
+      "caption": "this changes the respective positions of all the other planets except Mars, Jupiter, and Saturn, which retain their respec-tive circles."
+    },
+    {
+      "id": "table-ix",
+      "file": "table-ix.jpg",
+      "pdf_page": 460,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table IX",
+      "legend": "Fifteen diagrams, Table IX",
+      "caption": "459(sulphur) of the archetypal world, represented by the three circles (f , e, g) within the triangle of complete equality (h , i, k), which is in turn surrounded by the circle of the high throne."
+    },
+    {
+      "id": "table-x",
+      "file": "table-x.jpg",
+      "pdf_page": 461,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table X",
+      "legend": "from the Book of Revelation",
+      "caption": "Figures 11, 12, 13, 14, and 15 possibly are cipher symbols of the angels of the plagues, the name of the Antichrist, the signature of the beast of babylon, and the name of the woman riding on the beast of blasphemy."
+    },
+    {
+      "id": "figure-folio-p-462",
+      "file": "figure-folio-p-462.jpg",
+      "pdf_page": 462,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table XI",
+      "legend": "from which all characters have been taken",
+      "caption": "Figures 8, 9, and 10 are left to the solution of the reader."
+    },
+    {
+      "id": "d-e-f-g",
+      "file": "d-e-f-g.jpg",
+      "pdf_page": 463,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table XII",
+      "legend": "from each other",
+      "caption": "Figure 16 is the solar system with its internal and spiritual heavens."
+    },
+    {
+      "id": "figure-folio-p-464",
+      "file": "figure-folio-p-464.jpg",
+      "pdf_page": 464,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table XIII",
+      "legend": "Fifteen diagrams, Table XIII",
+      "caption": "463TABLE XIII, Figures 1-4 Figure 1 is Ain Soph, the incomprehensible abyss of Divine majesty, an endless well- ing up, limitless in time and space."
+    },
+    {
+      "id": "figure-folio-p-465",
+      "file": "figure-folio-p-465.jpg",
+      "pdf_page": 465,
+      "chapter": "diagrams",
+      "title": "Fifteen diagrams, Table XIV",
+      "legend": "Fifteen diagrams, Table XIV",
+      "caption": "464TABLE XIV , Figures 5, 7, and 8 Figure 5 shows the triangle of triune Divinity in the midst of a cross."
+    },
+    {
+      "id": "figure-folio-p-466",
+      "file": "figure-folio-p-466.jpg",
+      "pdf_page": 466,
+      "chapter": "alchemy-exponents",
+      "title": "Fifteen diagrams, Table XV",
+      "legend": "from its points",
+      "caption": "the diagram on the left is called The Secrets of the Upper World, and the one on right The Secrets of the Underworld."
+    },
+    {
+      "id": "albertus-magnus",
+      "file": "albertus-magnus.jpg",
+      "pdf_page": 468,
+      "chapter": "alchemy-exponents",
+      "title": "Albertus Magnus",
+      "legend": "From Jovius’ Vitae Illustrium Virorum",
+      "caption": "Albert de Groot was born about 1206 and died at the age of 74."
+    },
+    {
+      "id": "paracelsus",
+      "file": "paracelsus.jpg",
+      "pdf_page": 471,
+      "chapter": "alchemy-exponents",
+      "title": "Paracelsus",
+      "legend": "From the Complete Writings of Paracelsus, of Hohenheim",
+      "caption": "in his Biographia Antiqua , Francis Barrett appends to the name of Paracelsus the following titles of distinction: “the Prince of Physicians and Philosophers by Fire; Grand Paradoxical Physician; The Trismegistus of Switzerland; First reformer of Chymical Philosophy; adept in alchymy, Cabala, and magic; Nature’s Faithful Secretary; Master of the Elixir."
+    },
+    {
+      "id": "title-page-of-alchemical-tract-attributed-tojohn",
+      "file": "title-page-of-alchemical-tract-attributed-tojohn.jpg",
+      "pdf_page": 475,
+      "chapter": "alchemy-exponents",
+      "title": "Title Page of an Alchemical Tract Cremer",
+      "legend": "From Musæum Hermeticum Reforma-tum et Amplificatum",
+      "caption": "John Cremer, the mythical Abbot of Westminster, is an interesting person-ality in the alchemical imbroglio of the fourteenth century."
+    },
+    {
+      "id": "the-symbols-of-abraham-the-jew",
+      "file": "the-symbols-of-abraham-the-jew.jpg",
+      "pdf_page": 478,
+      "chapter": "alchemy-exponents",
+      "title": "The Symbols of Abraham the Jew",
+      "legend": "From Flammel’s Hieroglyphical Figures",
+      "caption": "Fryar, in a footnote to his reprint of the Hieroglyphical Figures by Nicholas Flammel, says: “one thing which seems to prove the reality of this story beyond dispute, is, that this very book of Abraham the Jew, with the annotations of ‘Flammel,’ who wrote from the instructions he received from this physician, was actually in the hands of Cardinal."
+    },
+    {
+      "id": "the-lea-ves-of-hermes-sacred-tree",
+      "file": "the-lea-ves-of-hermes-sacred-tree.jpg",
+      "pdf_page": 483,
+      "chapter": "alchemy-1",
+      "title": "The Leaves of Hermes’ Sacred Tree",
+      "legend": "redrawn from an originalmanuscript dated 1577",
+      "caption": "In his Key to Alchemy, Samuel norton divides into fourteen parts the processes or states through which the alchemical substances pass from the time they are first placed in the test tube until ready as medicine for plants, minerals, or men: 1."
+    },
+    {
+      "id": "v-al-alchemical-symbols",
+      "file": "v-al-alchemical-symbols.jpg",
+      "pdf_page": 490,
+      "chapter": "alchemy-1",
+      "title": "Val Alchemical Symbols",
+      "legend": "From Valentine’s the Last Will and Testament",
+      "caption": "hermetists used the curi- ous symbols shown in this rare table to represent various chemical elements and alchemical processes."
+    },
+    {
+      "id": "the-key-to-alchemy-according-to-the-egyptians",
+      "file": "the-key-to-alchemy-according-to-the-egyptians.jpg",
+      "pdf_page": 497,
+      "chapter": "alchemy-2",
+      "title": "The Key to Alchemy according to the Egyptians",
+      "legend": "From Kircher’s Œdipus Ægyptiacus",
+      "caption": "the priests of Egypt not only used the scarab as a symbol of regeneration but also discovered in its habits many analogies to the secret process whereby base met-als could be transmuted into gold."
+    },
+    {
+      "id": "the-invisible-magical-mountain",
+      "file": "the-invisible-magical-mountain.jpg",
+      "pdf_page": 504,
+      "chapter": "alchemy-2",
+      "title": "The Invisible Magical Mountain",
+      "legend": "From Phililethales’ Lumen de Lumine",
+      "caption": "On Page 24 of Lumen de Lumine, Eugenius Philale- thes describes the magical mountain as follows: “this is that emblematical magical type, which thalia delivered to me in the invis- ible Guiana."
+    },
+    {
+      "id": "celentano-leaf-1",
+      "file": "celentano-leaf-1.jpg",
+      "pdf_page": 512,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 1",
+      "legend": "Celentano, leaf 1",
+      "caption": "the top line reads: “our earliest medicine was made of natural objects.” about the king and queen appears the statement that to them a son shall be born “in two trees of the vine,” resembling his father and without equal in all the world."
+    },
+    {
+      "id": "celentano-leaf-2",
+      "file": "celentano-leaf-2.jpg",
+      "pdf_page": 513,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 2",
+      "legend": "from the one substance can be derived three and from the three, two",
+      "caption": "Thomas Aquinas is a likeness of Raymond Lully seated in the door of his her - mitage."
+    },
+    {
+      "id": "celentano-leaf-3",
+      "file": "celentano-leaf-3.jpg",
+      "pdf_page": 514,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 3",
+      "legend": "Celentano, leaf 3",
+      "caption": "the writing at the top of the page reads: “Death of saturn; life of mercury.” after describing the use of the saturnine substances, the key to the process is declared to be depicted below."
+    },
+    {
+      "id": "celentano-leaf-4",
+      "file": "celentano-leaf-4.jpg",
+      "pdf_page": 515,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 4",
+      "legend": "Celentano, leaf 4",
+      "caption": "The art is fleeting, bright and rare, and not believed by the foolish.” the words between the sun and crescent read “it is hidden,” and on the panel across the body “the book of life and true treasury of the World.” The panel to the left of the figure says “Moving almost all, and the soul of its body returns to the place from which it had fled, and."
+    },
+    {
+      "id": "celentano-leaf-5",
+      "file": "celentano-leaf-5.jpg",
+      "pdf_page": 516,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 5",
+      "legend": "from the dead",
+      "caption": "above the bird is written: “this is the sun in the form of a bird,” and above the dragon “This is the dragon devouring the bird."
+    },
+    {
+      "id": "celentano-leaf-6",
+      "file": "celentano-leaf-6.jpg",
+      "pdf_page": 517,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 6",
+      "legend": "Celentano, leaf 6",
+      "caption": "this plate shows all the secrets of the great stone."
+    },
+    {
+      "id": "celentano-leaf-7",
+      "file": "celentano-leaf-7.jpg",
+      "pdf_page": 518,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 7",
+      "legend": "Celentano, leaf 7",
+      "caption": "the verse at the top reads:,” this stone is so noble and worthy that nature has hidden it in her recesses."
+    },
+    {
+      "id": "celentano-leaf-8",
+      "file": "celentano-leaf-8.jpg",
+      "pdf_page": 519,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 8",
+      "legend": "Celentano, leaf 8",
+      "caption": "under the sun, moon, and mercury are the words Three and One, an inference that the three are one."
+    },
+    {
+      "id": "celentano-leaf-9",
+      "file": "celentano-leaf-9.jpg",
+      "pdf_page": 520,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 9",
+      "legend": "Celentano, leaf 9",
+      "caption": "in the upper left it is written that without the light of the moon the sun does not heat the earth and that into the moon the sun emits its fruits."
+    },
+    {
+      "id": "celentano-leaf-10",
+      "file": "celentano-leaf-10.jpg",
+      "pdf_page": 521,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 10",
+      "legend": "Celentano, leaf 10",
+      "caption": "the two short lines of text at upper left read: “some take a recent stone.” the lines to the right of the symbol of Mars (iron) admonish the student to control his appetites and apply his mind to the accumulation of knowledge."
+    },
+    {
+      "id": "celentano-leaf-11",
+      "file": "celentano-leaf-11.jpg",
+      "pdf_page": 522,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 11",
+      "legend": "from which the two mercuries of the Philoso- phers are extracted",
+      "caption": "at the upper left is described the white mercury and at the right the red mercury."
+    },
+    {
+      "id": "celentano-leaf-12",
+      "file": "celentano-leaf-12.jpg",
+      "pdf_page": 523,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 12",
+      "legend": "from the sun and moon",
+      "caption": "” the text under the symbolic bird is as follows: “this is fortune with two wings."
+    },
+    {
+      "id": "celentano-leaf-13",
+      "file": "celentano-leaf-13.jpg",
+      "pdf_page": 524,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 13",
+      "legend": "from whom he learned the hermetic arts",
+      "caption": "morienus prepared the Philosophical Elixir for the sultan of Egypt, inscribing upon the vase in which he placed the precious substance the words: “he who possesses all has no need of others.” he spent many years as a hermit near Jerusalem."
+    },
+    {
+      "id": "celentano-leaf-14",
+      "file": "celentano-leaf-14.jpg",
+      "pdf_page": 525,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 14",
+      "legend": "Celentano, leaf 14",
+      "caption": "the three words at the top of the left page are translated: “the man that digs.” above the birds it is declared that none but the cocks of hermes, the two mercuries, shall put hand to the plow, and only after irrigation will the earth bring forth her fruits."
+    },
+    {
+      "id": "celentano-leaf-15",
+      "file": "celentano-leaf-15.jpg",
+      "pdf_page": 526,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 15",
+      "legend": "from the waters",
+      "caption": "bless the waters which are above the heavens.” the circle contains this statement: “the earth without form and void."
+    },
+    {
+      "id": "celentano-leaf-16",
+      "file": "celentano-leaf-16.jpg",
+      "pdf_page": 527,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 16",
+      "legend": "Celentano, leaf 16",
+      "caption": "The first sentence reads: “The dead bodies remain; the spirits are freed by the death in the bodies."
+    },
+    {
+      "id": "celentano-leaf-17",
+      "file": "celentano-leaf-17.jpg",
+      "pdf_page": 528,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 17",
+      "legend": "from white it becomes shining",
+      "caption": "” above the sun are the words: “God and nature do noth- ing in vain.” The man on the left is a mediæval conception of Hermes, the great Egyptian philosopher; the one on the right is Christopher, the philosopher of Paris."
+    },
+    {
+      "id": "celentano-leaf-18",
+      "file": "celentano-leaf-18.jpg",
+      "pdf_page": 529,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 18",
+      "legend": "from heaven to earth, and then ascend from earth to heaven, has information about the Stone",
+      "caption": "For in Mercury there is something the wise seek, not invoked except by white or red ferment.” The first part of this quotation is based upon the Emerald Tablet of Hermes (which see)."
+    },
+    {
+      "id": "celentano-leaf-19",
+      "file": "celentano-leaf-19.jpg",
+      "pdf_page": 530,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 19",
+      "legend": "from all cares, so they will be always happy if they attain by their wit to the secret",
+      "caption": "Figure from Hall's chapter “The Hermetic and Alchemical Figures of Claudius de Dominico,” folio p.530."
+    },
+    {
+      "id": "celentano-leaf-20",
+      "file": "celentano-leaf-20.jpg",
+      "pdf_page": 531,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 20",
+      "legend": "Celentano, leaf 20",
+      "caption": "at the top is written: “rains are made by six stars.” under the inverted man it reads: “receive new spirit."
+    },
+    {
+      "id": "celentano-leaf-21",
+      "file": "celentano-leaf-21.jpg",
+      "pdf_page": 532,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 21",
+      "legend": "Celentano, leaf 21",
+      "caption": "The upper line reads: “Two things and double, but finally one is dissolved into the first and they make sperm.” The four capitals."
+    },
+    {
+      "id": "celentano-leaf-22",
+      "file": "celentano-leaf-22.jpg",
+      "pdf_page": 533,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 22",
+      "legend": "Celentano, leaf 22",
+      "caption": "the verse in the upper left is as follows: “this group is composed of three stones: lunar, solar, and mercurial."
+    },
+    {
+      "id": "celentano-leaf-23",
+      "file": "celentano-leaf-23.jpg",
+      "pdf_page": 534,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 23",
+      "legend": "Celentano, leaf 23",
+      "caption": "the writing at the upper left is, in substance, the lord’s Prayer, with the ad- dition of the words Jesus and Mary at the end."
+    },
+    {
+      "id": "celentano-leaf-24",
+      "file": "celentano-leaf-24.jpg",
+      "pdf_page": 535,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 24",
+      "legend": "from the Sun, Moon and Azoth",
+      "caption": "The work is perfected with little labor.” The panel to the left describes the nature of primordial matter and the drink of the Philosophers."
+    },
+    {
+      "id": "celentano-leaf-25",
+      "file": "celentano-leaf-25.jpg",
+      "pdf_page": 536,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 25",
+      "legend": "from the substance should be preserved",
+      "caption": "Figure from Hall's chapter “The Hermetic and Alchemical Figures of Claudius de Dominico,” folio p.536."
+    },
+    {
+      "id": "celentano-leaf-26",
+      "file": "celentano-leaf-26.jpg",
+      "pdf_page": 537,
+      "chapter": "hermetic-figures",
+      "title": "Celentano, leaf 26",
+      "legend": "Celentano, leaf 26",
+      "caption": "this page, which concludes that part of the hermetic manuscript bearing the symbols of the secret Work, contains a number of emblems not directly correlated."
+    },
+    {
+      "id": "christian-rosencreutz",
+      "file": "christian-rosencreutz.jpg",
+      "pdf_page": 540,
+      "chapter": "chemical-marriage",
+      "title": "Christian Rosencreutz",
+      "legend": "From Rosencreutz’ Chemical Marriage",
+      "caption": "the most remarkable of all the publications involved in the rosicrucian controversy is that of The Chemical Marriage, published in strasbourg."
+    },
+    {
+      "id": "key-to-the-great-philosophical-secret",
+      "file": "key-to-the-great-philosophical-secret.jpg",
+      "pdf_page": 543,
+      "chapter": "chemical-marriage",
+      "title": "Key to the Great Philosophical Secret",
+      "legend": "From Ashmole’s Theatrum Chemicum Britannicum",
+      "caption": "this plate, which is the key to mystic Christian alchemy, is missing from almost every copy of the The- atrum Chemicum Britannicum , a work compiled by Elias ashmole and containing about a score of pieces by English poets treating of the Philosopher’s stone and the hermetic mysteries."
+    },
+    {
+      "id": "the-universe-created-by-the-dual-principle-of-li",
+      "file": "the-universe-created-by-the-dual-principle-of-li.jpg",
+      "pdf_page": 546,
+      "chapter": "chemical-marriage",
+      "title": "The Universe created by the Dual Principle of Lightt and Darkness",
+      "legend": "From Fludd’s Philosophia Mosaica",
+      "caption": "The Supreme Deity is symbolized by the small globe at the top, which is divided into two hemispheres, the dark half representing the divine darkness with which the Deity surround himself and which serves as His hiding place."
+    },
+    {
+      "id": "the-title-page-of-burtons-anatomy-of-melancholy",
+      "file": "the-title-page-of-burtons-anatomy-of-melancholy.jpg",
+      "pdf_page": 553,
+      "chapter": "bacon",
+      "title": "The Title Page of Burton's Anatomy of Melancholy",
+      "legend": "From Shakespeare’s King Richard the Second, Quarto of 1597",
+      "caption": "the ornamental headpiece shown above has long been considered a baconian or rosicrucian signature."
+    },
+    {
+      "id": "francis-bacon-baron-verulam-viscount-st-albans",
+      "file": "francis-bacon-baron-verulam-viscount-st-albans.jpg",
+      "pdf_page": 557,
+      "chapter": "bacon",
+      "title": "Francis Bacon, Baron Verulam,Viscount St. Albans",
+      "legend": "From Bacon’s Advancement of Learning",
+      "caption": "Lord Bacon was born in 1561 and his- tory records his death in 1626."
+    },
+    {
+      "id": "the-droeshout-portraitof-shakspere",
+      "file": "the-droeshout-portraitof-shakspere.jpg",
+      "pdf_page": 559,
+      "chapter": "bacon",
+      "title": "The Droeshout Portrait of Shakspere",
+      "legend": "From Shakespeare’sGreat Folio of 1623",
+      "caption": "there are no authentic portraits of shakspere in existence."
+    },
+    {
+      "id": "title-page-of-the-famous-first-edition-ofsir-wal",
+      "file": "title-page-of-the-famous-first-edition-ofsir-wal.jpg",
+      "pdf_page": 561,
+      "chapter": "bacon",
+      "title": "Title Page of Raleigh's History of the World Walter Ralegh’Shistory of the World",
+      "legend": "From Ralegh’s History of the World",
+      "caption": "What was the mysterious knowledge which sir Walter ralegh possessed and which was declared to be detri-mental to the british government?"
+    },
+    {
+      "id": "a-famous-cryptic-title-page",
+      "file": "a-famous-cryptic-title-page.jpg",
+      "pdf_page": 565,
+      "chapter": "cryptogram",
+      "title": "A Famous Cryptic Title Page",
+      "legend": "From Selenus’Cryptomenytices et Cryptographiæ",
+      "caption": "One year after the publication of the first Great “Shakespearian” Folio, a remark - able volume on cryptogram, and ciphers was published."
+    },
+    {
+      "id": "the-key-to-the-biliteral-cipher",
+      "file": "the-key-to-the-biliteral-cipher.jpg",
+      "pdf_page": 568,
+      "chapter": "cryptogram",
+      "title": "The Key to the Biliteral Cipher",
+      "legend": "From Bacon’s De Augmentis Scientiarum",
+      "caption": "after the document to be deciphered has been reduced to its “a” and “b” equiva - lents, it is then broken up into five-letter groups and the message read with the aid of the above table."
+    },
+    {
+      "id": "the-key-to-the-biliteral-cipher-2",
+      "file": "the-key-to-the-biliteral-cipher-2.jpg",
+      "pdf_page": 568,
+      "chapter": "cryptogram",
+      "title": "The Key to the Biliteral Cipher",
+      "legend": "From Bacon’s De Augmentis Scientiarum",
+      "caption": "after the document to be deciphered has been reduced to its “a” and “b” equiva - lents, it is then broken up into five-letter groups and the message read with the aid of the above table."
+    },
+    {
+      "id": "the-biliteral-alphabet",
+      "file": "the-biliteral-alphabet.jpg",
+      "pdf_page": 569,
+      "chapter": "cryptogram",
+      "title": "The Biliteral Alphabet",
+      "legend": "From Bacon’s De Augmentis Scientiarum",
+      "caption": "this Plate is reproduced from bacon’s De Augmentis Scientiarum , and shows the two alphabets as designed by him for the purpose of his cipher."
+    },
+    {
+      "id": "an-alchemical-cryptogram",
+      "file": "an-alchemical-cryptogram.jpg",
+      "pdf_page": 571,
+      "chapter": "cryptogram",
+      "title": "An Alchemical Cryptogram",
+      "legend": "From Brown’s History of Chemistry",
+      "caption": "James Campbell Brown reprints a curious cipher from Kircher."
+    },
+    {
+      "id": "an-alchemical-cryptogram-2",
+      "file": "an-alchemical-cryptogram-2.jpg",
+      "pdf_page": 571,
+      "chapter": "cryptogram",
+      "title": "An Alchemical Cryptogram",
+      "legend": "From Brown’s History of Chemistry",
+      "caption": "James Campbell Brown reprints a curious cipher from Kircher."
+    },
+    {
+      "id": "a-cryptic-depiction-of-divine-and-natural-justic",
+      "file": "a-cryptic-depiction-of-divine-and-natural-justic.jpg",
+      "pdf_page": 572,
+      "chapter": "cryptogram",
+      "title": "A Cryptic Depiction of Divine and Natural Justice",
+      "legend": "From Selenus’ Cryptomenytices et Cryptographiæ",
+      "caption": "The first circle portrays the divine antecedents of justice, the second the universal scope of justice, and the third the results of human application of justice."
+    },
+    {
+      "id": "qabbalistic-and-magic-alphabets",
+      "file": "qabbalistic-and-magic-alphabets.jpg",
+      "pdf_page": 575,
+      "chapter": "cryptogram",
+      "title": "Qabbalistic and Magic Alphabets",
+      "legend": "From Barrett’s Magus",
+      "caption": "Curious alphabets were invented by the early and mediæval philosophers to conceal their doctrines and tenets from the profane."
+    },
+    {
+      "id": "the-mystery-of-the-macrocosm",
+      "file": "the-mystery-of-the-macrocosm.jpg",
+      "pdf_page": 579,
+      "chapter": "freemasonic",
+      "title": "The Mystery of the Macrocosm",
+      "legend": "redrawn from Cesariano’ s Edition of Vitruvius",
+      "caption": "Summarizing the relationship between the human body and the theory of architectonics, Vitruvius writes: “since nature has designed the human body so that its members are duly proportioned to the frame as a whole, it appears that the ancients had good reason for their rule, that in perfect building the different members must be in exact symmetrical."
+    },
+    {
+      "id": "mystery-of-the-microcosm",
+      "file": "mystery-of-the-microcosm.jpg",
+      "pdf_page": 586,
+      "chapter": "freemasonic",
+      "title": "Mystery of the Microcosm",
+      "legend": "redrawn from Cesariano’ s Edition of Vitruvius",
+      "caption": "herein is depicted the mysterious Word of Plato which was crucified in space before the foundation of the world."
+    },
+    {
+      "id": "the-round-table-of-king-arthur",
+      "file": "the-round-table-of-king-arthur.jpg",
+      "pdf_page": 597,
+      "chapter": "mystic-christianity",
+      "title": "The Round Table of King Arthur",
+      "legend": "From Jennings’ the Rosicrucians, their Rites and Mysteries",
+      "caption": "According to tradition, Arthur, when a boy of fifteen, was crowned King of Britain, in A.D."
+    },
+    {
+      "id": "the-great-georgeand-collar-of-the-garter",
+      "file": "the-great-georgeand-collar-of-the-garter.jpg",
+      "pdf_page": 599,
+      "chapter": "mystic-christianity",
+      "title": "The Great George and Collar of the Garter",
+      "legend": "from misinterpretation of the early chapters of Genesis",
+      "caption": "THE GREAT GEORGEAND COLLAR OF THE GARTER.From Ashmole’s Order of the Garter."
+    },
+    {
+      "id": "the-nimbus-and-aureole-in-symbolism",
+      "file": "the-nimbus-and-aureole-in-symbolism.jpg",
+      "pdf_page": 600,
+      "chapter": "mystic-christianity",
+      "title": "The Nimbus and Aureole in Symbolism",
+      "legend": "from the dead",
+      "caption": "there was also a mysterious empty seat called the Siege Perilous in which none might sit except he who was successful in his quest for the Holy Gral."
+    },
+    {
+      "id": "history-of-the-holy-cross",
+      "file": "history-of-the-holy-cross.jpg",
+      "pdf_page": 604,
+      "chapter": "cross",
+      "title": "History of the Holy Cross",
+      "legend": "From Berjeau’s History of the Holy Cross",
+      "caption": "(1) Adam directing Seth how to reach the Gar - den of Eden."
+    },
+    {
+      "id": "easter-island-figure-showing-crux-ansata-on-reve",
+      "file": "easter-island-figure-showing-crux-ansata-on-reve.jpg",
+      "pdf_page": 607,
+      "chapter": "cross",
+      "title": "Easter Island Figure showing the Crux Ansatae",
+      "legend": "from physical suffering",
+      "caption": "Concerning the association of this symbol with the waters of life , Count Goblet d’alviella, in his Migration of Symbols, calls attention to the fact that an instrument re- sembling the Crux ansata and called the Nilometer was used by the ancient Egyptians for measuring and regulating the inundations of the river nile."
+    },
+    {
+      "id": "apollonius-of-tyana",
+      "file": "apollonius-of-tyana.jpg",
+      "pdf_page": 609,
+      "chapter": "cross",
+      "title": "Apollonius of Tyana",
+      "legend": "from the tomb of winter",
+      "caption": "Without doubt the doc-trine of the crucifixion is based upon the secret traditions of the Ancient Wisdom; it is a constant reminder that the divine nature of man is perpetually crucified upon the animal organism."
+    },
+    {
+      "id": "the-crucifixion-of-quetzalcoatl",
+      "file": "the-crucifixion-of-quetzalcoatl.jpg",
+      "pdf_page": 612,
+      "chapter": "cross",
+      "title": "The Crucifixion of Quetzalcoatl",
+      "legend": "from their true characters and meanings",
+      "caption": "the ridicule and slander heaped by Christendom upon Christna and bacchus are excellent examples of the persecution of immortal principles by those who have ut-terly failed to sense the secret meaning of the allegories."
+    },
+    {
+      "id": "the-crucifixion-in-space",
+      "file": "the-crucifixion-in-space.jpg",
+      "pdf_page": 614,
+      "chapter": "cross",
+      "title": "The Crucifixion in Space",
+      "legend": "From Higgins’ Anacalypsis",
+      "caption": "Lundy has written: “It looks like a Christian crucifix in many re- spects, and in some others it does not."
+    },
+    {
+      "id": "hme-the-teutonic-theosopher",
+      "file": "hme-the-teutonic-theosopher.jpg",
+      "pdf_page": 615,
+      "chapter": "cross",
+      "title": "Böhme, the Teutonic Theosopher",
+      "legend": "from the wounds were sym- bolic of certain secret philosophic practices of the temple",
+      "caption": "many of the oriental deities have mysterious symbols on the hands and feet."
+    },
+    {
+      "id": "the-throne-of-godand-of-the-lamb",
+      "file": "the-throne-of-godand-of-the-lamb.jpg",
+      "pdf_page": 619,
+      "chapter": "apocalypse",
+      "title": "The Throne of God and of the Lamb",
+      "legend": "From Jacob Behmen’s Works",
+      "caption": "before the throne of God was the crystal sea representing the schamayim, or the living waters which are above the heavens."
+    },
+    {
+      "id": "episodes-from-the-mysteries-of-the-apocalypse",
+      "file": "episodes-from-the-mysteries-of-the-apocalypse.jpg",
+      "pdf_page": 622,
+      "chapter": "apocalypse",
+      "title": "Episodes from the Mysteries of the Apocalypse",
+      "legend": "FROM THE MYSTERIES OF THE APOCALYPSE",
+      "caption": "From Klauber’s Historiae Biblicae Veteris et Novi Testamenti."
+    },
+    {
+      "id": "johns-vision-of-the-new-jerusalem",
+      "file": "johns-vision-of-the-new-jerusalem.jpg",
+      "pdf_page": 624,
+      "chapter": "apocalypse",
+      "title": "John's Vision of the New Jerusalem",
+      "legend": "From Klauber’s Historiae Biblicae Veteris et Novi Testamenti",
+      "caption": "in the upper left-hand corner is shown the destruction of babylon, also the angel which cast the great millstone into the sea, saying, “thus with violence shall that great city babylon be thrown down and shall be found no more at all.” Below is the horseman, called Faithful and True, casting the beast into the bottom - less pit."
+    },
+    {
+      "id": "the-four-horsemen-of-the-apocalypse",
+      "file": "the-four-horsemen-of-the-apocalypse.jpg",
+      "pdf_page": 627,
+      "chapter": "apocalypse",
+      "title": "The Four Horsemen of the Apocalypse",
+      "legend": "from the First Logos, which is the life of all things and the active cause of all creation",
+      "caption": "There also was the Tree of Life (the spirit) bearing twelve manner of fruit, whose leaves were for the healing of the nations."
+    },
+    {
+      "id": "mohammeds-night-journey-to-hea-ven",
+      "file": "mohammeds-night-journey-to-hea-ven.jpg",
+      "pdf_page": 630,
+      "chapter": "islam",
+      "title": "Mohammed's Night Journey to Heaven",
+      "legend": "From D’Ohsson’s Tableau Général de l’Empire Othoman",
+      "caption": "In the seventeenth sura of the Koran it is writ - ten that upon a certain night mohammed was transported from the temple at mecca to that of Jerusalem, but no details are given of the strange journey."
+    },
+    {
+      "id": "the-caaba-the-holy-place-of-islam",
+      "file": "the-caaba-the-holy-place-of-islam.jpg",
+      "pdf_page": 635,
+      "chapter": "islam",
+      "title": "The Caaba, the Holy Place of Islam",
+      "legend": "from panorama of mecca in D’ohsson’s Tableau Général de l’Empire Othman",
+      "caption": "The Caaba, or cube-shaped building in the midst of the great court of the mosque at Mecca, is the most holy spot in the Islamic world."
+    },
+    {
+      "id": "na-v-aho-sand-painting",
+      "file": "na-v-aho-sand-painting.jpg",
+      "pdf_page": 642,
+      "chapter": "american-indian",
+      "title": "Navaho Sand Painting",
+      "legend": "From an original drawing by Hasteen Klah",
+      "caption": "the navaho dry or sand paint- ings are made by sprinkling varicolored ground pigment upon a base of smooth sand."
+    },
+    {
+      "id": "record-on-birch-bark",
+      "file": "record-on-birch-bark.jpg",
+      "pdf_page": 648,
+      "chapter": "american-indian",
+      "title": "Record on Birch Bark",
+      "legend": "from Plate III of Mr",
+      "caption": "Hoffman’s article) a knowledge of directionalizing the forces moving through the vital centers of the human body."
+    },
+    {
+      "id": "the-table-of-cebes",
+      "file": "the-table-of-cebes.jpg",
+      "pdf_page": 654,
+      "chapter": "emissaries",
+      "title": "The Table of Cebes",
+      "legend": "From Vænius’ Theatro Moral de la Vida Humana",
+      "caption": "there is legend to the effect that the tablet of Cebes, a dialogue between Cebes and Gerundio, was based upon an ancient table set up in the temple of Kronos at Athens or Thebes which depicted the entire progress of human life."
+    },
+    {
+      "id": "divine-cagliostro",
+      "file": "divine-cagliostro.jpg",
+      "pdf_page": 656,
+      "chapter": "emissaries",
+      "title": "The Divine Cagliostro",
+      "legend": "From Houdon’s Bust of Cagliostro",
+      "caption": "the Comte di Cagliostro is described as a man not overly tall, but square shouldered and deep of chest."
+    },
+    {
+      "id": "comte-de-st-germain",
+      "file": "comte-de-st-germain.jpg",
+      "pdf_page": 658,
+      "chapter": "emissaries",
+      "title": "Comte de St.-Germain",
+      "legend": "from chemistry and history to poetry and music",
+      "caption": "he played several musical instruments with great skill and among his numerous compositions was a short opera."
+    },
+    {
+      "id": "john-and-the-vision-of-the-apocalypse",
+      "file": "john-and-the-vision-of-the-apocalypse.jpg",
+      "pdf_page": 666,
+      "chapter": "conclusion",
+      "title": "John and the Vision of the Apocalypse",
+      "legend": "From the lofty heights of his Selfhood he slowly sinks into the gloomy depths of ephemerality",
+      "caption": "he falls to the level of the beast, and in brutish fashion mumbles the problems arising from his all too insufficient knowledge of the Divine Plan."
+    },
+    {
+      "id": "the-entrance-to-the-house-of-the-mysteries",
+      "file": "the-entrance-to-the-house-of-the-mysteries.jpg",
+      "pdf_page": 670,
+      "chapter": "conclusion",
+      "title": "The Entrance to the House of the Mysteries",
+      "legend": "From Khunrath’s Amphitheatrum Sapientiæ, etc",
+      "caption": "This symbolic figure, representing the way to everlasting life, is described by Khunrath in substance as follows: “this is the Portal of the amphitheatre of the only true and eternal Wisdom – a narrow one, indeed, but sufficiently august, and consecrated to Jehovah."
+    },
+    {
+      "id": "about-the-author",
+      "file": "about-the-author.jpg",
+      "pdf_page": 675,
+      "chapter": "about-author",
+      "title": "About the Author",
+      "legend": "About the Author",
+      "caption": "ABOUT THE AUTHOR (March 18, 1901 – August 29, 1990) was a Ca- nadian-born author and mystic."
     }
   ]
 }
