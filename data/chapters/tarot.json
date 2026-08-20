@@ -1,0 +1,11 @@
+{
+  "id": "tarot",
+  "see_also": ["sephiroth", "hermes", "cryptogram", "qabbalah"],
+  "correspondences": ["rota", "fool", "22", "templars", "book of thoth"],
+  "rite": {
+    "prompt": "What does Hall say the unnumbered tarot card is — which trump is left without a number?",
+    "accept": ["the fool", "fool", "the unnumbered card", "unnumbered"]
+  },
+  "signal": "TAROT.NFO                                          HALL 1.3\n================================================================\nAn Analysis of Tarot Cards\nManly P. Hall · 1928 · folio p.394 · ECHO QBL.TREE\n\nTHESIS\n  The tarot is a shuffled Book of Thoth: 22 trumps as letters\n  of a cosmic alphabet, four suits as elements, the Fool\n  walking through them unnumbered.\n\nPOINTS\n  * Cards as a Templar souvenir from Syria, disguised as play\n  * Rota Mundi: the wheel of the world, tarot as TROA / ROTA / TORA\n  * 21 numbered trumps + the Fool\n  * Suits = pentacles, cups, swords, wands = four worlds / elements\n  * The pictures are the doctrine; the game is the cover\n\nSEE ALSO  hermes  sephiroth  cryptogram  qabbalah\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall’s origin story is the usual early-twentieth-century one: playing cards wander from India through Arabia; the trumps are something else, a picture-book the Templars may have brought west and then hidden as a game so the Inquisition would see gambling instead of a grammar.\n\nWhat he cares about is structure. Twenty-two major trumps match twenty-two Hebrew letters and the twenty-two paths on the Tree. The Fool is the unnumbered card, the walker who can stand on any path. The four suits are four elements and, if you have been paying attention, four Qabbalistic worlds. ROTA / TARO / TORA / ORAT is the anagram he cannot resist: the wheel, the deck, the law, the speech.\n\nHe then walks the trumps as a sequence of initiation — not fortune-telling. That is the difference between this file and a drugstore deck. The pictures are leaves of the Book of Thoth from the Hermes chapter, cut up and shuffled so they would survive.\n\nA later door can deal one card as a page number into the folio. For now, `read tarot` is the index of a book that was disguised as a game, which is also a fair description of a BBS."
+}

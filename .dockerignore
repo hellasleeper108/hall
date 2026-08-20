@@ -1,0 +1,6 @@
+.git
+.grok
+__pycache__
+*.pyc
+.vercel
+docs

@@ -1,0 +1,12 @@
+{
+  "seers": [
+    {"id": "hall", "handle": "SYSOP", "name": "Manly P. Hall", "echo": "ALL.AGES", "status": "reading the index", "idle": "0m", "note": "The folio is the only post."},
+    {"id": "hermes", "handle": "THRICE", "name": "Hermes Trismegistus", "echo": "HERMES.MYST", "status": "posting in HERMES.MYST", "idle": "3m", "note": "Always already logged in."},
+    {"id": "pythagoras", "handle": "SILENCE", "name": "Pythagoras of Samos", "echo": "PYTHAG.MAT", "status": "silent", "idle": "5y", "note": "First rudiment of contemplation. Do not ping."},
+    {"id": "hypatia", "handle": "MUSEUM", "name": "Hypatia of Alexandria", "echo": "ALL.AGES", "status": "in the library", "idle": "12m", "note": "See emissaries."},
+    {"id": "cagliostro", "handle": "BALSAMO", "name": "Count Cagliostro", "echo": "ROSE.CRUX", "status": "raising a lodge", "idle": "33m", "note": "Unreliable narrator. Still online."},
+    {"id": "germain", "handle": "COMTE", "name": "Comte de Saint-Germain", "echo": "ROSE.CRUX", "status": "never quite logging off", "idle": "?", "note": "Handle older than the node."},
+    {"id": "rosenkreuz", "handle": "CRC", "name": "Christian Rosenkreuz", "echo": "ROSE.CRUX", "status": "at a wedding", "idle": "120y", "note": "Chemical Marriage door, later."},
+    {"id": "kircher", "handle": "OEDIPUS", "name": "Athanasius Kircher", "echo": "QBL.TREE", "status": "engraving the Tree", "idle": "7m", "note": "The map everyone copies."}
+  ]
+}

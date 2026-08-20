@@ -1,0 +1,11 @@
+{
+  "id": "sephiroth",
+  "see_also": ["qabbalah", "tarot", "cosmogony", "human-body"],
+  "correspondences": ["kether", "malkuth", "daath", "three pillars", "yod he vav he"],
+  "rite": {
+    "prompt": "How many paths of wisdom does the Tree of the Sephiroth comprehend, in Hall?",
+    "accept": ["32", "thirty-two", "thirty two", "32 paths"]
+  },
+  "signal": "SEPHIRTH.NFO                                       HALL 1.3\n================================================================\nThe Tree of the Sephiroth\nManly P. Hall · 1928 · folio p.372 · ECHO QBL.TREE\n\nTHESIS\n  Ten globes, three pillars, twenty-two paths. A filing system\n  for God, the world, and the person, drawn as a tree.\n\nPOINTS\n  * 10 sephiroth + 22 letters = 32 paths of wisdom\n  * Greater Face / Lesser Face; the abyss of Daath\n  * Pillars of Mercy, Severity, Mildness\n  * The four-letter Name as the tree's spine\n  * Kircher's engraving is the map most Western occultists stole\n\nSEE ALSO  qabbalah  tarot  cosmogony  human-body\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "If the previous chapter is the claim, this one is the furniture. Ten sephiroth (emanations, “numbers,” globes) hang on three pillars: Mercy on the right, Severity on the left, Mildness down the middle. Twenty-two paths join them — one path per Hebrew letter, later one tarot trump per path. Together they are the thirty-two paths of wisdom from Yetzirah.\n\nHall flags Daath, the non-sephirah in the abyss, as the knowledge that is not a globe you can sit in. He distinguishes the Greater Face (the tree as it is in the Infinite) from the Lesser Face (the tree as it shows up in a person). The four letters of the Name — Yod He Vav He — are treated as a vertical formula: the same tree spoken as a word.\n\nAthanasius Kircher’s seventeenth-century engraving is the picture Western esotericism never recovered from. Hall reproduces the type. Codex, on this lot, already draws a four-color SVG of it. HALL does not redraw that gadget. HALL treats the tree as a filesystem: files live in globes, SEE ALSO links are paths. `read sephiroth` is the legend for a map we will hang in DH0: later."
+}

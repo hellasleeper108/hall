@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/status.py": { "maxDuration": 10, "memory": 1024, "includeFiles": "data/**" },
+    "api/catalog.py": { "maxDuration": 15, "memory": 1024, "includeFiles": "data/**" },
+    "api/chapter.py": { "maxDuration": 15, "memory": 1024, "includeFiles": "data/**" },
+    "api/who.py": { "maxDuration": 10, "memory": 1024, "includeFiles": "data/**" },
+    "api/search.py": { "maxDuration": 15, "memory": 1024, "includeFiles": "data/**" },
+    "api/gematria.py": { "maxDuration": 15, "memory": 1024, "includeFiles": "data/**" },
+    "api/xref.py": { "maxDuration": 15, "memory": 1024, "includeFiles": "data/**" },
+    "api/hour.py": { "maxDuration": 10, "memory": 1024, "includeFiles": "data/**" }
+  }
+}

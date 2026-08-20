@@ -1,0 +1,11 @@
+{
+  "id": "pyramid",
+  "see_also": ["hermes", "bembine", "hiramic", "human-body"],
+  "correspondences": ["saturn", "stone", "capricorn", "malkuth", "coffer"],
+  "rite": {
+    "prompt": "What does Hall call the Great Pyramid in the first paragraph — a sermon in what?",
+    "accept": ["stone", "a sermon in stone", "sermon in stone"]
+  },
+  "signal": "PYRAMID.NFO                                         HALL 1.3\n================================================================\nThe Initiation of the Pyramid\nManly P. Hall · 1928 · folio p.107 · ECHO HERMES.MYST\n\nTHESIS\n  Gizeh is not a tomb that failed. It is a stone instrument:\n  passages as degrees, the coffer as a gate, the missing\n  capstone as a doctrine.\n\nPOINTS\n  * Al-Mamun broke in; the builders had already sealed a path\n  * Ascending passage, Queen's, King's, the Grand Gallery\n  * The coffer is too large to have come in the door we use\n  * Sphinx as the riddle sitting in front of the working\n  * The hidden God lives in the measure, not in a corpse\n\nSEE ALSO  hermes  hiramic  sephiroth\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall’s pyramid is an argument against the tourist explanation. A pile that precise, aligned to true north, with a coffer that will not fit the forced entrance, is not a pharaoh’s failed vault. It is a machine for making a person into a measure.\n\nHe walks the well-known facts — Caliph al-Mamun blasting a door because the real one was hidden, the cramped ascending passage, the Grand Gallery as a ritual stair, the King’s Chamber with its lidless coffer — and then does what he always does: he reads architecture as initiation. You crawl. You wait. You stand in a room whose only furniture is a stone box. The missing capstone is the doctrine that is never left lying around.\n\nThe Sphinx sits in front of the working as the riddle that is not answered with information. Hall’s “hidden God” is not a mummy. It is the ratio the building will not stop teaching even after the language of its builders is gone.\n\nIf Hermes is the login banner, the pyramid is the first door: a building that grades you by how you move through it. The BBS copies that. Some files will not open until you have crawled the passage they sit behind."
+}

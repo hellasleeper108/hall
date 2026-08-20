@@ -1,0 +1,11 @@
+{
+  "id": "pythagoras",
+  "see_also": ["pythagorean-math", "music-color", "qabbalah", "hermes"],
+  "correspondences": ["sun", "decad", "tetractys", "silence", "crotona"],
+  "rite": {
+    "prompt": "What discipline did Pythagoras require of new disciples before any teaching, according to Hall (and Reuchlin)?",
+    "accept": ["silence", "the discipline of silence", "silence being the first rudiment"]
+  },
+  "signal": "PYTHAGOR.NFO                                       HALL 1.3\n================================================================\nThe Life and Philosophy of Pythagoras\nManly P. Hall · 1928 · folio p.188 · ECHO PYTHAG.MAT\n\nTHESIS\n  A community at Crotona treated number, music, astronomy,\n  and geometry as one piety. Wisdom starts with silence.\n\nPOINTS\n  * Oracle at Delphi names the child before he is born\n  * Five years of silence as the first rudiment\n  * The tetractys: 1+2+3+4 = 10, oath of the school\n  * Solids, spheres, the lyre — cosmos as ratio\n  * He is the West's first monastic mathematician\n\nSEE ALSO  pythagorean-math  music-color  qabbalah  sephiroth\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Pythagoras, in Hall’s telling, is less a biography than a curriculum. The oracle announces him; he travels; he founds a house at Crotona where the members hold goods in common and study four sister sciences: arithmetic, music, astronomy, geometry. That quadrivium is not “STEM.” It is how you train a mind to notice that the world is made of relations.\n\nThe famous rule is silence. Reuchlin, quoted later in the introduction, says Pythagoras taught nothing before the discipline of silence, “the first rudiment of contemplation.” Hall likes this because it is the opposite of a BBS dump. You do not get the decad on day one. You sit until you can hear a ratio.\n\nThe tetractys — ten dots in a triangle, 1+2+3+4 — is the school’s oath and its cosmology. From the One, the dyad, the surface, the solid; from there the living world. Kepler still believed a version of this when he nested Platonic solids in the sky.\n\nHall’s Pythagoras is the patron saint of this board’s degrees. Neophyte is the silence. Fellowcraft is the number. Adept is hearing the same number in a temple, a lyre, and a body."
+}

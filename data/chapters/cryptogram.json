@@ -1,0 +1,11 @@
+{
+  "id": "cryptogram",
+  "see_also": ["bacon", "tarot", "hermes", "hiramic"],
+  "correspondences": ["biliteral", "bacon", "acrostic", "33", "cipher"],
+  "rite": {
+    "prompt": "Hall says many verbose authors were wordy for the sake of concealing what?",
+    "accept": ["words", "concealing words", "words."]
+  },
+  "signal": "CRYPTO.NFO                                         HALL 1.3\n================================================================\nThe Cryptogram as a Factor in Symbolic Philosophy\nManly P. Hall · 1928 · folio p.562 · ECHO CRAFT.SYM\n\nTHESIS\n  Symbol is a cipher. If you cannot count, anagram, and\n  read pictures as letters, you will take a coded book for\n  a rambling one.\n\nPOINTS\n  * Secret alphabets, the Bacon biliteral cipher\n  * Pictorial ciphers (a drawing that is also a letter)\n  * Acroamatic: oral cipher, taught mouth to ear\n  * Numerical and musical ciphers — gematria's cousins\n  * The lost word is a cryptogram the lodge pretends to seek\n\nSEE ALSO  bacon  tarot  hermes  hiramic\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "This is Hall’s most operational chapter, and the one that licenses the board. He says the modern world remembers ciphers as a military toy and forgets they were how philosophers hid a second book inside a first. Verbose writers were not always drunk. Sometimes they were padding to conceal words.\n\nHe lists the toolbox: secret alphabets; Bacon’s biliteral cipher (two typefaces as 0 and 1, decades before computers); pictures that are letters; acroamatic teaching (the cipher is not on the page, it is in how you were told to read the page); numbers; music. The next files on Bacon and Shakespeare are this chapter’s lab notes.\n\nRead with the Hiramic legend: the lost word is not missing because someone forgot it. It is missing because it was designed as a cryptogram. Degrees on this BBS are a toy version of that. The signal is public. The translation is a key. The folio is the padded text. Gematria on Hall’s English is a numerical cipher run against the man who recommended numerical ciphers.\n\nWhen we hide a biliteral in the login banner, that is not decoration. That is homework from page 562."
+}

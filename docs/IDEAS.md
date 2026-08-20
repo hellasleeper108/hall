@@ -1,0 +1,37 @@
+# Hall of Ages — formats to try
+
+The BBS (HALL 1.3) is the place. Everything below is a later skin or door on the same corpus: 51 chapters × 3 depths + Knapp plates + correspondence graph.
+
+Source: Manly P. Hall, *The Secret Teachings of All Ages* (1928, no renewal). PDF in Downloads, Lampić 2009 transcription.
+
+## Built / building
+
+1. **HALL 1.3 BBS** — Workbench chrome, carrier boot, degrees, file areas, echoes, Hall-ordinal gematria door, SEE ALSO, planetary hour as status (not a fifth color). Port 1995.
+
+## Next doors (still the BBS)
+
+2. **The Lost Word** — Hiramic legend as a LORD-style door. Reconstruct the murdered architect; combat is questions from the folio.
+3. **The Chemical Marriage** — one-sitting CYOA of Christian Rosenkreuz's wedding; Hall in the status bar.
+4. **The Bembine Table** — bronze tablet as a map. Cannot leave a square until you name its correspondence.
+5. **Sysop mail** — constrained replies in 1928 English, quoting the folio only.
+6. **Knapp plates as G-files** — ANSI / four-color SVG of the color plates; Tree of Sephiroth as a clickable file map (not Codex's Tree gadget).
+7. **Cryptogram of the week** — live the cryptogram chapter: biliteral / acrostic hidden in banners.
+
+## Other formats (same corpus, different shell)
+
+8. **AmigaGuide correspondence engine** — `@node` / `@word` graph. Metal, sephira, trump, planet, body as one node. The mind of the encyclopedia. Best "digestible" reading.
+9. **Diskmag** — Loadstar / Grapevine issues. One chapter per sitting: PETSCII cover, signal, translation, one plate, a tiny BASIC listing (gematria, planetary hour). Ship `.D64` + web 1541 pretender.
+10. **Minitel / Prestel / teletext** — 40×24 mosaic, page numbers (`*221#` = the Fool). Footer is other page numbers. Bacon ciphers as hidden pages.
+11. **Scene release** — `SECRET.TEACHINGS-HALL.ZIP` with `.NFO`, `file_id.diz`, ANSI ad, chapters as a file pack.
+12. **Gopher hole** — `gopher://hall.local/1/` menus of menus.
+13. **PET oracle** — type a question, get a fragment, a number, a plate reference.
+14. **FIDOnet / Synchronet door pack** — each chapter a `.MSG`+`.DAT` other sysops can drop in. HALL as a net, not a site.
+15. **Filesystem as Tree of Life** — ten directories Kether→Malkuth, 22 path symlinks. `cd Binah`.
+
+## Rules that survive every format
+
+- Three depths. Never dump 675 pages.
+- Public domain only. Hall's prose + our translations. No Liber AL, no modern copyrighted translations.
+- Do not steal Codex's Hebrew gematria or Bbsbench's telnet dialer.
+- Four-color Workbench if it lives on the 1.3 lot. Other formats may leave the lot.
+- Planetary hours may retitle the menubar; they may not add palette colors.

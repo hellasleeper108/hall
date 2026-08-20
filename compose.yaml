@@ -1,0 +1,11 @@
+services:
+  hall:
+    build: .
+    image: hall:1.3
+    container_name: bench-hall
+    ports:
+      - "1995:1995"
+    environment:
+      HALL_HOST: "0.0.0.0"
+      HALL_PORT: "1995"
+    restart: unless-stopped
