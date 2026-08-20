@@ -76,6 +76,10 @@ https://hall.hellasleeper.com/diskmag
 
 Commodore 64 Loadstar sitting. Issue 01 is Hermes. `LOAD"HALL-01",8,1` then 1–0 from the menu. TXT/FOL still gated. HOUR.BAS and GEMATRIA.BAS list and run against the live APIs.
 
+## UNWRITTEN LAW (`/scif`)
+
+Amber clearance node. Patrons are the lodge, Eleusis, the palace library — no modern agencies. EXOTERIC / ACROAMATIC / ADYTUM map to NFO / TXT / FOL and the existing degrees. Stamp: *this text was always public; the veil was the method.*
+
 ## Notes
 
 - Homage to Workbench 1.3 / Kickstart — not a Commodore product.

@@ -16,6 +16,8 @@
     { "source": "/ceefax", "destination": "/ceefax/index.html" },
     { "source": "/ceefax/", "destination": "/ceefax/index.html" },
     { "source": "/diskmag", "destination": "/diskmag/index.html" },
-    { "source": "/diskmag/", "destination": "/diskmag/index.html" }
+    { "source": "/diskmag/", "destination": "/diskmag/index.html" },
+    { "source": "/scif", "destination": "/scif/index.html" },
+    { "source": "/scif/", "destination": "/scif/index.html" }
   ]
 }

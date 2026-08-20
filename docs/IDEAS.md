@@ -10,6 +10,7 @@ Source: Manly P. Hall, *The Secret Teachings of All Ages* (1928, no renewal). PD
 1b. **CEEFAX 1928** — `/ceefax` teletext skin. Folio page numbers. Fastext NFO/TXT/FOL. Cipher page 033.
 1c. **DH2:Guide** — AmigaGuide stub (`data/guide.json`). Correspondence walk, not Codex's Tree gadget.
 1d. **DISKMAG 01** — `/diskmag` Loadstar sitting. Hermes only. HOUR.BAS / GEMATRIA.BAS. Issue 02 (Pyramid) not cut.
+1e. **UNWRITTEN LAW** — `/scif` clearance skin. Period patrons only. EXOTERIC/ACROAMATIC/ADYTUM = NFO/TXT/FOL. Not Threatbench.
 
 ## Next doors (still the BBS)
 
