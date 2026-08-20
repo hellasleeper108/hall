@@ -1,0 +1,20 @@
+{
+  "title": "HALL DISKMAG",
+  "drive": "1541",
+  "issues": [
+    {
+      "id": "01",
+      "n": 1,
+      "chapter": "hermes",
+      "title": "THOTH HERMES TRISMEGISTUS",
+      "side": "A",
+      "track": 18,
+      "year": 1928,
+      "next_chapter": "pyramid",
+      "next_id": "02",
+      "next_title": "THE PYRAMID",
+      "ceefax": 93,
+      "blurb": "The veil is torn. One sitting. Side A only."
+    }
+  ]
+}

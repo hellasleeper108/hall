@@ -15,6 +15,7 @@ from corpus import (
     chapter_payload,
     find_chapter,
     gematria,
+    load_diskmag,
     load_guide,
     load_seers,
     planetary_hour,
@@ -71,8 +72,12 @@ class Handler(SimpleHTTPRequestHandler):
                 return send_json(self, planetary_hour(), cache=15)
             if path == "/api/guide":
                 return send_json(self, load_guide(), cache=120)
+            if path == "/api/diskmag":
+                return send_json(self, load_diskmag(), cache=120)
             if path in ("/ceefax", "/ceefax/"):
                 self.path = "/ceefax/index.html"
+            if path in ("/diskmag", "/diskmag/"):
+                self.path = "/diskmag/index.html"
             if path in ("/", "/index.html"):
                 self.path = "/index.html"
             return super().do_GET()

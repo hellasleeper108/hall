@@ -9,6 +9,7 @@ Source: Manly P. Hall, *The Secret Teachings of All Ages* (1928, no renewal). PD
 1. **HALL 1.3 BBS** — Workbench chrome, carrier boot, degrees, file areas, echoes, Hall-ordinal gematria door, SEE ALSO, planetary hour as status (not a fifth color). Port 1995. Live: https://hall.hellasleeper.com
 1b. **CEEFAX 1928** — `/ceefax` teletext skin. Folio page numbers. Fastext NFO/TXT/FOL. Cipher page 033.
 1c. **DH2:Guide** — AmigaGuide stub (`data/guide.json`). Correspondence walk, not Codex's Tree gadget.
+1d. **DISKMAG 01** — `/diskmag` Loadstar sitting. Hermes only. HOUR.BAS / GEMATRIA.BAS. Issue 02 (Pyramid) not cut.
 
 ## Next doors (still the BBS)
 

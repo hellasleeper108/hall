@@ -56,6 +56,10 @@ def load_guide():
     return _read_json(DATA / "guide.json")
 
 
+def load_diskmag():
+    return _read_json(DATA / "diskmag.json")
+
+
 def load_chapter(cid: str):
     path = DATA / "chapters" / f"{cid}.json"
     if not path.exists():

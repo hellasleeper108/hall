@@ -70,6 +70,12 @@ Same corpus, different furniture. https://hall.hellasleeper.com/ceefax
 
 Hall's folio pages are the keypad (`093` Hermes, `227` Hiram). Red NFO / green TXT / yellow FOL. Degrees still gate. Page `033` is not in the magazine.
 
+## DISKMAG 01
+
+https://hall.hellasleeper.com/diskmag
+
+Commodore 64 Loadstar sitting. Issue 01 is Hermes. `LOAD"HALL-01",8,1` then 1–0 from the menu. TXT/FOL still gated. HOUR.BAS and GEMATRIA.BAS list and run against the live APIs.
+
 ## Notes
 
 - Homage to Workbench 1.3 / Kickstart — not a Commodore product.

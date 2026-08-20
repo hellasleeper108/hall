@@ -234,6 +234,7 @@
     if (e.key === "F5") { e.preventDefault(); openWin("door"); }
     if (e.key === "F6") { e.preventDefault(); openWin("guide"); renderGuide(state.guideNode); }
     if (e.key === "F7") { e.preventDefault(); location.href = "/ceefax/"; }
+    if (e.key === "F8") { e.preventDefault(); location.href = "/diskmag/"; }
     if (e.key === "Escape") {
       const top = [...$$(".win")].filter((w) => !w.hidden).sort((a, b) => (+b.style.zIndex || 0) - (+a.style.zIndex || 0))[0];
       if (top && document.activeElement?.id !== "cmdline") closeWin(top);
@@ -553,7 +554,7 @@
         <span>node <b>${esc(s?.node || "1:1928/1")}</b></span>
       </div>
       <p>Copied ${s?.copied ?? "—"} / ${s?.chapters ?? 50} chapters. Three depths: NFO / TXT / FOL.</p>
-      <p><a href="/ceefax/">CEEFAX 1928</a> · DH2:Guide is a correspondence stub, not Codex's Tree.</p>
+      <p><a href="/ceefax/">CEEFAX 1928</a> · <a href="/diskmag/">DISKMAG 01</a> · DH2:Guide is a correspondence stub, not Codex's Tree.</p>
       <p>CODEX keeps the Hebrew desk and the Tree gadget. BBSBENCH dials other boards. This node <i>is</i> a board.</p>
       <p>Homage to Workbench 1.3 / Kickstart — not a Commodore product.</p>
       <h3>WHO</h3>
@@ -632,6 +633,8 @@
     pin: "degree",
     amigaguide: "guide", node: "guide",
     teletext: "ceefax", minitel: "ceefax", prestel: "ceefax",
+    loadstar: "diskmag", mag: "diskmag",
+
   };
 
   const HELP = `HALL 1.3 command binder
@@ -650,6 +653,7 @@
   find <q>             search titles and translations
   guide [node]         DH2:Guide correspondence stub
   ceefax               hang up into CEEFAX 1928
+  diskmag              load issue 01 (Hermes)
   about                SYS:About
 
 F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR · F6 GUIDE · F7 CEEFAX.
@@ -780,6 +784,10 @@ Adept unlocks FOL. Read three, pass a rite.`;
     ceefax() {
       termPrint("HOLD 100. Tuning CEEFAX…", "ora");
       location.href = "/ceefax/";
+    },
+    diskmag() {
+      termPrint("LOAD\"HALL-01\",8,1", "ora");
+      location.href = "/diskmag/";
     },
   };
 
