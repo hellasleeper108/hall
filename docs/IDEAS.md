@@ -12,6 +12,7 @@ Source: Manly P. Hall, *The Secret Teachings of All Ages* (1928, no renewal). PD
 1d. **DISKMAG 01** — `/diskmag` Loadstar sitting. Hermes only. HOUR.BAS / GEMATRIA.BAS. Issue 02 (Pyramid) not cut.
 1e. **UNWRITTEN LAW** — `/scif` clearance skin. Period patrons only. EXOTERIC/ACROAMATIC/ADYTUM = NFO/TXT/FOL. Not Threatbench.
 1f. **DH3:Plates** — the folio's figures. Four-color stamps, full-color PIC viewer, echo filter. Tree is an imagemap (not Codex's SVG). Caption depth follows degree; Knapp is never hidden.
+1g. **HALL 95** — `/win95` Windows 95 skin. Explorer / WordPad / Imaging / Calculator / WinHelp. Not a Microsoft product.
 
 ## Next doors (still the BBS)
 

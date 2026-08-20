@@ -83,6 +83,8 @@ class Handler(SimpleHTTPRequestHandler):
                 self.path = "/diskmag/index.html"
             if path in ("/scif", "/scif/"):
                 self.path = "/scif/index.html"
+            if path in ("/win95", "/win95/"):
+                self.path = "/win95/index.html"
             if path in ("/", "/index.html"):
                 self.path = "/index.html"
             return super().do_GET()

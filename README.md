@@ -63,7 +63,7 @@ docker compose up --build -d
 1> plates tree
 ```
 
-F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR · F6 GUIDE · F7 CEEFAX · F10 PLATES.
+F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR · F6 GUIDE · F7 CEEFAX · F10 PLATES · F11 WIN95.
 
 ## DH3:Plates
 
@@ -90,6 +90,12 @@ Commodore 64 Loadstar sitting. Issue 01 is Hermes. `LOAD"HALL-01",8,1` then 1–
 ## UNWRITTEN LAW (`/scif`)
 
 Amber clearance node. Patrons are the lodge, Eleusis, the palace library — no modern agencies. EXOTERIC / ACROAMATIC / ADYTUM map to NFO / TXT / FOL and the existing degrees. Stamp: *this text was always public; the veil was the method.*
+
+## HALL 95 (`/win95`)
+
+https://hall.hellasleeper.com/win95
+
+Windows 95 chrome over the same folio. Explorer is the file area, WordPad is NFO/TXT/FOL, Imaging is the plates, Calculator is English ordinal, Help is DH2:Guide. Degrees still gate. Homage — not a Microsoft product.
 
 ## Notes
 

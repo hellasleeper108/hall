@@ -158,7 +158,7 @@
 open &lt;id|page&gt;
 exo  |  acro  |  adytum
 who  |  hour
-lodge  |  ceefax  |  diskmag</div>`;
+lodge  |  ceefax  |  diskmag  |  win95</div>`;
       return;
     }
     if (v === "list") { state.echo = "all"; renderComps(); renderDoc(); return; }
@@ -178,6 +178,7 @@ lodge  |  ceefax  |  diskmag</div>`;
     if (v === "lodge" || v === "bbs") { location.href = "/"; return; }
     if (v === "ceefax") { location.href = "/ceefax/"; return; }
     if (v === "diskmag") { location.href = "/diskmag/"; return; }
+    if (v === "win95" || v === "windows") { location.href = "/win95/"; return; }
     if (v === "open" || v === "read" || v === "show") {
       const q = arg.toLowerCase();
       const ch = (state.catalog?.chapters || []).find((c) =>

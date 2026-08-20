@@ -19,6 +19,8 @@
     { "source": "/diskmag", "destination": "/diskmag/index.html" },
     { "source": "/diskmag/", "destination": "/diskmag/index.html" },
     { "source": "/scif", "destination": "/scif/index.html" },
-    { "source": "/scif/", "destination": "/scif/index.html" }
+    { "source": "/scif/", "destination": "/scif/index.html" },
+    { "source": "/win95", "destination": "/win95/index.html" },
+    { "source": "/win95/", "destination": "/win95/index.html" }
   ]
 }

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HALL 95</title>
+  <link rel="stylesheet" href="/win95/win95.css">
+</head>
+<body>
+  <div id="boot">
+    <p>Starting Windows 95...</p>
+    <button id="skip-boot" aria-label="Skip"> </button>
+  </div>
+
+  <div id="desktop">
+    <button class="desk-icon" style="left:18px;top:16px" data-open="explorer">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="6" width="24" height="18" fill="#808080"/><rect x="6" y="8" width="20" height="12" fill="#008080"/><rect x="10" y="24" width="12" height="3" fill="#c0c0c0"/><rect x="8" y="27" width="16" height="2" fill="#000080"/></svg>
+      <span>My Computer</span>
+    </button>
+    <button class="desk-icon" style="left:18px;top:96px" data-open="explorer" data-echo="HERMES.MYST">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="10" width="14" height="10" fill="#c0c0c0"/><rect x="4" y="12" width="10" height="6" fill="#000080"/><rect x="16" y="14" width="14" height="10" fill="#c0c0c0"/><rect x="18" y="16" width="10" height="6" fill="#000080"/></svg>
+      <span>Network<br>Neighborhood</span>
+    </button>
+    <button class="desk-icon" style="left:18px;top:176px" data-open="wordpad">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="3" width="16" height="26" fill="#fff" stroke="#000"/><rect x="10" y="7" width="10" height="2" fill="#000080"/><rect x="10" y="11" width="10" height="1" fill="#808080"/><rect x="10" y="14" width="8" height="1" fill="#808080"/></svg>
+      <span>My Documents</span>
+    </button>
+    <button class="desk-icon" style="left:18px;top:256px" data-open="imaging">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="6" width="26" height="20" fill="#fff" stroke="#000"/><polygon points="6,22 12,12 16,18 20,10 26,22" fill="#008000"/><circle cx="10" cy="11" r="2" fill="#ffff00"/></svg>
+      <span>Imaging</span>
+    </button>
+    <button class="desk-icon" style="left:18px;top:336px" data-open="inbox">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="10" width="24" height="14" fill="#ffff80" stroke="#000"/><polygon points="4,10 16,18 28,10" fill="#ffffc0" stroke="#000"/></svg>
+      <span>Inbox</span>
+    </button>
+    <button class="desk-icon" style="left:18px;top:416px" data-open="help">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="8" y="4" width="16" height="20" fill="#fff" stroke="#000080"/><text x="16" y="18" text-anchor="middle" font-size="14" font-family="serif" fill="#000080">?</text><rect x="12" y="26" width="8" height="3" fill="#000080"/></svg>
+      <span>Help</span>
+    </button>
+    <button class="desk-icon" style="left:110px;top:16px" data-href="/">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="6" y="4" width="20" height="20" fill="#ff8800"/><rect x="8" y="6" width="16" height="8" fill="#fff"/><circle cx="16" cy="18" r="3" fill="#000"/></svg>
+      <span>HALL 1.3</span>
+    </button>
+    <button class="desk-icon" style="left:110px;top:96px" data-open="recycle">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="10" y="8" width="12" height="18" fill="#c0c0c0" stroke="#000"/><rect x="8" y="6" width="16" height="3" fill="#808080"/><rect x="13" y="12" width="2" height="10" fill="#fff"/><rect x="17" y="12" width="2" height="10" fill="#fff"/></svg>
+      <span>Recycle Bin</span>
+    </button>
+
+    <div id="win-explorer" class="win" hidden style="left:200px;top:28px;width:560px;height:360px">
+      <div class="titlebar">
+        <span class="caption">My Computer</span>
+        <button class="cap min" data-act="min" title="Minimize">_</button>
+        <button class="cap max" data-act="max" title="Maximize">□</button>
+        <button class="cap close" data-act="close" title="Close">×</button>
+      </div>
+      <div class="menubar"><span>File</span><span>Edit</span><span>View</span><span>Help</span></div>
+      <div class="toolbar">
+        <button type="button" data-up>Up</button>
+        <span class="sep"></span>
+        <label>Address <input id="addr" value="C:\HALL\" spellcheck="false"></label>
+      </div>
+      <div class="split">
+        <div id="tree" class="tree"></div>
+        <div id="list" class="list"></div>
+      </div>
+      <div class="statusbar"><span id="ex-status">50 object(s)</span><span id="ex-mem">16 MB</span></div>
+    </div>
+
+    <div id="win-wordpad" class="win" hidden style="left:160px;top:40px;width:580px;height:400px">
+      <div class="titlebar">
+        <span class="caption">WordPad</span>
+        <button class="cap min" data-act="min">_</button>
+        <button class="cap max" data-act="max">□</button>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div class="menubar"><span>File</span><span>Edit</span><span>Insert</span><span>Help</span></div>
+      <div class="toolbar depths">
+        <button type="button" data-depth="signal" class="on">NFO</button>
+        <button type="button" data-depth="translation">TXT</button>
+        <button type="button" data-depth="folio">FOL</button>
+      </div>
+      <div id="pad-meta" class="pad-meta"></div>
+      <div id="pad" class="document"></div>
+      <div id="rite" class="rite" hidden></div>
+      <div class="statusbar"><span id="pad-status">For Help, press F1</span></div>
+    </div>
+
+    <div id="win-imaging" class="win" hidden style="left:120px;top:24px;width:620px;height:420px">
+      <div class="titlebar">
+        <span class="caption">Imaging</span>
+        <button class="cap min" data-act="min">_</button>
+        <button class="cap max" data-act="max">□</button>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div class="menubar"><span>File</span><span>View</span><span>Help</span></div>
+      <div class="split">
+        <div id="img-list" class="list"></div>
+        <div class="img-stage">
+          <img id="img-full" alt="">
+          <div id="img-cap"></div>
+        </div>
+      </div>
+      <div class="statusbar"><span id="img-status">Imaging</span></div>
+    </div>
+
+    <div id="win-help" class="win" hidden style="left:180px;top:48px;width:520px;height:340px">
+      <div class="titlebar">
+        <span class="caption">Windows Help</span>
+        <button class="cap min" data-act="min">_</button>
+        <button class="cap max" data-act="max">□</button>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div class="toolbar">
+        <button type="button" id="help-back">Back</button>
+        <button type="button" id="help-contents">Contents</button>
+      </div>
+      <div class="split">
+        <div id="help-toc" class="tree"></div>
+        <div id="help-body" class="document help-body"></div>
+      </div>
+      <div class="statusbar"><span>WinHelp — correspondence, not Codex's Tree</span></div>
+    </div>
+
+    <div id="win-calc" class="win" hidden style="left:240px;top:80px;width:280px;height:260px">
+      <div class="titlebar">
+        <span class="caption">Calculator</span>
+        <button class="cap min" data-act="min">_</button>
+        <button class="cap max" data-act="max">□</button>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div class="menubar"><span>Edit</span><span>View</span><span>Help</span></div>
+      <div class="calc">
+        <input id="calc-in" placeholder="HIRAM" spellcheck="false" autocomplete="off">
+        <button type="button" id="calc-go">SUM</button>
+        <div id="calc-out" class="lcd">0</div>
+        <p class="hint">English ordinal on Hall. Codex keeps Hebrew.</p>
+      </div>
+    </div>
+
+    <div id="win-find" class="win" hidden style="left:200px;top:90px;width:420px;height:280px">
+      <div class="titlebar">
+        <span class="caption">Find: All Files</span>
+        <button class="cap min" data-act="min">_</button>
+        <button class="cap max" data-act="max">□</button>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div class="find-body">
+        <label>Named: <input id="find-q" placeholder="mercury, fool, hiram…" spellcheck="false"></label>
+        <button type="button" id="find-go">Find Now</button>
+        <div id="find-out" class="list"></div>
+      </div>
+    </div>
+
+    <div id="win-inbox" class="win" hidden style="left:220px;top:72px;width:400px;height:260px">
+      <div class="titlebar">
+        <span class="caption">Inbox</span>
+        <button class="cap min" data-act="min">_</button>
+        <button class="cap max" data-act="max">□</button>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div id="inbox-body" class="document"></div>
+    </div>
+
+    <div id="win-about" class="win" hidden style="left:260px;top:100px;width:360px;height:280px">
+      <div class="titlebar">
+        <span class="caption">About HALL 95</span>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div id="about-body" class="about"></div>
+    </div>
+
+    <div id="win-recycle" class="win" hidden style="left:280px;top:120px;width:340px;height:180px">
+      <div class="titlebar">
+        <span class="caption">Recycle Bin</span>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div class="document"><p>The Recycle Bin is empty.</p><p>The Lost Word is not in here. Try Find, or read the Hiramic legend.</p></div>
+    </div>
+
+    <div id="dlg-run" class="win dialog" hidden style="left:280px;top:160px;width:320px;height:150px">
+      <div class="titlebar">
+        <span class="caption">Run</span>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div class="dialog-body">
+        <p>Type the name of a program, folder, or chapter:</p>
+        <label>Open: <input id="run-q" spellcheck="false" autocomplete="off"></label>
+        <div class="btns">
+          <button type="button" id="run-ok">OK</button>
+          <button type="button" data-act="close">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="dlg-shutdown" class="win dialog" hidden style="left:300px;top:140px;width:360px;height:200px">
+      <div class="titlebar">
+        <span class="caption">Shut Down Windows</span>
+        <button class="cap close" data-act="close">×</button>
+      </div>
+      <div class="dialog-body">
+        <p>What do you want the computer to do?</p>
+        <label><input type="radio" name="sd" value="off" checked> Shut down the computer?</label>
+        <label><input type="radio" name="sd" value="restart"> Restart the computer?</label>
+        <label><input type="radio" name="sd" value="lodge"> Close all programs and return to HALL 1.3?</label>
+        <div class="btns">
+          <button type="button" id="sd-ok">Yes</button>
+          <button type="button" data-act="close">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="safe" hidden>
+    <p>It's now safe to turn off your computer.</p>
+    <p class="sub"><a href="/">Return to HALL 1.3</a> · <a href="/win95/">Restart</a></p>
+  </div>
+
+  <div id="start-menu" hidden>
+    <div class="sm-banner"><b>HALL</b> 95</div>
+    <div class="sm-items">
+      <div class="fly">
+        <button type="button" class="has-sub">Programs</button>
+        <div class="submenu" id="sm-programs"></div>
+      </div>
+      <button type="button" data-open="wordpad">Documents</button>
+      <button type="button" data-open="find">Find…</button>
+      <button type="button" data-open="help">Help</button>
+      <button type="button" data-open="run">Run…</button>
+      <hr>
+      <button type="button" data-open="about">About HALL 95…</button>
+      <hr>
+      <button type="button" data-open="shutdown">Shut Down…</button>
+    </div>
+  </div>
+
+  <div id="taskbar">
+    <button id="start-btn" type="button"><i></i> Start</button>
+    <div id="tasks"></div>
+    <div id="tray"><span id="hour-chip"></span><span id="clock"></span></div>
+  </div>
+
+  <script src="/win95/win95.js"></script>
+</body>
+</html>
