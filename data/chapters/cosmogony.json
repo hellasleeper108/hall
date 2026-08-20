@@ -1,0 +1,25 @@
+{
+  "id": "cosmogony",
+  "see_also": [
+    "qabbalah",
+    "sephiroth",
+    "keys-to-man",
+    "introduction"
+  ],
+  "correspondences": [
+    "ain soph",
+    "four worlds",
+    "adam kadmon",
+    "cosmic egg"
+  ],
+  "rite": {
+    "prompt": "What name does Hall use for the Infinite before the first sephira?",
+    "accept": [
+      "ain soph",
+      "ain soph",
+      "ein sof"
+    ]
+  },
+  "signal": "COSMOGON.NFO                                          HALL 1.3\n================================================================\nFundamentals of Qabbalistic Cosmogony\nManly P. Hall · 1928 · folio p.360 · ECHO QBL.TREE\n\nTHESIS\n  Before the Tree, the Infinite: Ain Soph, worlds stacked, a Grand Man the size of the universe.\n\nPOINTS\n  * Ain Soph and the cosmic egg\n  * Qabbalistic system of worlds\n  * Ezekiel's vision\n  * Nebuchadnezzar's image\n  * Grand Man; fifty gates\n\nSEE ALSO  qabbalah  sephiroth  keys-to-man  introduction\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "If 'Qabbalah' is the claim, this chapter is the cosmogony. Ain Soph is the Infinite that does not fit a globe. Then worlds unfold (Hall will speak of four). Ezekiel's vision and the dream-image in Daniel are read as the same Grand Man the Tree will later draw. Fifty gates of life are a curriculum. You cannot jump to the sephiroth chapter without this one: it is the empty that the globes hang in."
+}

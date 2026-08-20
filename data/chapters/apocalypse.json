@@ -1,0 +1,23 @@
+{
+  "id": "apocalypse",
+  "see_also": [
+    "mystic-christianity",
+    "qabbalah",
+    "tarot",
+    "cryptogram"
+  ],
+  "correspondences": [
+    "apocalypse",
+    "lamb",
+    "beast",
+    "ephesus"
+  ],
+  "rite": {
+    "prompt": "What city does Hall name as sacred to the Apocalypse's setting?",
+    "accept": [
+      "ephesus"
+    ]
+  },
+  "signal": "APOCALYP.NFO                                          HALL 1.3\n================================================================\nThe Mystery of the Apocalypse\nManly P. Hall · 1928 · folio p.616 · ECHO ALL.AGES\n\nTHESIS\n  Revelation is a mystery-text: city, lamb, horsemen, a number that is also a name.\n\nPOINTS\n  * Ephesus\n  * Authorship\n  * Alpha and Omega\n  * Lamb; four horsemen\n  * Number of the beast\n\nSEE ALSO  mystic-christianity  qabbalah  tarot  cryptogram\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall reads the Apocalypse as an initiated document, not a newspaper about the end. Alpha and Omega are the same as the beginning-and-end of every other mystery alphabet. The Lamb is a solar/sacrificial type. The horsemen are fourfold, like elements. The number of the beast is gematria's most famous public scare. Ephesus is a mystery-city. Pair this with the Qabbalah and cryptogram chapters: counting, imaging, concealing."
+}

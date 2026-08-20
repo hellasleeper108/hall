@@ -1,0 +1,25 @@
+{
+  "id": "alchemy-1",
+  "see_also": [
+    "alchemy-2",
+    "alchemy-exponents",
+    "hermes",
+    "chemical-marriage"
+  ],
+  "correspondences": [
+    "gold",
+    "nature",
+    "art",
+    "solomon"
+  ],
+  "rite": {
+    "prompt": "Hall opposes two workers upon the same matter. Name them.",
+    "accept": [
+      "nature and art",
+      "nature",
+      "art"
+    ]
+  },
+  "signal": "ALCHEMY1.NFO                                          HALL 1.3\n================================================================\nThe Theory and Practice of Alchemy, Part I\nManly P. Hall · 1928 · folio p.480 · ECHO ROSE.CRUX\n\nTHESIS\n  Alchemy is nature sped up by art; the gold is a state, not a brick.\n\nPOINTS\n  * Origin of alchemical philosophy\n  * Alexander and the talking trees\n  * Nature and art\n  * Alchemical symbolism\n  * Song of Solomon; Philosopher's Gold\n\nSEE ALSO  alchemy-2  alchemy-exponents  hermes  chemical-marriage\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Part I is the thesis of the work. Nature already transmutes (seed to tree, ore to vein). Art is the initiate doing on purpose what nature does slowly. The Song of Solomon is read as a laboratory love-song. Philosopher's Gold is not coin gold — or not only. Symbolism is mandatory because a plain recipe would be the wrong object. Hall is preparing the Emerald Tablet of Part II."
+}

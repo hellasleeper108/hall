@@ -1,0 +1,30 @@
+{
+  "id": "elements",
+  "see_also": [
+    "ceremonial-magic",
+    "pharmacology",
+    "alchemy-1",
+    "music-color"
+  ],
+  "correspondences": [
+    "gnome",
+    "undine",
+    "salamander",
+    "sylph"
+  ],
+  "rite": {
+    "prompt": "Name one of Paracelsus's four elemental peoples Hall lists.",
+    "accept": [
+      "gnomes",
+      "undines",
+      "salamanders",
+      "sylphs",
+      "gnome",
+      "undine",
+      "salamander",
+      "sylph"
+    ]
+  },
+  "signal": "ELEMENTS.NFO                                          HALL 1.3\n================================================================\nThe Elements and Their Inhabitants\nManly P. Hall · 1928 · folio p.319 · ECHO NATURA.SYM\n\nTHESIS\n  Fire, water, air, earth have inhabitants: Paracelsus's elementals as a map of the sublunary.\n\nPOINTS\n  * Paracelsian submundanes\n  * Gnomes, undines, salamanders, sylphs\n  * Demonology\n  * Incubus and succubus\n  * Vampirism as a type\n\nSEE ALSO  ceremonial-magic  pharmacology  alchemy-1  music-color\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall takes Paracelsus at his word long enough to use him. Four elements, four peoples: gnomes in earth, undines in water, salamanders in fire, sylphs in air. That is a correspondence table, not a fairy-tale. Demonology and the incubus file are what happens when the table is moralized into a panic. He is still doing comparative anatomy of the invisible. The later alchemy chapters will need this fourfold."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mysteries-2",
+  "see_also": [
+    "mysteries-1",
+    "mysteries-3",
+    "qabbalah",
+    "apocalypse"
+  ],
+  "correspondences": [
+    "gnostic",
+    "abraxas",
+    "labyrinth",
+    "odin"
+  ],
+  "rite": {
+    "prompt": "What Gnostic name for deity does Hall flag in Part II?",
+    "accept": [
+      "abraxas"
+    ]
+  },
+  "signal": "MYSTERIE.NFO                                          HALL 1.3\n================================================================\nThe Ancient Mysteries and Secret Societies, Part II\nManly P. Hall · 1928 · folio p.55 · ECHO HERMES.MYST\n\nTHESIS\n  Gnostics, Serapis, the labyrinth, and the Odinic north: heresy as a filing system for stolen light.\n\nPOINTS\n  * Simon Magus and Basilides\n  * Abraxas as a compound deity\n  * Mysteries of Serapis\n  * Labyrinth symbolism\n  * Odinic or Gothic mysteries\n\nSEE ALSO  mysteries-1  mysteries-3  qabbalah  apocalypse\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Part II is the heretics' shelf. Hall treats Gnosticism as a rival mystery school, not a footnote to orthodoxy: Simon, Basilides, Abraxas as a deity you can count. Serapis is Egypt under a Greek mask. The labyrinth is a walkable doctrine — you are not told the center; you are made to take the path. Then he swings north to Odin, because he will not let 'mystery' mean only the Mediterranean. The chapter's job is to show that 'secret society' is a family, not a franchise."
+}

@@ -6,7 +6,7 @@ This is a board, not a second Codex. Codex keeps the Hebrew desk and the Tree ga
 
 ## What it shows
 
-**DH0:Files** lists the 51 nodes of the 1928 outline. Eight are copied in this slice (Hermes, Pyramid, Pythagoras, Hiramic legend, Qabbalah, Sephiroth, Tarot, Cryptogram). The rest sit as TBA until the copyist takes them from the folio.
+**DH0:Files** lists the 50 nodes of the 1928 outline. All fifty are copied: NFO, TXT, and a folio opening.
 
 Each copied node has three depths:
 

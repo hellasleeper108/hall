@@ -1,0 +1,24 @@
+{
+  "id": "ceremonial-magic",
+  "see_also": [
+    "elements",
+    "cryptogram",
+    "pharmacology",
+    "rose-cross"
+  ],
+  "correspondences": [
+    "pentagram",
+    "faust",
+    "grimoire",
+    "goetia"
+  ],
+  "rite": {
+    "prompt": "Which five-pointed figure does Hall name as the chief symbol of this chapter?",
+    "accept": [
+      "pentagram",
+      "the pentagram"
+    ]
+  },
+  "signal": "CEREMONI.NFO                                          HALL 1.3\n================================================================\nCeremonial Magic and Sorcery\nManly P. Hall · 1928 · folio p.306 · ECHO CRAFT.SYM\n\nTHESIS\n  Magic is a misused temple rite; the grimoire is a wrecked liturgy.\n\nPOINTS\n  * Black magic of Egypt\n  * Faust\n  * Mephistopheles of the grimoires\n  * Invocation and pacts\n  * Pentagram\n\nSEE ALSO  elements  cryptogram  pharmacology  rose-cross\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall is not writing a how-to. He treats ceremonial magic as what happens when the mystery's tools are taken off the temple floor and used for private appetite. Faust is the type. The grimoires are leftover liturgies with the names of spirits where the gods were. The pentagram is the human measure (five points, five wounds, five senses) which can face either way. The chapter belongs next to the elements and the pharmacy: same cabinet, darker drawer."
+}

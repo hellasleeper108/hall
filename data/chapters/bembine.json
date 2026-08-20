@@ -1,0 +1,25 @@
+{
+  "id": "bembine",
+  "see_also": [
+    "isis",
+    "zodiac",
+    "pyramid",
+    "tabernacle"
+  ],
+  "correspondences": [
+    "bembine",
+    "orphic egg",
+    "triad",
+    "table of isis"
+  ],
+  "rite": {
+    "prompt": "What object, a bronze tablet of Isis, is this chapter named for?",
+    "accept": [
+      "bembine table",
+      "table of isis",
+      "the bembine table"
+    ]
+  },
+  "signal": "BEMBINE.NFO                                          HALL 1.3\n================================================================\nThe Bembine Table of Isis\nManly P. Hall · 1928 · folio p.160 · ECHO HERMES.MYST\n\nTHESIS\n  The Bembine Table is a bronze filing cabinet: three zodiacs, an Orphic egg, a doctrine you can point at.\n\nPOINTS\n  * Plato's initiation in the pyramid (Hall's linking claim)\n  * History of the Bembine Table\n  * Platonic theory of ideas\n  * Three philosophical zodiacs\n  * Chaldean triads and the Orphic egg\n\nSEE ALSO  isis  zodiac  pyramid  tabernacle\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "The Bembine Table (Mensa Isiaca) is a Renaissance bronze that pretends to be Egypt. Hall treats it as a map anyway: three zodiacs interacting, Chaldean triads, the Orphic egg as the cosmos before it hatches. Whether the tablet is 'authentic' in an archaeological sense is not his test. His test is whether it still diagrams the same grammar as Isis, the pyramid, and Plato's ideas. This is the folio at its most diagram-hungry."
+}

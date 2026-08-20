@@ -8,65 +8,497 @@
   "sysop": "Manly P. Hall",
   "node": "1:1928/1",
   "echoes": [
-    {"id": "HERMES.MYST", "name": "Hermetic mysteries", "summary": "Egypt, initiation, dying gods, the Book of Thoth."},
-    {"id": "SOLAR.ZOD", "name": "Sun and zodiac", "summary": "The sun as deity and the belt of living signs."},
-    {"id": "PYTHAG.MAT", "name": "Number, music, body", "summary": "Crotona, the decad, the lyre, the temple of the body."},
-    {"id": "NATURA.SYM", "name": "Living emblems", "summary": "Beasts, plants, stones, elements, the pharmacy of the wise."},
-    {"id": "QBL.TREE", "name": "Qabbalah and tarot", "summary": "Unwritten law, the Tree, the 22 trumps as paths."},
-    {"id": "ROSE.CRUX", "name": "Rose Cross and alchemy", "summary": "Fama, the Chemical Marriage, the laboratory of the soul."},
-    {"id": "CRAFT.SYM", "name": "Craft and cipher", "summary": "Hiram, the lodge, cryptograms, the lost word."},
-    {"id": "ALL.AGES", "name": "The long echo", "summary": "Preface, emissaries, the faiths, the closing of the book."}
+    {
+      "id": "HERMES.MYST",
+      "name": "Hermetic mysteries",
+      "summary": "Egypt, initiation, dying gods, the Book of Thoth."
+    },
+    {
+      "id": "SOLAR.ZOD",
+      "name": "Sun and zodiac",
+      "summary": "The sun as deity and the belt of living signs."
+    },
+    {
+      "id": "PYTHAG.MAT",
+      "name": "Number, music, body",
+      "summary": "Crotona, the decad, the lyre, the temple of the body."
+    },
+    {
+      "id": "NATURA.SYM",
+      "name": "Living emblems",
+      "summary": "Beasts, plants, stones, elements, the pharmacy of the wise."
+    },
+    {
+      "id": "QBL.TREE",
+      "name": "Qabbalah and tarot",
+      "summary": "Unwritten law, the Tree, the 22 trumps as paths."
+    },
+    {
+      "id": "ROSE.CRUX",
+      "name": "Rose Cross and alchemy",
+      "summary": "Fama, the Chemical Marriage, the laboratory of the soul."
+    },
+    {
+      "id": "CRAFT.SYM",
+      "name": "Craft and cipher",
+      "summary": "Hiram, the lodge, cryptograms, the lost word."
+    },
+    {
+      "id": "ALL.AGES",
+      "name": "The long echo",
+      "summary": "Preface, emissaries, the faiths, the closing of the book."
+    }
   ],
   "chapters": [
-    {"id": "preface", "rank": 1, "title": "Preface", "page": 11, "echo": "ALL.AGES", "ready": false, "blurb": "Why the folio exists, who paid for it, and the two years of sitting still."},
-    {"id": "introduction", "rank": 2, "title": "Introduction", "page": 17, "echo": "ALL.AGES", "ready": false, "blurb": "Philosophy as the science of estimating values."},
-    {"id": "mysteries-1", "rank": 3, "title": "The Ancient Mysteries and Secret Societies, Part I", "page": 42, "echo": "HERMES.MYST", "ready": false, "blurb": "Druids, Mithras, and the schools that taught by rite."},
-    {"id": "mysteries-2", "rank": 4, "title": "The Ancient Mysteries and Secret Societies, Part II", "page": 55, "echo": "HERMES.MYST", "ready": false, "blurb": "Gnostics, Serapis, the labyrinth, the Odinic north."},
-    {"id": "mysteries-3", "rank": 5, "title": "The Ancient Mysteries and Secret Societies, Part III", "page": 68, "echo": "HERMES.MYST", "ready": false, "blurb": "Eleusis, Orpheus, Bacchus, Dionysus."},
-    {"id": "atlantis", "rank": 6, "title": "Atlantis and the Gods of Antiquity", "page": 80, "echo": "HERMES.MYST", "ready": false, "blurb": "The dying god, Tammuz, Adonis, the Cabiri."},
-    {"id": "hermes", "rank": 7, "title": "The Life and Teachings of Thoth Hermes Trismegistus", "page": 93, "echo": "HERMES.MYST", "ready": true, "blurb": "Poimandres, the Book of Thoth, the seven Governors."},
-    {"id": "pyramid", "rank": 8, "title": "The Initiation of the Pyramid", "page": 107, "echo": "HERMES.MYST", "ready": true, "blurb": "Gizeh as a stone sermon: passages, coffer, hidden God."},
-    {"id": "isis", "rank": 9, "title": "Isis, the Virgin of the World", "page": 119, "echo": "HERMES.MYST", "ready": false, "blurb": "Osiris slain, the hermetic Isis, the mummy."},
-    {"id": "sun", "rank": 10, "title": "The Sun, a Universal Deity", "page": 132, "echo": "SOLAR.ZOD", "ready": false, "blurb": "Solar trinity, Christmas as a sun-birth, the midnight sun."},
-    {"id": "zodiac", "rank": 11, "title": "The Zodiac and Its Signs", "page": 146, "echo": "SOLAR.ZOD", "ready": false, "blurb": "Equinoxes, world-ages, the circular zodiac of Tentyra."},
-    {"id": "bembine", "rank": 12, "title": "The Bembine Table of Isis", "page": 160, "echo": "HERMES.MYST", "ready": false, "blurb": "The bronze tablet, three zodiacs, the Orphic egg."},
-    {"id": "wonders", "rank": 13, "title": "Wonders of Antiquity", "page": 175, "echo": "HERMES.MYST", "ready": false, "blurb": "Ever-burning lamps, Delphi, the seven wonders."},
-    {"id": "pythagoras", "rank": 14, "title": "The Life and Philosophy of Pythagoras", "page": 188, "echo": "PYTHAG.MAT", "ready": true, "blurb": "Crotona, silence, the solids, the music of the spheres."},
-    {"id": "pythagorean-math", "rank": 15, "title": "Pythagorean Mathematics", "page": 201, "echo": "PYTHAG.MAT", "ready": false, "blurb": "Number as power, letter-values, the meanings of the decad."},
-    {"id": "human-body", "rank": 16, "title": "The Human Body in Symbolism", "page": 215, "echo": "PYTHAG.MAT", "ready": false, "blurb": "The philosophical manikin, temples, the oversoul."},
-    {"id": "hiramic", "rank": 17, "title": "The Hiramic Legend", "page": 227, "echo": "CRAFT.SYM", "ready": true, "blurb": "Solomon's temple, the murder of Chiram, the lost word."},
-    {"id": "music-color", "rank": 18, "title": "The Pythagorean Theory of Music and Color", "page": 240, "echo": "PYTHAG.MAT", "ready": false, "blurb": "Diatonic scale, spectrum, planetary colors."},
-    {"id": "fishes-1", "rank": 19, "title": "Fishes, Insects, Animals, Reptiles and Birds, Part I", "page": 253, "echo": "NATURA.SYM", "ready": false, "blurb": "Jonah, the scarab, the serpent of wisdom."},
-    {"id": "fishes-2", "rank": 20, "title": "Fishes, Insects, Animals, Reptiles and Birds, Part II", "page": 267, "echo": "NATURA.SYM", "ready": false, "blurb": "Phoenix, Great Seal, Bast, Apis, the unicorn."},
-    {"id": "flowers", "rank": 21, "title": "Flowers, Plants, Fruits, and Trees", "page": 281, "echo": "NATURA.SYM", "ready": false, "blurb": "Lotus, Yggdrasil, acacia, mandrake."},
-    {"id": "stones", "rank": 22, "title": "Stones, Metals and Gems", "page": 293, "echo": "NATURA.SYM", "ready": false, "blurb": "Talismanic jewels, planetary stones, the ages of the world."},
-    {"id": "ceremonial-magic", "rank": 23, "title": "Ceremonial Magic and Sorcery", "page": 306, "echo": "CRAFT.SYM", "ready": false, "blurb": "Faust, the grimoires, the pentagram."},
-    {"id": "elements", "rank": 24, "title": "The Elements and Their Inhabitants", "page": 319, "echo": "NATURA.SYM", "ready": false, "blurb": "Gnomes, undines, salamanders, sylphs."},
-    {"id": "pharmacology", "rank": 25, "title": "Hermetic Pharmacology, Chemistry, and Therapeutics", "page": 333, "echo": "NATURA.SYM", "ready": false, "blurb": "Paracelsus, palingenesis, the drugs of the mysteries."},
-    {"id": "qabbalah", "rank": 26, "title": "The Qabbalah, the Secret Doctrine of Israel", "page": 346, "echo": "QBL.TREE", "ready": true, "blurb": "Written and unwritten law, Yetzirah, the Qabbalistic books."},
-    {"id": "cosmogony", "rank": 27, "title": "Fundamentals of Qabbalistic Cosmogony", "page": 360, "echo": "QBL.TREE", "ready": false, "blurb": "Ain Soph, the four worlds, the Grand Man."},
-    {"id": "sephiroth", "rank": 28, "title": "The Tree of the Sephiroth", "page": 372, "echo": "QBL.TREE", "ready": true, "blurb": "32 paths, Daath, three pillars, the Name of four letters."},
-    {"id": "keys-to-man", "rank": 29, "title": "Qabbalistic Keys to the Creation of Man", "page": 382, "echo": "QBL.TREE", "ready": false, "blurb": "Gematria, notarikon, temurah, the four Adams."},
-    {"id": "tarot", "rank": 30, "title": "An Analysis of Tarot Cards", "page": 394, "echo": "QBL.TREE", "ready": true, "blurb": "Rota Mundi, the unnumbered card, 21 trumps, the suits."},
-    {"id": "tabernacle", "rank": 31, "title": "The Tabernacle in the Wilderness", "page": 409, "echo": "QBL.TREE", "ready": false, "blurb": "Moses the Egyptian, the ark, Urim and Thummim."},
-    {"id": "rose-cross", "rank": 32, "title": "The Fraternity of the Rose Cross", "page": 422, "echo": "ROSE.CRUX", "ready": false, "blurb": "Father C.R.C., Andreae, the rose and the cross."},
-    {"id": "rosicrucian-doctrines", "rank": 33, "title": "Rosicrucian Doctrines and Tenets", "page": 436, "echo": "ROSE.CRUX", "ready": false, "blurb": "Confessio, the philosophical egg, the three mountains."},
-    {"id": "diagrams", "rank": 34, "title": "Fifteen Rosicrucian and Qabbalistic Diagrams", "page": 450, "echo": "ROSE.CRUX", "ready": false, "blurb": "Schamayim, the tomb of C.R.C., the New Jerusalem."},
-    {"id": "alchemy-exponents", "rank": 35, "title": "Alchemy and Its Exponents", "page": 466, "echo": "ROSE.CRUX", "ready": false, "blurb": "Paracelsus, Lully, Flamel, Bernard of Treviso."},
-    {"id": "alchemy-1", "rank": 36, "title": "The Theory and Practice of Alchemy, Part I", "page": 480, "echo": "ROSE.CRUX", "ready": false, "blurb": "Nature and art, the Song of Solomon, Philosopher's Gold."},
-    {"id": "alchemy-2", "rank": 37, "title": "The Theory and Practice of Alchemy, Part II", "page": 494, "echo": "ROSE.CRUX", "ready": false, "blurb": "The Emerald Tablet, the dew of the sages."},
-    {"id": "hermetic-figures", "rank": 38, "title": "The Hermetic and Alchemical Figures of Claudius de Dominico", "page": 508, "echo": "ROSE.CRUX", "ready": false, "blurb": "Naples 1606: a picture-book of the work."},
-    {"id": "chemical-marriage", "rank": 39, "title": "The Chemical Marriage", "page": 537, "echo": "ROSE.CRUX", "ready": false, "blurb": "Rosenkreuz at the wedding; Knights of the Golden Stone."},
-    {"id": "bacon", "rank": 40, "title": "Bacon, Shakspere, and the Rosicrucians", "page": 550, "echo": "ROSE.CRUX", "ready": false, "blurb": "The mask, the acrostics, the number thirty-three."},
-    {"id": "cryptogram", "rank": 41, "title": "The Cryptogram as a Factor in Symbolic Philosophy", "page": 562, "echo": "CRAFT.SYM", "ready": true, "blurb": "Biliteral, pictorial, acroamatic, numerical ciphers."},
-    {"id": "freemasonic", "rank": 42, "title": "Freemasonic Symbolism", "page": 576, "echo": "CRAFT.SYM", "ready": false, "blurb": "Seth's pillars, Enoch, the Collegia, Solomon as Wisdom."},
-    {"id": "mystic-christianity", "rank": 43, "title": "Mystic Christianity", "page": 589, "echo": "ALL.AGES", "ready": false, "blurb": "The Essenes, the christened man, Merlin."},
-    {"id": "cross", "rank": 44, "title": "The Cross and the Crucifixion", "page": 601, "echo": "ALL.AGES", "ready": false, "blurb": "The cross before Calvary; Quetzalcoatl; a cosmic allegory."},
-    {"id": "apocalypse", "rank": 45, "title": "The Mystery of the Apocalypse", "page": 616, "echo": "ALL.AGES", "ready": false, "blurb": "Ephesus, the Lamb, four horsemen, the number of the beast."},
-    {"id": "islam", "rank": 46, "title": "The Faith of Islam", "page": 627, "echo": "ALL.AGES", "ready": false, "blurb": "The Prophet, the Kaaba, the secret doctrine of Islam."},
-    {"id": "american-indian", "rank": 47, "title": "American Indian Symbolism", "page": 639, "echo": "ALL.AGES", "ready": false, "blurb": "Peace pipe, Popol Vuh, Xibalba, the Midewiwin."},
-    {"id": "emissaries", "rank": 48, "title": "The Mysteries and Their Emissaries", "page": 651, "echo": "ALL.AGES", "ready": false, "blurb": "Hypatia, Cagliostro, Saint-Germain, the American founding."},
-    {"id": "conclusion", "rank": 49, "title": "Conclusion", "page": 663, "echo": "ALL.AGES", "ready": false, "blurb": "What the folio was for, after the last emblem."},
-    {"id": "about-author", "rank": 50, "title": "About the Author", "page": 674, "echo": "ALL.AGES", "ready": false, "blurb": "Manly Palmer Hall, 1901–1990."}
+    {
+      "id": "preface",
+      "rank": 1,
+      "title": "Preface",
+      "page": 11,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "Why the folio exists, who paid for it, and the two years of sitting still."
+    },
+    {
+      "id": "introduction",
+      "rank": 2,
+      "title": "Introduction",
+      "page": 17,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "Philosophy as the science of estimating values."
+    },
+    {
+      "id": "mysteries-1",
+      "rank": 3,
+      "title": "The Ancient Mysteries and Secret Societies, Part I",
+      "page": 42,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "Druids, Mithras, and the schools that taught by rite."
+    },
+    {
+      "id": "mysteries-2",
+      "rank": 4,
+      "title": "The Ancient Mysteries and Secret Societies, Part II",
+      "page": 55,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "Gnostics, Serapis, the labyrinth, the Odinic north."
+    },
+    {
+      "id": "mysteries-3",
+      "rank": 5,
+      "title": "The Ancient Mysteries and Secret Societies, Part III",
+      "page": 68,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "Eleusis, Orpheus, Bacchus, Dionysus."
+    },
+    {
+      "id": "atlantis",
+      "rank": 6,
+      "title": "Atlantis and the Gods of Antiquity",
+      "page": 80,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "The dying god, Tammuz, Adonis, the Cabiri."
+    },
+    {
+      "id": "hermes",
+      "rank": 7,
+      "title": "The Life and Teachings of Thoth Hermes Trismegistus",
+      "page": 93,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "Poimandres, the Book of Thoth, the seven Governors."
+    },
+    {
+      "id": "pyramid",
+      "rank": 8,
+      "title": "The Initiation of the Pyramid",
+      "page": 107,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "Gizeh as a stone sermon: passages, coffer, hidden God."
+    },
+    {
+      "id": "isis",
+      "rank": 9,
+      "title": "Isis, the Virgin of the World",
+      "page": 119,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "Osiris slain, the hermetic Isis, the mummy."
+    },
+    {
+      "id": "sun",
+      "rank": 10,
+      "title": "The Sun, a Universal Deity",
+      "page": 132,
+      "echo": "SOLAR.ZOD",
+      "ready": true,
+      "blurb": "Solar trinity, Christmas as a sun-birth, the midnight sun."
+    },
+    {
+      "id": "zodiac",
+      "rank": 11,
+      "title": "The Zodiac and Its Signs",
+      "page": 146,
+      "echo": "SOLAR.ZOD",
+      "ready": true,
+      "blurb": "Equinoxes, world-ages, the circular zodiac of Tentyra."
+    },
+    {
+      "id": "bembine",
+      "rank": 12,
+      "title": "The Bembine Table of Isis",
+      "page": 160,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "The bronze tablet, three zodiacs, the Orphic egg."
+    },
+    {
+      "id": "wonders",
+      "rank": 13,
+      "title": "Wonders of Antiquity",
+      "page": 175,
+      "echo": "HERMES.MYST",
+      "ready": true,
+      "blurb": "Ever-burning lamps, Delphi, the seven wonders."
+    },
+    {
+      "id": "pythagoras",
+      "rank": 14,
+      "title": "The Life and Philosophy of Pythagoras",
+      "page": 188,
+      "echo": "PYTHAG.MAT",
+      "ready": true,
+      "blurb": "Crotona, silence, the solids, the music of the spheres."
+    },
+    {
+      "id": "pythagorean-math",
+      "rank": 15,
+      "title": "Pythagorean Mathematics",
+      "page": 201,
+      "echo": "PYTHAG.MAT",
+      "ready": true,
+      "blurb": "Number as power, letter-values, the meanings of the decad."
+    },
+    {
+      "id": "human-body",
+      "rank": 16,
+      "title": "The Human Body in Symbolism",
+      "page": 215,
+      "echo": "PYTHAG.MAT",
+      "ready": true,
+      "blurb": "The philosophical manikin, temples, the oversoul."
+    },
+    {
+      "id": "hiramic",
+      "rank": 17,
+      "title": "The Hiramic Legend",
+      "page": 227,
+      "echo": "CRAFT.SYM",
+      "ready": true,
+      "blurb": "Solomon's temple, the murder of Chiram, the lost word."
+    },
+    {
+      "id": "music-color",
+      "rank": 18,
+      "title": "The Pythagorean Theory of Music and Color",
+      "page": 240,
+      "echo": "PYTHAG.MAT",
+      "ready": true,
+      "blurb": "Diatonic scale, spectrum, planetary colors."
+    },
+    {
+      "id": "fishes-1",
+      "rank": 19,
+      "title": "Fishes, Insects, Animals, Reptiles and Birds, Part I",
+      "page": 253,
+      "echo": "NATURA.SYM",
+      "ready": true,
+      "blurb": "Jonah, the scarab, the serpent of wisdom."
+    },
+    {
+      "id": "fishes-2",
+      "rank": 20,
+      "title": "Fishes, Insects, Animals, Reptiles and Birds, Part II",
+      "page": 267,
+      "echo": "NATURA.SYM",
+      "ready": true,
+      "blurb": "Phoenix, Great Seal, Bast, Apis, the unicorn."
+    },
+    {
+      "id": "flowers",
+      "rank": 21,
+      "title": "Flowers, Plants, Fruits, and Trees",
+      "page": 281,
+      "echo": "NATURA.SYM",
+      "ready": true,
+      "blurb": "Lotus, Yggdrasil, acacia, mandrake."
+    },
+    {
+      "id": "stones",
+      "rank": 22,
+      "title": "Stones, Metals and Gems",
+      "page": 293,
+      "echo": "NATURA.SYM",
+      "ready": true,
+      "blurb": "Talismanic jewels, planetary stones, the ages of the world."
+    },
+    {
+      "id": "ceremonial-magic",
+      "rank": 23,
+      "title": "Ceremonial Magic and Sorcery",
+      "page": 306,
+      "echo": "CRAFT.SYM",
+      "ready": true,
+      "blurb": "Faust, the grimoires, the pentagram."
+    },
+    {
+      "id": "elements",
+      "rank": 24,
+      "title": "The Elements and Their Inhabitants",
+      "page": 319,
+      "echo": "NATURA.SYM",
+      "ready": true,
+      "blurb": "Gnomes, undines, salamanders, sylphs."
+    },
+    {
+      "id": "pharmacology",
+      "rank": 25,
+      "title": "Hermetic Pharmacology, Chemistry, and Therapeutics",
+      "page": 333,
+      "echo": "NATURA.SYM",
+      "ready": true,
+      "blurb": "Paracelsus, palingenesis, the drugs of the mysteries."
+    },
+    {
+      "id": "qabbalah",
+      "rank": 26,
+      "title": "The Qabbalah, the Secret Doctrine of Israel",
+      "page": 346,
+      "echo": "QBL.TREE",
+      "ready": true,
+      "blurb": "Written and unwritten law, Yetzirah, the Qabbalistic books."
+    },
+    {
+      "id": "cosmogony",
+      "rank": 27,
+      "title": "Fundamentals of Qabbalistic Cosmogony",
+      "page": 360,
+      "echo": "QBL.TREE",
+      "ready": true,
+      "blurb": "Ain Soph, the four worlds, the Grand Man."
+    },
+    {
+      "id": "sephiroth",
+      "rank": 28,
+      "title": "The Tree of the Sephiroth",
+      "page": 372,
+      "echo": "QBL.TREE",
+      "ready": true,
+      "blurb": "32 paths, Daath, three pillars, the Name of four letters."
+    },
+    {
+      "id": "keys-to-man",
+      "rank": 29,
+      "title": "Qabbalistic Keys to the Creation of Man",
+      "page": 382,
+      "echo": "QBL.TREE",
+      "ready": true,
+      "blurb": "Gematria, notarikon, temurah, the four Adams."
+    },
+    {
+      "id": "tarot",
+      "rank": 30,
+      "title": "An Analysis of Tarot Cards",
+      "page": 394,
+      "echo": "QBL.TREE",
+      "ready": true,
+      "blurb": "Rota Mundi, the unnumbered card, 21 trumps, the suits."
+    },
+    {
+      "id": "tabernacle",
+      "rank": 31,
+      "title": "The Tabernacle in the Wilderness",
+      "page": 409,
+      "echo": "QBL.TREE",
+      "ready": true,
+      "blurb": "Moses the Egyptian, the ark, Urim and Thummim."
+    },
+    {
+      "id": "rose-cross",
+      "rank": 32,
+      "title": "The Fraternity of the Rose Cross",
+      "page": 422,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "Father C.R.C., Andreae, the rose and the cross."
+    },
+    {
+      "id": "rosicrucian-doctrines",
+      "rank": 33,
+      "title": "Rosicrucian Doctrines and Tenets",
+      "page": 436,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "Confessio, the philosophical egg, the three mountains."
+    },
+    {
+      "id": "diagrams",
+      "rank": 34,
+      "title": "Fifteen Rosicrucian and Qabbalistic Diagrams",
+      "page": 450,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "Schamayim, the tomb of C.R.C., the New Jerusalem."
+    },
+    {
+      "id": "alchemy-exponents",
+      "rank": 35,
+      "title": "Alchemy and Its Exponents",
+      "page": 466,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "Paracelsus, Lully, Flamel, Bernard of Treviso."
+    },
+    {
+      "id": "alchemy-1",
+      "rank": 36,
+      "title": "The Theory and Practice of Alchemy, Part I",
+      "page": 480,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "Nature and art, the Song of Solomon, Philosopher's Gold."
+    },
+    {
+      "id": "alchemy-2",
+      "rank": 37,
+      "title": "The Theory and Practice of Alchemy, Part II",
+      "page": 494,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "The Emerald Tablet, the dew of the sages."
+    },
+    {
+      "id": "hermetic-figures",
+      "rank": 38,
+      "title": "The Hermetic and Alchemical Figures of Claudius de Dominico",
+      "page": 508,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "Naples 1606: a picture-book of the work."
+    },
+    {
+      "id": "chemical-marriage",
+      "rank": 39,
+      "title": "The Chemical Marriage",
+      "page": 537,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "Rosenkreuz at the wedding; Knights of the Golden Stone."
+    },
+    {
+      "id": "bacon",
+      "rank": 40,
+      "title": "Bacon, Shakspere, and the Rosicrucians",
+      "page": 550,
+      "echo": "ROSE.CRUX",
+      "ready": true,
+      "blurb": "The mask, the acrostics, the number thirty-three."
+    },
+    {
+      "id": "cryptogram",
+      "rank": 41,
+      "title": "The Cryptogram as a Factor in Symbolic Philosophy",
+      "page": 562,
+      "echo": "CRAFT.SYM",
+      "ready": true,
+      "blurb": "Biliteral, pictorial, acroamatic, numerical ciphers."
+    },
+    {
+      "id": "freemasonic",
+      "rank": 42,
+      "title": "Freemasonic Symbolism",
+      "page": 576,
+      "echo": "CRAFT.SYM",
+      "ready": true,
+      "blurb": "Seth's pillars, Enoch, the Collegia, Solomon as Wisdom."
+    },
+    {
+      "id": "mystic-christianity",
+      "rank": 43,
+      "title": "Mystic Christianity",
+      "page": 589,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "The Essenes, the christened man, Merlin."
+    },
+    {
+      "id": "cross",
+      "rank": 44,
+      "title": "The Cross and the Crucifixion",
+      "page": 601,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "The cross before Calvary; Quetzalcoatl; a cosmic allegory."
+    },
+    {
+      "id": "apocalypse",
+      "rank": 45,
+      "title": "The Mystery of the Apocalypse",
+      "page": 616,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "Ephesus, the Lamb, four horsemen, the number of the beast."
+    },
+    {
+      "id": "islam",
+      "rank": 46,
+      "title": "The Faith of Islam",
+      "page": 627,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "The Prophet, the Kaaba, the secret doctrine of Islam."
+    },
+    {
+      "id": "american-indian",
+      "rank": 47,
+      "title": "American Indian Symbolism",
+      "page": 639,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "Peace pipe, Popol Vuh, Xibalba, the Midewiwin."
+    },
+    {
+      "id": "emissaries",
+      "rank": 48,
+      "title": "The Mysteries and Their Emissaries",
+      "page": 651,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "Hypatia, Cagliostro, Saint-Germain, the American founding."
+    },
+    {
+      "id": "conclusion",
+      "rank": 49,
+      "title": "Conclusion",
+      "page": 663,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "What the folio was for, after the last emblem."
+    },
+    {
+      "id": "about-author",
+      "rank": 50,
+      "title": "About the Author",
+      "page": 674,
+      "echo": "ALL.AGES",
+      "ready": true,
+      "blurb": "Manly Palmer Hall, 1901–1990."
+    }
   ]
 }

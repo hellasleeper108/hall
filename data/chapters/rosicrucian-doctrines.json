@@ -1,0 +1,24 @@
+{
+  "id": "rosicrucian-doctrines",
+  "see_also": [
+    "rose-cross",
+    "chemical-marriage",
+    "alchemy-2",
+    "diagrams"
+  ],
+  "correspondences": [
+    "confessio",
+    "egg",
+    "three mountains",
+    "fama"
+  ],
+  "rite": {
+    "prompt": "Which Rosicrucian manifesto does Hall name beside the Fama?",
+    "accept": [
+      "confessio",
+      "confessio fraternitatis"
+    ]
+  },
+  "signal": "ROSICRUC.NFO                                          HALL 1.3\n================================================================\nRosicrucian Doctrines and Tenets\nManly P. Hall · 1928 · folio p.436 · ECHO ROSE.CRUX\n\nTHESIS\n  Confessio, egg, three mountains: the Order's public riddles about a work that is not public.\n\nPOINTS\n  * Confessio Fraternitatis\n  * Anatomy of Melancholy as a witness\n  * John Heydon\n  * Three mountains of the wise\n  * Philosophical egg\n\nSEE ALSO  rose-cross  chemical-marriage  alchemy-2  diagrams\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "If the last chapter was a life, this is a creed in riddles. The Confessio talks. Burton's Anatomy notices. Heydon popularizes. The philosophical egg is the work in a shell. The three mountains are a geography of attainment. Hall is not recruiting. He is extracting the same grammar he already found in Eleusis and the Tree: a hidden college, a vessel, a climb."
+}

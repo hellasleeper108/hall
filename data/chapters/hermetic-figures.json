@@ -1,0 +1,23 @@
+{
+  "id": "hermetic-figures",
+  "see_also": [
+    "diagrams",
+    "alchemy-1",
+    "chemical-marriage",
+    "rose-cross"
+  ],
+  "correspondences": [
+    "naples",
+    "1606",
+    "figure",
+    "claudius"
+  ],
+  "rite": {
+    "prompt": "In what year does Hall date the Naples manuscript of these figures?",
+    "accept": [
+      "1606"
+    ]
+  },
+  "signal": "HERMETIC.NFO                                          HALL 1.3\n================================================================\nThe Hermetic and Alchemical Figures of Claudius de Dominico\nManly P. Hall · 1928 · folio p.508 · ECHO ROSE.CRUX\n\nTHESIS\n  A 1606 Naples manuscript: alchemy as a picture-book you walk page by page.\n\nPOINTS\n  * Claudius de Dominico Celentano\n  * Illuminated at Naples, 1606\n  * Figures as a sequence\n  * Read with the Chemical Marriage\n  * Pictures before recipes\n\nSEE ALSO  diagrams  alchemy-1  chemical-marriage  rose-cross\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall includes a whole manuscript's figures because he thinks the work is a sequence of images. Naples, 1606: not Egypt, not 1928. A late-Renaissance picture curriculum. You do not need to decode every emblem on first pass. You need to accept that this folio will not stay in prose. Pair it with the fifteen diagrams and Knapp. The Chemical Marriage is the narrative version of the same walk."
+}

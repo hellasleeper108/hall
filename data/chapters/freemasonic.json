@@ -1,0 +1,23 @@
+{
+  "id": "freemasonic",
+  "see_also": [
+    "hiramic",
+    "tabernacle",
+    "mysteries-1",
+    "cryptogram"
+  ],
+  "correspondences": [
+    "enoch",
+    "collegia",
+    "solomon",
+    "pillars"
+  ],
+  "rite": {
+    "prompt": "Who personifies Universal Wisdom in Hall's Masonic reading?",
+    "accept": [
+      "solomon"
+    ]
+  },
+  "signal": "FREEMASO.NFO                                          HALL 1.3\n================================================================\nFreemasonic Symbolism\nManly P. Hall · 1928 · folio p.576 · ECHO CRAFT.SYM\n\nTHESIS\n  Masonry's symbols are older than the lodge: pillars, Enoch, Collegia, Solomon as Wisdom.\n\nPOINTS\n  * Pillars of the sons of Seth\n  * Enoch and the Royal Arch\n  * Dionysiac Architects\n  * Roman Collegia\n  * Solomon as Universal Wisdom\n\nSEE ALSO  hiramic  tabernacle  mysteries-1  cryptogram\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "After Hiram, this is the institutional chapter. Hall wants a lineage: Seth's pillars, Enoch's buried knowledge, the Dionysiac architects, the Roman Collegia, then the lodge. Solomon is not only a king; he is Wisdom's name in a building. 'Freemasonry's priceless heritage' is Hall at his most partisan. For HALL it is also why the Hiramic door and the tabernacle chapter belong in the same echo."
+}

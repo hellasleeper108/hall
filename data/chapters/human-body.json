@@ -1,0 +1,24 @@
+{
+  "id": "human-body",
+  "see_also": [
+    "pythagoras",
+    "tabernacle",
+    "sephiroth",
+    "pyramid"
+  ],
+  "correspondences": [
+    "body",
+    "temple",
+    "anthropos",
+    "hand"
+  ],
+  "rite": {
+    "prompt": "Hall calls the human form a philosophical what?",
+    "accept": [
+      "manikin",
+      "philosophical manikin"
+    ]
+  },
+  "signal": "HUMANBOD.NFO                                          HALL 1.3\n================================================================\nThe Human Body in Symbolism\nManly P. Hall · 1928 · folio p.215 · ECHO PYTHAG.MAT\n\nTHESIS\n  The body is a temple diagram: three centers, two sizes of man, an oversoul.\n\nPOINTS\n  * Philosophical manikin\n  * Three universal centers\n  * Temples of initiation as bodies\n  * The hand in symbolism\n  * Greater and lesser man; the Anthropos\n\nSEE ALSO  pythagoras  tabernacle  sephiroth  pyramid\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall reads anatomy as architecture. Temples copy the body; the body copies a larger man. Three centers (head, heart, generative — he will vary the names) are three altars. The hand is a small pentagram you already own. The greater and lesser man is the same idea as Adam Kadmon later: a person-shaped cosmos. When he says 'temple of initiation' he means you are walking through someone."
+}

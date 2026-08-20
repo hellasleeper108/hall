@@ -1,0 +1,25 @@
+{
+  "id": "pythagorean-math",
+  "see_also": [
+    "pythagoras",
+    "music-color",
+    "qabbalah",
+    "keys-to-man"
+  ],
+  "correspondences": [
+    "decad",
+    "number",
+    "letter",
+    "eratosthenes"
+  ],
+  "rite": {
+    "prompt": "How many numbers does Hall treat as the Pythagorean decad's sacred set?",
+    "accept": [
+      "ten",
+      "the ten numbers",
+      "10"
+    ]
+  },
+  "signal": "PYTHAGOR.NFO                                          HALL 1.3\n================================================================\nPythagorean Mathematics\nManly P. Hall · 1928 · folio p.201 · ECHO PYTHAG.MAT\n\nTHESIS\n  Number is not quantity. It is the way being shows up; letters inherit that power.\n\nPOINTS\n  * Theory of numbers\n  * Numerical values of letters\n  * Numerical power of words\n  * Sieve of Eratosthenes\n  * Meanings of the ten numbers\n\nSEE ALSO  pythagoras  music-color  qabbalah  keys-to-man\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "If the Pythagoras chapter is a life, this one is the arithmetic. The decad is a cosmology: 1 the source, 2 the other, 3 the first surface, 4 the solid, 10 the return. Letters get numbers so words can be added. That is the same move later called gematria. Hall is building the bridge from Crotona to the Qabbalah chapter without yet saying Hebrew. The sieve of Eratosthenes is here as a reminder that number also has a craftsman's side."
+}

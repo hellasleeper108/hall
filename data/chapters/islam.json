@@ -1,0 +1,25 @@
+{
+  "id": "islam",
+  "see_also": [
+    "qabbalah",
+    "mystic-christianity",
+    "emissaries",
+    "rose-cross"
+  ],
+  "correspondences": [
+    "kaaba",
+    "prophet",
+    "mecca",
+    "koran"
+  ],
+  "rite": {
+    "prompt": "What cubical shrine at Mecca does Hall treat as a mystery-object?",
+    "accept": [
+      "kaaba",
+      "caaba",
+      "the kaaba"
+    ]
+  },
+  "signal": "ISLAM.NFO                                          HALL 1.3\n================================================================\nThe Faith of Islam\nManly P. Hall · 1928 · folio p.627 · ECHO ALL.AGES\n\nTHESIS\n  Islam has a secret doctrine too: a cube, a pilgrimage, a prophet who closes a gate.\n\nPOINTS\n  * Life of Mohammed\n  * Revelation of the Koran\n  * Valedictory pilgrimage\n  * Tomb of the Prophet\n  * Kaaba; secret doctrine of Islam\n\nSEE ALSO  qabbalah  mystic-christianity  emissaries  rose-cross\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall will not leave Islam as the folio's outsider. The Kaaba is a cube — fourfold, a house of a stone. Pilgrimage is a rite of circling. The Prophet's life is told with respect and with Hall's usual hunger for an inner teaching beside the public law. Whether his 'secret doctrine of Islam' would satisfy a historian of Sufism is one question. That he insists the comparative table has a column for Mecca is the chapter's job."
+}

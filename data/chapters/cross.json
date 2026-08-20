@@ -1,0 +1,23 @@
+{
+  "id": "cross",
+  "see_also": [
+    "sun",
+    "mystic-christianity",
+    "american-indian",
+    "tabernacle"
+  ],
+  "correspondences": [
+    "cross",
+    "crucifixion",
+    "quetzalcoatl",
+    "calvary"
+  ],
+  "rite": {
+    "prompt": "Which Mexican dying god does Hall name beside the crucifixion?",
+    "accept": [
+      "quetzalcoatl"
+    ]
+  },
+  "signal": "CROSS.NFO                                          HALL 1.3\n================================================================\nThe Cross and the Crucifixion\nManly P. Hall · 1928 · folio p.601 · ECHO ALL.AGES\n\nTHESIS\n  The cross is older than Calvary; the crucifixion is a cosmic allegory hung on a man.\n\nPOINTS\n  * Aurea Legenda\n  * Lost libraries of Alexandria\n  * Cross in pagan symbolism\n  * Crucifixion as cosmic allegory\n  * Quetzalcoatl; nails of the Passion\n\nSEE ALSO  sun  mystic-christianity  american-indian  tabernacle\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall will not let the cross be only an execution device. It is a fourfold world, a tree, a man with arms out. Quetzalcoatl is the Mesoamerican cousin: a dying god on a similar geometry. The nails and the Passion are filed as solar and directional emblems as well as wounds. Alexandria's lost libraries are here as a wound in the record. The chapter is dangerous if you want a unique scandal; it is useful if you want a grammar."
+}

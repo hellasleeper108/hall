@@ -1,0 +1,24 @@
+{
+  "id": "mystic-christianity",
+  "see_also": [
+    "sun",
+    "cross",
+    "apocalypse",
+    "tabernacle"
+  ],
+  "correspondences": [
+    "essenes",
+    "christ",
+    "merlin",
+    "arthur"
+  ],
+  "rite": {
+    "prompt": "Which Jewish sect does Hall connect with the early Christian mystery?",
+    "accept": [
+      "essenes",
+      "the essenes"
+    ]
+  },
+  "signal": "MYSTICCH.NFO                                          HALL 1.3\n================================================================\nMystic Christianity\nManly P. Hall · 1928 · folio p.589 · ECHO ALL.AGES\n\nTHESIS\n  Christ as a title you can wear; Essenes, Arthur, Merlin as the same current in other clothes.\n\nPOINTS\n  * Irenaeus on the life of Christ\n  * Original name of Jesus\n  * The christened man\n  * Essenes\n  * Arthurian cycle; Merlin\n\nSEE ALSO  sun  cross  apocalypse  tabernacle\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall's Jesus is a mystery-graduate. 'Christ' is a chrism, an office. The Essenes are a Jewish closed room next door to the story. Merlin and Arthur are the same current in Britain: a mage and a king, a table, a grail already filed under stones. He is not writing a parish history. He is keeping Christianity inside the comparative table that started with Mithras and the sun."
+}

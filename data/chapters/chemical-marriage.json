@@ -1,0 +1,26 @@
+{
+  "id": "chemical-marriage",
+  "see_also": [
+    "rose-cross",
+    "alchemy-2",
+    "hermetic-figures",
+    "bacon"
+  ],
+  "correspondences": [
+    "wedding",
+    "rosenkreuz",
+    "golden stone",
+    "inquisition"
+  ],
+  "rite": {
+    "prompt": "Who is invited to the Chemical Wedding in Hall's retelling?",
+    "accept": [
+      "christian rosenkreuz",
+      "christian rosencreutz",
+      "c.r.c.",
+      "rosenkreuz"
+    ]
+  },
+  "signal": "CHEMICAL.NFO                                          HALL 1.3\n================================================================\nThe Chemical Marriage\nManly P. Hall · 1928 · folio p.537 · ECHO ROSE.CRUX\n\nTHESIS\n  A wedding that is a laboratory: Rosenkreuz invited, tried, and knighted in a stone.\n\nPOINTS\n  * Invitation to the Chemical Wedding\n  * Virgo Lucifera\n  * Philosophical Inquisition\n  * Tower of Olympus\n  * Knights of the Golden Stone\n\nSEE ALSO  rose-cross  alchemy-2  hermetic-figures  bacon\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "The Chemical Marriage is the one-sitting door HALL has not yet built. Christian Rosenkreuz is invited to a wedding that is also an ordeal: tests, a tower, homunculi, a knighthood of the Golden Stone. Hall reads it as the alchemical work told as a court masque. Virgo Lucifera is not a newspaper bride. The philosophical inquisition is a sorting of souls. When we cut that door, this chapter is the script."
+}

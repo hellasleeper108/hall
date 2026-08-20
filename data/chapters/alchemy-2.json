@@ -1,0 +1,25 @@
+{
+  "id": "alchemy-2",
+  "see_also": [
+    "alchemy-1",
+    "hermes",
+    "rose-cross",
+    "chemical-marriage"
+  ],
+  "correspondences": [
+    "emerald tablet",
+    "dew",
+    "prayer",
+    "luna"
+  ],
+  "rite": {
+    "prompt": "Which short Hermetic text does Hall quote as an alchemical constitution?",
+    "accept": [
+      "emerald tablet",
+      "the emerald tablet",
+      "emerald tablet of hermes"
+    ]
+  },
+  "signal": "ALCHEMY2.NFO                                          HALL 1.3\n================================================================\nThe Theory and Practice of Alchemy, Part II\nManly P. Hall · 1928 · folio p.494 · ECHO ROSE.CRUX\n\nTHESIS\n  Tablet, dew, mountain of the moon: the work in a handful of sentences and a weather.\n\nPOINTS\n  * Alchemical prayer\n  * Emerald Tablet of Hermes\n  * Letter from the Brothers of R.C.\n  * Magical mountain of the moon\n  * Dew of the sages\n\nSEE ALSO  alchemy-1  hermes  rose-cross  chemical-marriage\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Part II is the liturgy. The Emerald Tablet is the constitution ('as above, so below' is the sentence everyone knows; Hall wants the rest too). The dew of the sages is a moisture that is also a mercy. The mountain of the moon is a place-name for a stage. A Rosicrucian letter sits here because the Order and the flask are using the same metaphors. Together with Part I this is HALL's laboratory manual without the danger of being one."
+}

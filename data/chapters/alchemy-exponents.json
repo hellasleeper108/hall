@@ -1,0 +1,23 @@
+{
+  "id": "alchemy-exponents",
+  "see_also": [
+    "alchemy-1",
+    "alchemy-2",
+    "pharmacology",
+    "rose-cross"
+  ],
+  "correspondences": [
+    "paracelsus",
+    "flamel",
+    "lully",
+    "leopold"
+  ],
+  "rite": {
+    "prompt": "Which Swiss physician-alchemist does Hall list among the exponents?",
+    "accept": [
+      "paracelsus"
+    ]
+  },
+  "signal": "ALCHEMYE.NFO                                          HALL 1.3\n================================================================\nAlchemy and Its Exponents\nManly P. Hall · 1928 · folio p.466 · ECHO ROSE.CRUX\n\nTHESIS\n  Alchemy has biographies: men who treated metals as a moral problem.\n\nPOINTS\n  * Multiplication of metals\n  * Medal of Leopold I\n  * Paracelsus\n  * Raymond Lully\n  * Flamel; Bernard of Treviso\n\nSEE ALSO  alchemy-1  alchemy-2  pharmacology  rose-cross\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall names names so the laboratory has a human temperature. Paracelsus again. Lully. Flamel and the story of the book. Bernard of Treviso. The medal of Leopold is an exhibit: a ruler who wanted the work on a coin. Multiplication of metals is the public scandal of alchemy; Hall will insist the scandal is a cover for a soul-work. The next two chapters are the theory."
+}

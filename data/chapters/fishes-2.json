@@ -1,0 +1,24 @@
+{
+  "id": "fishes-2",
+  "see_also": [
+    "fishes-1",
+    "american-indian",
+    "emissaries",
+    "sun"
+  ],
+  "correspondences": [
+    "phoenix",
+    "great seal",
+    "apis",
+    "unicorn"
+  ],
+  "rite": {
+    "prompt": "Which American emblem does Hall read in this animal chapter?",
+    "accept": [
+      "great seal",
+      "the great seal of the united states"
+    ]
+  },
+  "signal": "FISHES2.NFO                                          HALL 1.3\n================================================================\nFishes, Insects, Animals, Reptiles and Birds, Part II\nManly P. Hall · 1928 · folio p.267 · ECHO NATURA.SYM\n\nTHESIS\n  Phoenix, cat, bull, unicorn, and the Great Seal: national heraldry as leftover mystery-language.\n\nPOINTS\n  * Dove\n  * Phoenix\n  * Great Seal of the United States\n  * Bast\n  * Apis and the unicorn\n\nSEE ALSO  fishes-1  american-indian  emissaries  sun\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Part II takes the bestiary into politics. The phoenix is the sun that does not stay dead. The Great Seal is Hall's American shock: unfinished pyramid, all-seeing eye, a motto about a new order — he will not let that pass as decoration. Bast and Apis are Egypt's cat and bull still doing their jobs. The unicorn is a gospel of the single horn, the undivided power. Heraldry, for him, is a mystery school that forgot it was one."
+}

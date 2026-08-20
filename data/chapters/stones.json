@@ -1,0 +1,25 @@
+{
+  "id": "stones",
+  "see_also": [
+    "music-color",
+    "alchemy-1",
+    "tabernacle",
+    "zodiac"
+  ],
+  "correspondences": [
+    "stone",
+    "metal",
+    "grail",
+    "talisman"
+  ],
+  "rite": {
+    "prompt": "What vessel does Hall list among the talismanic relics in this chapter?",
+    "accept": [
+      "grail",
+      "holy grail",
+      "the holy grail"
+    ]
+  },
+  "signal": "STONES.NFO                                          HALL 1.3\n================================================================\nStones, Metals and Gems\nManly P. Hall · 1928 · folio p.293 · ECHO NATURA.SYM\n\nTHESIS\n  Stones, metals, and gems are frozen planets: ages of the world you can wear.\n\nPOINTS\n  * Prehistoric monuments\n  * Tablets of the law\n  * Holy Grail\n  * Ages of the world\n  * Talismanic and zodiacal stones\n\nSEE ALSO  music-color  alchemy-1  tabernacle  zodiac\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "If music-color is ratio in the air, stones are ratio you can put in a pocket. Planetary metals (lead, tin, iron, gold, copper, mercury, silver) are the same Chaldean order HALL already uses for the hour. The Grail is a vessel that holds a doctrine. The tablets of the law are a stone that speaks. Ages of the world in metal (gold, silver, bronze, iron) are a calendar of decline. Talismans are correspondence made portable."
+}

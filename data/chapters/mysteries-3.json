@@ -1,0 +1,25 @@
+{
+  "id": "mysteries-3",
+  "see_also": [
+    "mysteries-1",
+    "atlantis",
+    "chemical-marriage",
+    "tabernacle"
+  ],
+  "correspondences": [
+    "eleusis",
+    "orpheus",
+    "dionysus",
+    "lesser rites"
+  ],
+  "rite": {
+    "prompt": "What Greek town's rites does Hall divide into Lesser and Greater?",
+    "accept": [
+      "eleusis",
+      "eleusinian",
+      "the eleusinian mysteries"
+    ]
+  },
+  "signal": "MYSTERIE.NFO                                          HALL 1.3\n================================================================\nThe Ancient Mysteries and Secret Societies, Part III\nManly P. Hall · 1928 · folio p.68 · ECHO HERMES.MYST\n\nTHESIS\n  Eleusis, Orpheus, Bacchus, Dionysus: dying gods you do not describe to the uninitiated.\n\nPOINTS\n  * Eleusinian lesser and greater rites\n  * Orphic mysteries\n  * Bacchic mysteries\n  * Dionysiac architects later\n  * Secrecy as pedagogy\n\nSEE ALSO  mysteries-1  atlantis  chemical-marriage  tabernacle\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Part III is the Greek core. Eleusis has two gates: the lesser rites that prepare, the greater that you are forbidden to narrate. Orpheus, Bacchus, Dionysus are the same dying-and-returning pattern Hall will later hang on Hiram, Osiris, and the year. He is assembling a comparative table. The point is not that the Greeks were Masons. The point is that a rite can carry a cosmology you cannot lecture."
+}

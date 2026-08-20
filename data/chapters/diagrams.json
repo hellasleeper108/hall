@@ -1,0 +1,26 @@
+{
+  "id": "diagrams",
+  "see_also": [
+    "sephiroth",
+    "rose-cross",
+    "alchemy-1",
+    "chemical-marriage"
+  ],
+  "correspondences": [
+    "schamayim",
+    "tomb",
+    "new jerusalem",
+    "diagram"
+  ],
+  "rite": {
+    "prompt": "Whose symbolic tomb is among the fifteen diagrams Hall lists?",
+    "accept": [
+      "christian rosenkreuz",
+      "c.r.c.",
+      "rosencreutz",
+      "christian rosencreutz"
+    ]
+  },
+  "signal": "DIAGRAMS.NFO                                          HALL 1.3\n================================================================\nFifteen Rosicrucian and Qabbalistic Diagrams\nManly P. Hall · 1928 · folio p.450 · ECHO ROSE.CRUX\n\nTHESIS\n  Fifteen pictures do the work of fifteen chapters: heavens, tomb, city, secret of nature.\n\nPOINTS\n  * Schamayim, ocean of spirit\n  * Seven days of creation\n  * Tomb of C.R.C.\n  * Regions of the elements\n  * New Jerusalem\n\nSEE ALSO  sephiroth  rose-cross  alchemy-1  chemical-marriage\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall believes some doctrines only live as pictures. This chapter is a guided tour of plates: the ocean of spirit, creation as a week, the tomb that is a classroom, the four elemental regions, the New Jerusalem as a finished city-diagram. It is the folio's apology for Knapp. Read it with the Tree chapter. One is ten globes; this is fifteen engravings."
+}

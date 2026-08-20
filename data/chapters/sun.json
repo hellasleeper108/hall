@@ -1,0 +1,24 @@
+{
+  "id": "sun",
+  "see_also": [
+    "zodiac",
+    "hiramic",
+    "mystic-christianity",
+    "cross"
+  ],
+  "correspondences": [
+    "sun",
+    "solstice",
+    "christmas",
+    "midnight sun"
+  ],
+  "rite": {
+    "prompt": "What Christian feast does Hall treat as a sun-birth?",
+    "accept": [
+      "christmas",
+      "the birthday of the sun"
+    ]
+  },
+  "signal": "SUN.NFO                                          HALL 1.3\n================================================================\nThe Sun, a Universal Deity\nManly P. Hall · 1928 · folio p.132 · ECHO SOLAR.ZOD\n\nTHESIS\n  The sun is the one deity every temple kept, whatever name was painted on the door.\n\nPOINTS\n  * Solar trinity\n  * Christianity and the sun\n  * Birthday of the sun\n  * Three suns\n  * The midnight sun\n\nSEE ALSO  zodiac  hiramic  mystic-christianity  cross\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "This is Hall's most blunt comparative chapter. The sun dies at the winter solstice and is born when the days lengthen. Christmas sits on that hinge. A solar trinity (rising, noon, setting; or three suns in some alchemical talk) is how you get three persons out of one lamp. The midnight sun is the sun that still shines when the world looks dark — initiation language. He is not trying to insult Christianity. He is filing it in the solar cabinet with everyone else."
+}

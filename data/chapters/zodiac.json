@@ -1,0 +1,25 @@
+{
+  "id": "zodiac",
+  "see_also": [
+    "sun",
+    "bembine",
+    "tarot",
+    "pythagorean-math"
+  ],
+  "correspondences": [
+    "zodiac",
+    "equinox",
+    "ages",
+    "tentyra"
+  ],
+  "rite": {
+    "prompt": "Which Egyptian circular zodiac does Hall interpret?",
+    "accept": [
+      "tentyra",
+      "dendera",
+      "the circular zodiac of tentyra"
+    ]
+  },
+  "signal": "ZODIAC.NFO                                          HALL 1.3\n================================================================\nThe Zodiac and Its Signs\nManly P. Hall · 1928 · folio p.146 · ECHO SOLAR.ZOD\n\nTHESIS\n  The belt of living signs is a clock for world-ages, not a newspaper horoscope.\n\nPOINTS\n  * Primitive astronomical instruments\n  * Equinoxes and solstices\n  * Astrological ages\n  * Circular zodiac of Tentyra (Dendera)\n  * Horoscope of the world\n\nSEE ALSO  sun  bembine  tarot  pythagorean-math\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall wants the zodiac back from the fairground. Equinoxes and solstices are the hinges of the year; the signs are a language for those hinges. The Dendera circular zodiac is his exhibit: a stone clock. 'Ages of the world' means precession, not personality quizzes. The 'horoscope of the world' is the claim that history itself is a natal chart. Later tarot and the Tree will steal from this same belt of twelve."
+}

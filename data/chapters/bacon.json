@@ -1,0 +1,25 @@
+{
+  "id": "bacon",
+  "see_also": [
+    "cryptogram",
+    "rose-cross",
+    "freemasonic",
+    "emissaries"
+  ],
+  "correspondences": [
+    "bacon",
+    "shakespeare",
+    "thirty-three",
+    "acrostic"
+  ],
+  "rite": {
+    "prompt": "What number does Hall call significant in the Bacon-Shakespeare file?",
+    "accept": [
+      "thirty-three",
+      "33",
+      "thirty three"
+    ]
+  },
+  "signal": "BACON.NFO                                          HALL 1.3\n================================================================\nBacon, Shakspere, and the Rosicrucians\nManly P. Hall · 1928 · folio p.550 · ECHO ROSE.CRUX\n\nTHESIS\n  Bacon, Shakespeare, and a mask: acrostics, thirty-three, a philosophic death.\n\nPOINTS\n  * Rosicrucian mask\n  * Life of Shakspere as Hall spells it\n  * Sir Francis Bacon\n  * Acrostic signatures\n  * Thirty-three; philosophic death\n\nSEE ALSO  cryptogram  rose-cross  freemasonic  emissaries\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall is in the Baconian camp, or at least in its toolbox. The plays are a mask. Acrostics and a cult of thirty-three (see Ceefax 033) are how a doctrine hides in a theatre. Philosophic death is initiation language, not a coroner's report. Whether you buy the authorship claim is less important for HALL than the method: the cryptogram chapter is the theory; this is a famous exhibit. The lost word again, in English."
+}

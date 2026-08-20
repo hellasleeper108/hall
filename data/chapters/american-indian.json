@@ -1,0 +1,24 @@
+{
+  "id": "american-indian",
+  "see_also": [
+    "fishes-2",
+    "cross",
+    "emissaries",
+    "mysteries-3"
+  ],
+  "correspondences": [
+    "peace pipe",
+    "popol vuh",
+    "xibalba",
+    "midewiwin"
+  ],
+  "rite": {
+    "prompt": "What Maya-K'iche' book does Hall cite?",
+    "accept": [
+      "popol vuh",
+      "the popol vuh"
+    ]
+  },
+  "signal": "AMERICAN.NFO                                          HALL 1.3\n================================================================\nAmerican Indian Symbolism\nManly P. Hall · 1928 · folio p.639 · ECHO ALL.AGES\n\nTHESIS\n  The Americas kept mysteries: pipe, Popol Vuh, Xibalba, the Midewiwin.\n\nPOINTS\n  * Ceremony of the peace pipe\n  * Historical Hiawatha\n  * Popol Vuh\n  * American Indian sorcery\n  * Xibalba; Midewiwin\n\nSEE ALSO  fishes-2  cross  emissaries  mysteries-3\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall's table reaches this continent. The peace pipe is a shared breath as a rite. Hiawatha is historicized against the poem. The Popol Vuh and Xibalba are a descent-and-return as serious as Eleusis. The Midewiwin is a medicine society — a lodge. He can be dated and clumsy on ethnography; the structural claim is the one HALL uses: mystery is not a European patent. Pair with Quetzalcoatl in the cross chapter and the Great Seal in the bestiary."
+}

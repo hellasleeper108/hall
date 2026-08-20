@@ -1,0 +1,23 @@
+{
+  "id": "preface",
+  "see_also": [
+    "introduction",
+    "conclusion",
+    "about-author"
+  ],
+  "correspondences": [
+    "folio",
+    "knapp",
+    "1928"
+  ],
+  "rite": {
+    "prompt": "How many years of almost uninterrupted work does Hall say went into the text?",
+    "accept": [
+      "two",
+      "two years",
+      "over two years"
+    ]
+  },
+  "signal": "PREFACE.NFO                                          HALL 1.3\n================================================================\nPreface\nManly P. Hall · 1928 · folio p.11 · ECHO ALL.AGES\n\nTHESIS\n  The folio is a two-year attempt to give the mystery teachings a body worthy of them — beauty and truth in one binding.\n\nPOINTS\n  * Work on the text began 1 Jan 1926\n  * No footnotes; quotations live in the prose\n  * Knapp's color plates are part of the argument\n  * Paid for by subscribers, not a commercial house\n  * Hall claims neither infallibility nor originality\n\nSEE ALSO  introduction  conclusion  about-author\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall's preface is a builder's log. He started the manuscript on New Year's Day 1926 and sat with it for more than two years, after years of collecting. He killed the footnotes so the page would read as one argument. The color plates by J. Augustus Knapp are not decoration; they are how the book thinks. Subscribers paid in advance because Hall could not. He will not pretend the ancients left a clean system, and he will not pretend he invented one. The rest of the folio is that honesty at encyclopedia scale."
+}

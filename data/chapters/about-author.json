@@ -1,0 +1,21 @@
+{
+  "id": "about-author",
+  "see_also": [
+    "preface",
+    "conclusion",
+    "emissaries"
+  ],
+  "correspondences": [
+    "hall",
+    "1928",
+    "los angeles"
+  ],
+  "rite": {
+    "prompt": "In what year was The Secret Teachings of All Ages published?",
+    "accept": [
+      "1928"
+    ]
+  },
+  "signal": "ABOUTAUT.NFO                                          HALL 1.3\n================================================================\nAbout the Author\nManly P. Hall · 1928 · folio p.674 · ECHO ALL.AGES\n\nTHESIS\n  Manly Palmer Hall, 1901–1990: a Canadian-born mystic who published the folio at twenty-seven.\n\nPOINTS\n  * Born 18 March 1901\n  * Secret Teachings published 1928\n  * Los Angeles as his working city\n  * Masonic and other affiliations later\n  * Died 29 August 1990\n\nSEE ALSO  preface  conclusion  emissaries\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "The 2009 transcription adds a short life. Hall was twenty-seven when the encyclopedia came out in 1928, after the two years of sitting described in the preface. Los Angeles was the workshop. Later honors and groups accreted; they are not required to use the book. He died in 1990. HALL's sysop is this man, not a modern agency, and the node date stays 1928."
+}

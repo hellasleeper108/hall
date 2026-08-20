@@ -1,0 +1,23 @@
+{
+  "id": "introduction",
+  "see_also": [
+    "preface",
+    "pythagoras",
+    "qabbalah",
+    "conclusion"
+  ],
+  "correspondences": [
+    "philosophy",
+    "value",
+    "silence"
+  ],
+  "rite": {
+    "prompt": "Hall quotes Pythagoras's first discipline for disciples. What is it?",
+    "accept": [
+      "silence",
+      "the discipline of silence"
+    ]
+  },
+  "signal": "INTRODUC.NFO                                          HALL 1.3\n================================================================\nIntroduction\nManly P. Hall · 1928 · folio p.17 · ECHO ALL.AGES\n\nTHESIS\n  Philosophy is the science of estimating values: what remains when the secondary is stripped away.\n\nPOINTS\n  * Six headings: metaphysics, logic, ethics, psychology, epistemology, aesthetics\n  * Bacon: a little philosophy inclineth to atheism; depth bringeth round to religion\n  * Pythagoras required silence before teaching\n  * The schools of Ionia and Italy as first maps\n  * Modern isms fight each other and drop the sublime issues\n\nSEE ALSO  preface  pythagoras  qabbalah  conclusion\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "The introduction is Hall's operating system. Philosophy, for him, is not a department. It is how you decide what matters when everything secondary is gone. He runs through the usual six headings, then quotes Bacon against the half-educated skeptic, then Pythagoras against the man who will not sit still. The Ionic and Italic schools are there as a first atlas: fire, air, number, the music of the spheres. The rest of the book will keep scoring traditions by whether they still estimate values, or only argue with their neighbors."
+}

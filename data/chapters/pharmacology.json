@@ -1,0 +1,23 @@
+{
+  "id": "pharmacology",
+  "see_also": [
+    "elements",
+    "alchemy-exponents",
+    "ceremonial-magic",
+    "flowers"
+  ],
+  "correspondences": [
+    "paracelsus",
+    "herb",
+    "palingenesis",
+    "medicine"
+  ],
+  "rite": {
+    "prompt": "Which physician-alchemist is the spine of this chapter?",
+    "accept": [
+      "paracelsus"
+    ]
+  },
+  "signal": "PHARMACO.NFO                                          HALL 1.3\n================================================================\nHermetic Pharmacology, Chemistry, and Therapeutics\nManly P. Hall · 1928 · folio p.333 · ECHO NATURA.SYM\n\nTHESIS\n  Hermetic medicine treats disease as a correspondence gone wrong; the herb is a small planet.\n\nPOINTS\n  * Healing methods of Paracelsus\n  * Palingenesis\n  * Cause of disease in hermetic theory\n  * Medicinal herbs\n  * Drugs in the mysteries\n\nSEE ALSO  elements  alchemy-exponents  ceremonial-magic  flowers\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Paracelsus is Hall's doctor. Disease is not only a lesion; it is a signature. Herbs work because they already wear a planet's face. Palingenesis — raising a plant's ghost from its ash — is the same resurrection pattern as the phoenix, in a flask. Drugs in the mysteries are a reminder that Eleusis was not only words. The Assassins appear as a dark cousin: a sect and a pharmacology. HALL's pharmacy is a mystery school with a dispensary."
+}

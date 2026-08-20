@@ -1,0 +1,25 @@
+{
+  "id": "mysteries-1",
+  "see_also": [
+    "mysteries-2",
+    "mysteries-3",
+    "freemasonic",
+    "sun"
+  ],
+  "correspondences": [
+    "mithras",
+    "druid",
+    "rite",
+    "masonry"
+  ],
+  "rite": {
+    "prompt": "Which Persian mystery cult does Hall contrast with the Christian mysteries in Part I?",
+    "accept": [
+      "mithras",
+      "mithraic",
+      "the rites of mithras"
+    ]
+  },
+  "signal": "MYSTERIE.NFO                                          HALL 1.3\n================================================================\nThe Ancient Mysteries and Secret Societies, Part I\nManly P. Hall · 1928 · folio p.42 · ECHO HERMES.MYST\n\nTHESIS\n  Secret societies of the ancient world taught by rite, not lecture; modern Masonry inherited the furniture.\n\nPOINTS\n  * Education as initiation\n  * Celsus against the Christians\n  * Druidic mysteries of Britain and Gaul\n  * Mithras and the tauroctony\n  * Mithraic and Christian mysteries contrasted\n\nSEE ALSO  mysteries-2  mysteries-3  freemasonic  sun\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Part I is Hall's claim that the West was educated in caves and groves before it was educated in classrooms. The Druids, Mithras, and the other closed rooms taught a curriculum you walked. Celsus is quoted because Hall wants the pagan charge on the table: that Christianity borrowed a mystery and then denied the borrowing. The Mithraic contrast is the point of the chapter — same solar furniture, different story about who dies. Later Masonic symbolism, for Hall, is that furniture still in the lodge."
+}

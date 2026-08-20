@@ -1,0 +1,24 @@
+{
+  "id": "fishes-1",
+  "see_also": [
+    "fishes-2",
+    "mystic-christianity",
+    "flowers",
+    "elements"
+  ],
+  "correspondences": [
+    "fish",
+    "scarab",
+    "serpent",
+    "whale"
+  ],
+  "rite": {
+    "prompt": "Which insect does Hall name as an Egyptian emblem of resurrection?",
+    "accept": [
+      "scarab",
+      "the egyptian scarab"
+    ]
+  },
+  "signal": "FISHES1.NFO                                          HALL 1.3\n================================================================\nFishes, Insects, Animals, Reptiles and Birds, Part I\nManly P. Hall · 1928 · folio p.253 · ECHO NATURA.SYM\n\nTHESIS\n  Animals are walking emblems: fish for the Christ, scarab for rebirth, serpent for wisdom.\n\nPOINTS\n  * Jonah and the whale\n  * Fish as a symbol of Christ\n  * Egyptian scarab\n  * Serpent of wisdom\n  * Sacred crocodile\n\nSEE ALSO  fishes-2  mystic-christianity  flowers  elements\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall's bestiary is a dictionary. The fish is a Christ-sign because it already meant life in water, baptism, the vesica. Jonah's whale is a death-and-return machine. The scarab rolls the sun like dung and is therefore resurrection. The serpent is wisdom when it is not merely horror — the same animal, two files. He is teaching you to see a zoo as a grammar."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "isis",
+  "see_also": [
+    "hermes",
+    "atlantis",
+    "sun",
+    "bembine"
+  ],
+  "correspondences": [
+    "isis",
+    "osiris",
+    "mummy",
+    "virgin"
+  ],
+  "rite": {
+    "prompt": "Who is murdered in the myth Hall retells as the backbone of this chapter?",
+    "accept": [
+      "osiris"
+    ]
+  },
+  "signal": "ISIS.NFO                                          HALL 1.3\n================================================================\nIsis, the Virgin of the World\nManly P. Hall · 1928 · folio p.119 · ECHO HERMES.MYST\n\nTHESIS\n  Isis is the world-soul in a woman's name; Osiris is the light cut up and reassembled.\n\nPOINTS\n  * Birthdays of the gods\n  * Murder of Osiris\n  * Hermetic Isis\n  * Symbols peculiar to Isis\n  * Mummification as a doctrine of the body\n\nSEE ALSO  hermes  atlantis  sun  bembine\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Isis, for Hall, is not a museum statue. She is the world as a womb and a widow. Osiris is dismembered; the pieces are the world's scattered light; Isis gathers them. That is the same story as Hiram and the year, in Egyptian dress. The mummy is not a horror prop. It is a claim about what a body is for after the rite. The 'virgin of the world' is Hall's way of saying nature is both mother and initiate."
+}

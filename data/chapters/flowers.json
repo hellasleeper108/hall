@@ -1,0 +1,24 @@
+{
+  "id": "flowers",
+  "see_also": [
+    "fishes-1",
+    "hiramic",
+    "tabernacle",
+    "sephiroth"
+  ],
+  "correspondences": [
+    "lotus",
+    "acacia",
+    "yggdrasil",
+    "mandrake"
+  ],
+  "rite": {
+    "prompt": "Which plant marks Hiram's grave in the Masonic legend Hall already told?",
+    "accept": [
+      "acacia",
+      "the sprig of acacia"
+    ]
+  },
+  "signal": "FLOWERS.NFO                                          HALL 1.3\n================================================================\nFlowers, Plants, Fruits, and Trees\nManly P. Hall · 1928 · folio p.281 · ECHO NATURA.SYM\n\nTHESIS\n  Plants are rites that grow: lotus, world-tree, acacia, vine, mandrake.\n\nPOINTS\n  * Flower as emblem\n  * Lotus\n  * Yggdrasil\n  * Sprig of acacia\n  * Grape and mandrake\n\nSEE ALSO  fishes-1  hiramic  tabernacle  sephiroth\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "The lotus opens with the sun. Yggdrasil holds up a world. The acacia on Hiram's grave is the plant that does not die when the master does. The vine is blood and sacrament. The mandrake is a vegetable man, which is why magicians wanted it. Hall's botany is the same comparative method as the bestiary: a garden as a filing system for sex, death, and the axis of the world."
+}

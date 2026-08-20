@@ -1,0 +1,23 @@
+{
+  "id": "emissaries",
+  "see_also": [
+    "bacon",
+    "rose-cross",
+    "fishes-2",
+    "conclusion"
+  ],
+  "correspondences": [
+    "hypatia",
+    "cagliostro",
+    "saint-germain",
+    "flag"
+  ],
+  "rite": {
+    "prompt": "Which murdered Alexandrian philosopher does Hall name among the emissaries?",
+    "accept": [
+      "hypatia"
+    ]
+  },
+  "signal": "EMISSARI.NFO                                          HALL 1.3\n================================================================\nThe Mysteries and Their Emissaries\nManly P. Hall · 1928 · folio p.651 · ECHO ALL.AGES\n\nTHESIS\n  The mysteries keep sending people: Hypatia, Cagliostro, Saint-Germain, and a flag.\n\nPOINTS\n  * Golden Chain of Homer\n  * Hypatia\n  * Cagliostro\n  * Comte de Saint-Germain\n  * American flag and the Declaration\n\nSEE ALSO  bacon  rose-cross  fishes-2  conclusion\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall's last biographical cabinet. Hypatia is the murdered library. Cagliostro and Saint-Germain are the eighteenth-century rumors that will not log off (HALL's WHO still has them idle). The American founding is filed as an emissary event: flag, Declaration, the Seal already discussed. The Golden Chain is the lineage metaphor. This chapter is why the BBS has seers instead of empty chairs."
+}

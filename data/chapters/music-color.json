@@ -1,0 +1,24 @@
+{
+  "id": "music-color",
+  "see_also": [
+    "pythagoras",
+    "pythagorean-math",
+    "zodiac",
+    "stones"
+  ],
+  "correspondences": [
+    "music",
+    "color",
+    "spheres",
+    "scale"
+  ],
+  "rite": {
+    "prompt": "What celestial metaphor for harmony does Hall credit to the Pythagoreans?",
+    "accept": [
+      "music of the spheres",
+      "the music of the spheres"
+    ]
+  },
+  "signal": "MUSICCOL.NFO                                          HALL 1.3\n================================================================\nThe Pythagorean Theory of Music and Color\nManly P. Hall · 1928 · folio p.240 · ECHO PYTHAG.MAT\n\nTHESIS\n  Scale, spectrum, and sky are one ratio written three ways.\n\nPOINTS\n  * Diatonic scale\n  * Therapeutic music\n  * Music of the spheres\n  * Color in symbolism\n  * Spectrum, musical scale, planetary colors\n\nSEE ALSO  pythagoras  pythagorean-math  zodiac  stones\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "This is why HALL's menubar may retitle itself by planetary hour but must not add a fifth Workbench color. Hall treats the scale and the spectrum as translations of each other, and both as translations of the sky. Planetary colors are not interior-decorating. They are a correspondence table. The 'music of the spheres' is the claim that the world is already in tune; the initiate learns to hear it. Therapeutic music is the practical end: ratio as medicine."
+}

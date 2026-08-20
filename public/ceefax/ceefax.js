@@ -7,21 +7,22 @@
   const DEGREES = ["neophyte", "fellowcraft", "adept"];
   const degree = localStorage.getItem("hall.degree") || "neophyte";
 
-  const MAGAZINE = [
-    { page: 100, kind: "index" },
-    { page: 93, id: "hermes" },
-    { page: 107, id: "pyramid" },
-    { page: 188, id: "pythagoras" },
-    { page: 227, id: "hiramic" },
-    { page: 346, id: "qabbalah" },
-    { page: 372, id: "sephiroth" },
-    { page: 394, id: "tarot" },
-    { page: 562, id: "cryptogram" },
-    { page: 33, kind: "cipher" },
-    { page: 700, kind: "echoes" },
-    { page: 800, kind: "hour" },
-    { page: 900, kind: "who" },
-  ];
+  function magazine() {
+    const rows = [
+      { page: 100, kind: "index" },
+      { page: 33, kind: "cipher" },
+      { page: 700, kind: "echoes" },
+      { page: 800, kind: "hour" },
+      { page: 900, kind: "who" },
+    ];
+    (state.catalog?.echoes || []).forEach((e, i) => {
+      rows.push({ page: 110 + i, kind: "echo-index", echo: e.id });
+    });
+    (state.catalog?.chapters || []).filter((c) => c.ready).forEach((c) => {
+      rows.push({ page: c.page, id: c.id });
+    });
+    return rows;
+  }
 
   const state = {
     page: 100,
@@ -86,7 +87,7 @@
   }
 
   function mag(p) {
-    return MAGAZINE.find((m) => m.page === p);
+    return magazine().find((m) => m.page === p);
   }
 
   async function api(path) {
@@ -117,18 +118,35 @@
   function paintIndex() {
     const rows = [
       { t: "HALL OF AGES", cls: "dh" },
-      { t: "Manly P. Hall  ·  1928  ·  no renewal" , cls: "c" },
+      { t: "Manly P. Hall  ·  1928  ·  no renewal", cls: "c" },
+      { t: `${state.catalog?.copied || 0} COPIED  TYPE A FOLIO PAGE`, cls: "y" },
       { t: "" },
-      { t: "FOLIO PAGE                  CEEFAX", cls: "y" },
+      { t: "COMPARTMENTS", cls: "y" },
     ];
-    for (const m of MAGAZINE.filter((x) => x.id)) {
-      rows.push({ t: `  ${pad(m.page)}  ${m.id.toUpperCase()}` });
-    }
+    (state.catalog?.echoes || []).forEach((e, i) => {
+      rows.push({ t: `  ${pad(110 + i)}  ${e.id}` });
+    });
     rows.push({ t: "" });
-    rows.push({ t: "  700 ECHOES   800 HOUR   900 WHO", cls: "c" });
-    rows.push({ t: "  100 INDEX    033  (not listed)", cls: "c" });
+    rows.push({ t: "  700 ECHOES  800 HOUR  900 WHO", cls: "c" });
+    rows.push({ t: "  033  (not listed)", cls: "c" });
+    rows.push({ t: `Degree ${degree.toUpperCase()}  RED NFO  GRN TXT  YEL FOL`, cls: "y" });
+    return rows;
+  }
+
+  function paintEchoIndex(echoId) {
+    const echo = (state.catalog?.echoes || []).find((e) => e.id === echoId);
+    const chs = (state.catalog?.chapters || []).filter((c) => c.echo === echoId);
+    const rows = [
+      { t: (echo?.id || echoId).slice(0, COLS), cls: "dh" },
+      { t: (echo?.summary || "").slice(0, COLS), cls: "c" },
+      { t: "" },
+    ];
+    chs.forEach((c) => {
+      const flag = c.ready ? "" : "  TBA";
+      rows.push({ t: `  ${pad(c.page)}  ${c.id.toUpperCase()}${flag}` });
+    });
     rows.push({ t: "" });
-    rows.push({ t: `Degree ${degree.toUpperCase()}   RED NFO  GRN TXT  YEL FOL`, cls: "y" });
+    rows.push({ t: "HOLD 100  TYPE A FOLIO PAGE", cls: "y" });
     return rows;
   }
 
@@ -266,6 +284,7 @@
     let rows;
     if (!m) rows = paint404(p);
     else if (m.kind === "index") rows = paintIndex();
+    else if (m.kind === "echo-index") rows = paintEchoIndex(m.echo);
     else if (m.kind === "cipher") rows = paintCipher();
     else if (m.kind === "echoes") rows = paintEchoes();
     else if (m.kind === "hour") rows = paintHour();

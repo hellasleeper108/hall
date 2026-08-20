@@ -1,0 +1,24 @@
+{
+  "id": "wonders",
+  "see_also": [
+    "pyramid",
+    "bembine",
+    "ceremonial-magic",
+    "elements"
+  ],
+  "correspondences": [
+    "delphi",
+    "oracle",
+    "seven wonders",
+    "lamps"
+  ],
+  "rite": {
+    "prompt": "Which Greek oracle does Hall list first among the speaking wonders?",
+    "accept": [
+      "delphi",
+      "the oracle of delphi"
+    ]
+  },
+  "signal": "WONDERS.NFO                                          HALL 1.3\n================================================================\nWonders of Antiquity\nManly P. Hall · 1928 · folio p.175 · ECHO HERMES.MYST\n\nTHESIS\n  The wonders are not tourism. They are machines for a doctrine: lamps that do not go out, mouths that answer, buildings that measure.\n\nPOINTS\n  * Ever-burning lamps\n  * Oracle of Delphi\n  * Dodona\n  * Trophonius\n  * Seven Wonders and initiated architects\n\nSEE ALSO  pyramid  bembine  ceremonial-magic  elements\nDEGREE    NEOPHYTE may read this screen\n================================================================\n",
+  "translation": "Hall files 'wonder' as a technical term. An ever-burning lamp is a claim about fire that does not consume. Delphi is a claim about a voice in a place. The Seven Wonders are a claim that architecture can be a rite. 'Initiated architects' is the bridge to later Masonry: the people who knew the measure. Read it as a cabinet of devices, not a Ripley."
+}
