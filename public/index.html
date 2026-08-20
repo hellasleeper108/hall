@@ -99,7 +99,18 @@
         </svg>
         <span class="name">GUIDE</span>
       </button>
-      <button class="icon" style="left:18px;top:520px" data-href="/ceefax/">
+      <button class="icon" style="left:18px;top:520px" data-open="plates">
+        <svg class="glyph" viewBox="0 0 48 40" shape-rendering="crispEdges">
+          <rect x="6" y="4" width="36" height="30" fill="#fff"/>
+          <rect x="8" y="6" width="32" height="26" fill="#000"/>
+          <rect x="10" y="8" width="28" height="16" fill="#0055aa"/>
+          <rect x="14" y="12" width="10" height="8" fill="#ff8800"/>
+          <rect x="26" y="18" width="8" height="4" fill="#fff"/>
+          <rect x="12" y="26" width="24" height="3" fill="#fff"/>
+        </svg>
+        <span class="name">PLATES</span>
+      </button>
+      <button class="icon" style="left:18px;top:604px" data-href="/ceefax/">
         <svg class="glyph" viewBox="0 0 48 40" shape-rendering="crispEdges">
           <rect x="4" y="6" width="40" height="28" fill="#000"/>
           <rect x="6" y="8" width="12" height="6" fill="#ff8800"/>
@@ -110,7 +121,7 @@
         </svg>
         <span class="name">CEFAX</span>
       </button>
-      <button class="icon" style="left:18px;top:604px" data-open="about">
+      <button class="icon" style="left:18px;top:688px" data-open="about">
         <svg class="glyph" viewBox="0 0 48 40" shape-rendering="crispEdges">
           <rect x="8" y="6" width="32" height="28" fill="#ff8800"/>
           <rect x="12" y="10" width="24" height="10" fill="#fff"/>
@@ -225,6 +236,37 @@
             <span class="src" id="guide-src"></span>
           </div>
           <div id="guide-body"></div>
+        </div>
+        <div class="resize"></div>
+      </div>
+
+      <div id="win-plates" class="win" hidden style="left:120px;top:36px;width:56%;height:60%">
+        <div class="titlebar">
+          <button class="gadget close">×</button>
+          <div class="title">DH3:Plates</div>
+          <button class="gadget right zoom">□</button>
+          <button class="gadget right depth">▬</button>
+        </div>
+        <div class="body">
+          <div class="shelf-head">
+            <span>G-FILE DRAWER  10 FIGURES  STAMPS 4-COLOR</span>
+            <span class="src" id="plate-src"></span>
+          </div>
+          <div id="plate-list" class="plate-grid"></div>
+        </div>
+        <div class="resize"></div>
+      </div>
+
+      <div id="win-plate" class="win" hidden style="left:100px;top:28px;width:64%;height:72%">
+        <div class="titlebar">
+          <button class="gadget close">×</button>
+          <div class="title">PIC:</div>
+          <button class="gadget right zoom">□</button>
+          <button class="gadget right depth">▬</button>
+        </div>
+        <div class="body plate-body">
+          <div id="plate-stage"></div>
+          <div id="plate-caption"></div>
         </div>
         <div class="resize"></div>
       </div>

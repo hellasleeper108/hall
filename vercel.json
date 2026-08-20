@@ -10,7 +10,8 @@
     "api/xref.py": { "maxDuration": 15, "memory": 1024, "includeFiles": "data/**" },
     "api/hour.py": { "maxDuration": 10, "memory": 1024, "includeFiles": "data/**" },
     "api/guide.py": { "maxDuration": 10, "memory": 1024, "includeFiles": "data/**" },
-    "api/diskmag.py": { "maxDuration": 10, "memory": 1024, "includeFiles": "data/**" }
+    "api/diskmag.py": { "maxDuration": 10, "memory": 1024, "includeFiles": "data/**" },
+    "api/plates.py": { "maxDuration": 10, "memory": 1024, "includeFiles": "data/**" }
   },
   "rewrites": [
     { "source": "/ceefax", "destination": "/ceefax/index.html" },

@@ -597,6 +597,7 @@ table.wb tr.pin td { background: #ffe0b0; }
   #win-files { top: 24px !important; height: 46% !important; }
   #win-scroll { top: 24px !important; height: 52% !important; }
   #win-guide { top: 24px !important; height: 52% !important; }
+  #win-plates, #win-plate { top: 24px !important; height: 58% !important; }
   #win-xref { top: 48% !important; height: 28% !important; }
   #desktop { overflow: hidden; }
   #menubar .brand { overflow: hidden; text-overflow: clip; max-width: 55%; }
@@ -632,6 +633,87 @@ table.wb tr.pin td { background: #ffe0b0; }
   margin-top: 8px;
 }
 #scroll-also { margin-top: 8px; }
+
+.plate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+  gap: 8px;
+}
+.plate-stamp {
+  background: none;
+  border: 2px solid transparent;
+  padding: 4px;
+  text-align: center;
+  color: var(--black);
+  cursor: none;
+}
+.plate-stamp.on {
+  background: var(--orange);
+  border-color: var(--black);
+}
+.plate-stamp img {
+  width: 96px;
+  height: 80px;
+  image-rendering: pixelated;
+  display: block;
+  margin: 0 auto 4px;
+  background: var(--blue);
+}
+.plate-stamp .name { display: block; }
+.win .body.plate-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  min-height: 0;
+}
+#plate-stage {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  text-align: center;
+  background: var(--black);
+  padding: 8px;
+  container-type: size;
+}
+.plate-frame {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+#plate-full {
+  display: block;
+  max-width: 100%;
+  max-height: 100cqh;
+  width: auto;
+  height: auto;
+  image-rendering: auto;
+  outline: 2px solid var(--white);
+}
+.plate-map { position: absolute; inset: 0; }
+.hotspot {
+  position: absolute;
+  background: transparent;
+  border: 2px solid transparent;
+  padding: 0;
+  cursor: none;
+  appearance: none;
+}
+.hotspot:hover {
+  border-color: var(--orange);
+  background: rgba(255, 136, 0, 0.12);
+}
+.hotspot.on {
+  border-color: var(--orange);
+  background: rgba(255, 136, 0, 0.22);
+}
+#plate-caption {
+  flex: 0 0 auto;
+  padding: 8px;
+  border-top: 2px solid var(--black);
+  background: var(--white);
+  max-height: 36%;
+  overflow: auto;
+}
 
 a.ag, #guide-body a.ag {
   color: var(--blue);

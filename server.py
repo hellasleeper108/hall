@@ -17,6 +17,7 @@ from corpus import (
     gematria,
     load_diskmag,
     load_guide,
+    load_plates,
     load_seers,
     planetary_hour,
     search_all,
@@ -74,6 +75,8 @@ class Handler(SimpleHTTPRequestHandler):
                 return send_json(self, load_guide(), cache=120)
             if path == "/api/diskmag":
                 return send_json(self, load_diskmag(), cache=120)
+            if path == "/api/plates":
+                return send_json(self, load_plates(), cache=120)
             if path in ("/ceefax", "/ceefax/"):
                 self.path = "/ceefax/index.html"
             if path in ("/diskmag", "/diskmag/"):

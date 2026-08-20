@@ -12,6 +12,9 @@
     status: null,
     guide: null,
     guideNode: "mercury",
+    plates: null,
+    plateId: null,
+    hotspotId: null,
     selected: null,
     chapter: null,
     depth: "signal",
@@ -89,7 +92,7 @@
     "ATDT 1928",
     "CONNECT 2400",
     "Reading  SECRET.OS",
-    "Mounting DH0:Files  DH1:Scroll  DH2:Guide  NUM:Door",
+    "Mounting DH0:Files  DH1:Scroll  DH2:Guide  DH3:Plates  NUM:Door",
     "The veil of the Temple was rent from top to bottom.",
   ];
 
@@ -217,11 +220,14 @@
       if (ic.dataset.href) { location.href = ic.dataset.href; return; }
       openWin(ic.dataset.open);
       if (ic.dataset.open === "guide") renderGuide(state.guideNode);
+      if (ic.dataset.open === "plates") renderPlates();
     });
     ic.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
         if (ic.dataset.href) { location.href = ic.dataset.href; return; }
         openWin(ic.dataset.open);
+        if (ic.dataset.open === "guide") renderGuide(state.guideNode);
+        if (ic.dataset.open === "plates") renderPlates();
       }
     });
   });
@@ -236,6 +242,7 @@
     if (e.key === "F7") { e.preventDefault(); location.href = "/ceefax/"; }
     if (e.key === "F8") { e.preventDefault(); location.href = "/diskmag/"; }
     if (e.key === "F9") { e.preventDefault(); location.href = "/scif/"; }
+    if (e.key === "F10") { e.preventDefault(); openWin("plates"); renderPlates(); }
     if (e.key === "Escape") {
       const top = [...$$(".win")].filter((w) => !w.hidden).sort((a, b) => (+b.style.zIndex || 0) - (+a.style.zIndex || 0))[0];
       if (top && document.activeElement?.id !== "cmdline") closeWin(top);
@@ -354,6 +361,8 @@
       renderAbout();
       renderFiles();
       renderScroll();
+      renderPlates();
+      renderPlateView();
       return;
     }
     if (state.degree === "fellowcraft" && state.read.translation.length >= 3 && state.rites.length >= 2) {
@@ -363,6 +372,8 @@
       renderAbout();
       renderFiles();
       renderScroll();
+      renderPlates();
+      renderPlateView();
     }
   }
 
@@ -402,14 +413,25 @@
       body.textContent = rec.translation || "Translation not copied.";
       markRead(rec.id, "translation");
     } else body.textContent = rec.folio || "Folio not copied from the 1928 text yet.";
-    also.innerHTML = (rec.see_also || []).length
-      ? `<div class="stamps">SEE ALSO  ${(rec.see_also || []).map((id) =>
-          `<a class="stamp" href="#" data-see="${esc(id)}">${esc(id)}</a>`).join("")}</div>`
+    const alsoLinks = (rec.see_also || []).map((id) =>
+      `<a class="stamp" href="#" data-see="${esc(id)}">${esc(id)}</a>`);
+    const plate = (state.plates?.plates || []).find((p) => p.chapter === rec.id);
+    if (plate) {
+      alsoLinks.push(`<a class="stamp released" href="#" data-plate="${esc(plate.id)}">PLATE ${esc(plate.id)}</a>`);
+    }
+    also.innerHTML = alsoLinks.length
+      ? `<div class="stamps">${(rec.see_also || []).length ? "SEE ALSO  " : ""}${alsoLinks.join("")}</div>`
       : "";
     also.querySelectorAll("[data-see]").forEach((a) => {
       a.addEventListener("click", (e) => {
         e.preventDefault();
         openScroll(a.dataset.see);
+      });
+    });
+    also.querySelectorAll("[data-plate]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        openPlate(a.dataset.plate);
       });
     });
     if (rec.rite && rec.rite.prompt && rec.ready) {
@@ -542,6 +564,131 @@
     });
   }
 
+  function plateById(id) {
+    return (state.plates?.plates || []).find((p) => p.id === id);
+  }
+
+  function findPlate(q) {
+    const n = String(q || "").toLowerCase().trim();
+    if (!n) return null;
+    const plates = state.plates?.plates || [];
+    return plates.find((p) =>
+      p.id === n ||
+      (p.title && p.title.toLowerCase() === n) ||
+      p.id.startsWith(n) ||
+      (p.title && p.title.toLowerCase().includes(n))
+    ) || null;
+  }
+
+  function findHotspot(q) {
+    const n = String(q || "").toLowerCase().trim();
+    if (!n) return null;
+    for (const p of state.plates?.plates || []) {
+      const hit = (p.hotspots || []).find((h) =>
+        h.id === n || (h.label && h.label.toLowerCase() === n)
+      );
+      if (hit) return { plate: p, hotspot: hit };
+    }
+    return null;
+  }
+
+  function renderPlates() {
+    const box = $("#plate-list");
+    const src = $("#plate-src");
+    if (!box) return;
+    const plates = state.plates?.plates || [];
+    if (src) src.textContent = `${plates.length} figures  ${state.degree.toUpperCase()}`;
+    if (!plates.length) {
+      box.innerHTML = "<p class='dim'>DH3 not mounted.</p>";
+      return;
+    }
+    box.innerHTML = plates.map((p) => `
+      <button class="plate-stamp${state.plateId === p.id ? " on" : ""}" data-id="${esc(p.id)}" type="button">
+        <img src="${esc(p.stamp || "/plates/stamps/" + p.id + "@2.png")}" alt="" width="96" height="80">
+        <span class="name">${esc(p.id.toUpperCase())}</span>
+      </button>`).join("");
+    box.querySelectorAll(".plate-stamp").forEach((el) => {
+      el.addEventListener("click", () => {
+        state.plateId = el.dataset.id;
+        renderPlates();
+      });
+      el.addEventListener("dblclick", () => openPlate(el.dataset.id));
+      el.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") openPlate(el.dataset.id);
+      });
+    });
+  }
+
+  function openPlate(id, hotspotId) {
+    const p = plateById(id);
+    if (!p) return;
+    state.plateId = p.id;
+    state.hotspotId = hotspotId || null;
+    renderPlates();
+    renderPlateView();
+    openWin("plate");
+    const title = $("#win-plate .title");
+    if (title) title.textContent = "PIC:" + p.id;
+  }
+
+  function renderPlateView() {
+    const p = plateById(state.plateId);
+    const stage = $("#plate-stage");
+    const cap = $("#plate-caption");
+    if (!stage || !cap) return;
+    if (!p) {
+      stage.innerHTML = "<p class='dim'>No plate.</p>";
+      cap.innerHTML = "";
+      return;
+    }
+    const hotspots = p.hotspots || [];
+    stage.innerHTML = `
+      <div class="plate-frame">
+        <img id="plate-full" src="${esc(p.src || "/plates/full/" + p.file)}" alt="${esc(p.title)}">
+        <div class="plate-map">${hotspots.map((h) =>
+          `<button class="hotspot${state.hotspotId === h.id ? " on" : ""}" data-id="${esc(h.id)}" type="button"
+             style="left:${Number(h.x)}%;top:${Number(h.y)}%;width:${Number(h.w)}%;height:${Number(h.h)}%"
+             title="${esc(h.label)}"></button>`
+        ).join("")}</div>
+      </div>`;
+    stage.querySelectorAll(".hotspot").forEach((el) => {
+      el.addEventListener("click", (e) => {
+        e.stopPropagation();
+        state.hotspotId = el.dataset.id;
+        renderPlateView();
+      });
+    });
+    const rank = rankOf(state.degree);
+    const hs = hotspots.find((h) => h.id === state.hotspotId);
+    let html = `<div class="filetab">${esc(p.title)}</div><p>${esc(p.legend || "")}</p>`;
+    if (rank >= 1 && p.caption) html += `<p>${esc(p.caption)}</p>`;
+    if (rank >= 2) html += `<p class="dim">Folio p.${p.pdf_page} · ${esc(p.chapter || "")}</p>`;
+    const stamps = [];
+    if (hs) {
+      stamps.push(`<span class="stamp released">${esc(hs.label.toUpperCase())}</span>`);
+      if (hs.chapter) stamps.push(`<a class="stamp public" href="#" data-ch="${esc(hs.chapter)}">READ ${esc(hs.chapter)}</a>`);
+      if (hs.guide) stamps.push(`<a class="stamp" href="#" data-g="${esc(hs.guide)}">@${esc(hs.guide)}</a>`);
+    } else {
+      if (p.chapter) stamps.push(`<a class="stamp public" href="#" data-ch="${esc(p.chapter)}">READ ${esc(p.chapter)}</a>`);
+      if (hotspots.length) stamps.push(`<span class="stamp">CLICK A GLOBE</span>`);
+    }
+    if (stamps.length) html += `<div class="stamps">${stamps.join("")}</div>`;
+    cap.innerHTML = html;
+    cap.querySelectorAll("[data-ch]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        openScroll(a.dataset.ch);
+      });
+    });
+    cap.querySelectorAll("[data-g]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        openWin("guide");
+        renderGuide(a.dataset.g);
+      });
+    });
+  }
+
   function renderAbout() {
     const box = $("#about-body");
     const s = state.status;
@@ -555,7 +702,7 @@
         <span>node <b>${esc(s?.node || "1:1928/1")}</b></span>
       </div>
       <p>Copied ${s?.copied ?? "—"} / ${s?.chapters ?? 50} chapters. Three depths: NFO / TXT / FOL.</p>
-      <p><a href="/ceefax/">CEEFAX 1928</a> · <a href="/diskmag/">DISKMAG 01</a> · <a href="/scif/">UNWRITTEN LAW</a> · DH2:Guide is a correspondence stub, not Codex's Tree.</p>
+      <p><a href="/ceefax/">CEEFAX 1928</a> · <a href="/diskmag/">DISKMAG 01</a> · <a href="/scif/">UNWRITTEN LAW</a> · DH2:Guide is a correspondence stub, not Codex's Tree. DH3:Plates is ten figures; the Tree is a file map.</p>
       <p>CODEX keeps the Hebrew desk and the Tree gadget. BBSBENCH dials other boards. This node <i>is</i> a board.</p>
       <p>Homage to Workbench 1.3 / Kickstart — not a Commodore product.</p>
       <h3>WHO</h3>
@@ -636,6 +783,7 @@
     teletext: "ceefax", minitel: "ceefax", prestel: "ceefax",
     loadstar: "diskmag", mag: "diskmag",
     scif: "scif", adytum: "scif", veil: "scif",
+    plate: "plates", gfile: "plates", knapp: "plates", pic: "plates",
 
   };
 
@@ -654,12 +802,13 @@
   rite                 show the mounted scroll's question
   find <q>             search titles and translations
   guide [node]         DH2:Guide correspondence stub
+  plates [id]          DH3:Plates  (tree, kether, cover…)
   ceefax               hang up into CEEFAX 1928
   diskmag              load issue 01 (Hermes)
   scif                 the unwritten-law gate
   about                SYS:About
 
-F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR · F6 GUIDE · F7 CEEFAX.
+F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR · F6 GUIDE · F7 CEEFAX · F10 PLATES.
 
 Three depths. Neophyte sees NFO. Fellowcraft unlocks TXT.
 Adept unlocks FOL. Read three, pass a rite.`;
@@ -796,24 +945,49 @@ Adept unlocks FOL. Read three, pass a rite.`;
       termPrint("The veil was the method.", "ora");
       location.href = "/scif/";
     },
+    plates(arg) {
+      openWin("plates");
+      renderPlates();
+      if (!arg) {
+        const n = (state.plates?.plates || []).length;
+        termPrint(`DH3:Plates  ${n} figures. Stamps four-color; viewer is the source. The Tree is a map.`, "dim");
+        return;
+      }
+      const p = findPlate(arg);
+      if (p) {
+        openPlate(p.id);
+        termPrint(`PIC:${p.id}  ${p.title}`, "ok");
+        return;
+      }
+      const hit = findHotspot(arg);
+      if (hit) {
+        openPlate(hit.plate.id, hit.hotspot.id);
+        termPrint(`PIC:${hit.plate.id}  ${hit.hotspot.label}`, "ok");
+        return;
+      }
+      termPrint("No plate by that name.  plates  to list.", "err");
+    },
   };
 
   async function refreshAll() {
-    const [catalog, who, hour, status, guide] = await Promise.all([
+    const [catalog, who, hour, status, guide, plates] = await Promise.all([
       api("/api/catalog"),
       api("/api/who"),
       api("/api/hour"),
       api("/api/status"),
       api("/api/guide"),
+      api("/api/plates"),
     ]);
     state.catalog = catalog;
     state.who = who;
     state.hour = hour;
     state.status = status;
     state.guide = guide;
+    state.plates = plates;
     renderHour();
     renderEchoFilters();
     renderFiles();
+    renderPlates();
     renderAbout();
   }
 

@@ -1,0 +1,108 @@
+{
+  "title": "DH3:Plates",
+  "note": "Curated figures from the Lampić 2009 PDF. Workbench stamps are four-color; the viewer may show the source. The Tree is the map.",
+  "plates": [
+    {
+      "id": "cover",
+      "file": "cover.jpg",
+      "pdf_page": 1,
+      "chapter": "preface",
+      "title": "The Secret Teachings of All Ages",
+      "legend": "Knapp's cover: the folio as a physical event.",
+      "caption": "The 1928 binding was the argument: a plate you could hold. This is the door of the BBS."
+    },
+    {
+      "id": "empyreum",
+      "file": "empyreum.png",
+      "pdf_page": 33,
+      "chapter": "sun",
+      "title": "Coelum Empyreum",
+      "legend": "Spheres from Luna to the primum mobile.",
+      "caption": "Hall's solar chapter in one diagram: planets nested, zodiac on the rim, the empyrean as God's habitation."
+    },
+    {
+      "id": "pyramid",
+      "file": "pyramid.png",
+      "pdf_page": 111,
+      "chapter": "pyramid",
+      "title": "Great Pyramid, looking west",
+      "legend": "Passages as degrees. The coffer is a gate.",
+      "caption": "A sermon in stone: ascending passage, gallery, king's chamber, the forced hole of al-Mamun."
+    },
+    {
+      "id": "isis",
+      "file": "isis.png",
+      "pdf_page": 121,
+      "chapter": "isis",
+      "title": "Isis",
+      "legend": "The virgin of the world, sistrum in hand.",
+      "caption": "Widow and womb. Osiris is the light cut up; she gathers the pieces."
+    },
+    {
+      "id": "zodiac-man",
+      "file": "zodiac-man.png",
+      "pdf_page": 149,
+      "chapter": "zodiac",
+      "title": "The zodiacal man",
+      "legend": "Signs written on a body.",
+      "caption": "The belt of living signs as anatomy. Pair with the human-body chapter and the Tree."
+    },
+    {
+      "id": "bembine",
+      "file": "bembine.jpg",
+      "pdf_page": 162,
+      "chapter": "bembine",
+      "title": "The Bembine Table of Isis",
+      "legend": "Bronze filing cabinet. A later map.",
+      "caption": "Mensa Isiaca. Three registers of gods. Hall reads it as a doctrine you can point at. Not the clickable map this round."
+    },
+    {
+      "id": "seals",
+      "file": "seals.png",
+      "pdf_page": 319,
+      "chapter": "ceremonial-magic",
+      "title": "Planetary seals",
+      "legend": "Seven planets, names and signs.",
+      "caption": "The same Chaldean order as HALL's hour. Magic as leftover liturgy."
+    },
+    {
+      "id": "tree",
+      "file": "tree.png",
+      "pdf_page": 379,
+      "chapter": "sephiroth",
+      "title": "The sephirothic system",
+      "legend": "Ten globes. Click a sephira.",
+      "caption": "Kircher's tree as HALL's filesystem. Not Codex's SVG gadget. Globes open chapters and Guide nodes.",
+      "hotspots": [
+        {"id": "kether", "label": "Kether", "x": 38, "y": 13, "w": 24, "h": 15, "chapter": "sephiroth", "guide": "sephiroth"},
+        {"id": "chokmah", "label": "Chokmah", "x": 64, "y": 25, "w": 24, "h": 14, "chapter": "qabbalah", "guide": "sephiroth"},
+        {"id": "binah", "label": "Binah", "x": 12, "y": 25, "w": 24, "h": 14, "chapter": "qabbalah", "guide": "sephiroth"},
+        {"id": "chesed", "label": "Chesed", "x": 64, "y": 43, "w": 24, "h": 14, "chapter": "sephiroth", "guide": "sephiroth"},
+        {"id": "geburah", "label": "Geburah", "x": 12, "y": 43, "w": 24, "h": 14, "chapter": "sephiroth", "guide": "hod"},
+        {"id": "tiphereth", "label": "Tiphereth", "x": 38, "y": 58, "w": 24, "h": 14, "chapter": "sun", "guide": "sephiroth"},
+        {"id": "netzach", "label": "Netzach", "x": 64, "y": 66, "w": 24, "h": 13, "chapter": "tarot", "guide": "fool"},
+        {"id": "hod", "label": "Hod", "x": 12, "y": 66, "w": 24, "h": 13, "chapter": "hermes", "guide": "hod"},
+        {"id": "yesod", "label": "Yesod", "x": 38, "y": 76, "w": 24, "h": 11, "chapter": "music-color", "guide": "mercury"},
+        {"id": "malkuth", "label": "Malkuth", "x": 38, "y": 88, "w": 24, "h": 11, "chapter": "human-body", "guide": "pyramid"}
+      ]
+    },
+    {
+      "id": "mysterium",
+      "file": "mysterium.png",
+      "pdf_page": 425,
+      "chapter": "rose-cross",
+      "title": "Mysterium Magnum",
+      "legend": "Rose Cross as a public riddle.",
+      "caption": "Tincture, faith, hope. The Order's emblem as a German broadside."
+    },
+    {
+      "id": "mundus",
+      "file": "mundus.jpg",
+      "pdf_page": 449,
+      "chapter": "diagrams",
+      "title": "Mundus Elementaris",
+      "legend": "The elementary world in rings.",
+      "caption": "Months, planets, elements. One of Hall's fifteen diagrams doing the work of a chapter."
+    }
+  ]
+}

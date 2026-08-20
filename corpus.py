@@ -60,6 +60,23 @@ def load_diskmag():
     return _read_json(DATA / "diskmag.json")
 
 
+def load_plates():
+    rec = _read_json(DATA / "plates.json")
+    chapters = {c["id"] for c in load_catalog()["chapters"]}
+    guide_ids = {n["id"] for n in load_guide().get("nodes") or []}
+    for plate in rec.get("plates") or []:
+        plate["stamp"] = f"/plates/stamps/{plate['id']}@2.png"
+        plate["src"] = f"/plates/full/{plate['file']}"
+        if plate.get("chapter") and plate["chapter"] not in chapters:
+            plate["chapter"] = None
+        for spot in plate.get("hotspots") or []:
+            if spot.get("chapter") and spot["chapter"] not in chapters:
+                spot["chapter"] = None
+            if spot.get("guide") and spot["guide"] not in guide_ids:
+                spot["guide"] = None
+    return rec
+
+
 def load_chapter(cid: str):
     path = DATA / "chapters" / f"{cid}.json"
     if not path.exists():
