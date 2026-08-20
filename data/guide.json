@@ -1,0 +1,129 @@
+{
+  "title": "HALL.guide",
+  "note": "Stub. Correspondence nodes, not Codex's Tree gadget.",
+  "start": "mercury",
+  "nodes": [
+    {
+      "id": "mercury",
+      "title": "Mercury",
+      "body": "Quicksilver. Wednesday. The lungs. Hod, the eighth sephira. Hermes the thrice-great as a job title, not a biography. Hall treats the metal, the day, the organ, and the god as one filing card.",
+      "links": [
+        {"word": "Hermes", "to": "hermes"},
+        {"word": "Hod", "to": "hod"},
+        {"word": "quicksilver", "to": "hour"}
+      ]
+    },
+    {
+      "id": "hod",
+      "title": "Hod",
+      "body": "Glory / splendour. Eighth globe on the Tree, pillar of Severity. Intellect that names. Hall's Qabbalah chapter is the claim; the Tree chapter is the furniture. This node is a door into both.",
+      "links": [
+        {"word": "Tree", "to": "sephiroth"},
+        {"word": "Qabbalah", "to": "qabbalah"},
+        {"word": "Mercury", "to": "mercury"}
+      ]
+    },
+    {
+      "id": "hermes",
+      "title": "Hermes Trismegistus",
+      "body": "Thoth, Hermes, Mercurius. Poimandres. The Book of Thoth as a lost picture-grammar later cut up as tarot. The veil is torn; the initiator points into the dark.",
+      "links": [
+        {"word": "tarot", "to": "fool"},
+        {"word": "Mercury", "to": "mercury"},
+        {"word": "Pyramid", "to": "pyramid"}
+      ],
+      "chapter": "hermes"
+    },
+    {
+      "id": "pyramid",
+      "title": "The Pyramid",
+      "body": "A sermon in stone. Passages as degrees, coffer as a gate, missing capstone as a doctrine. You crawl. You wait. You stand in a room whose only furniture is a box.",
+      "links": [
+        {"word": "Hermes", "to": "hermes"},
+        {"word": "Hiram", "to": "hiram"}
+      ],
+      "chapter": "pyramid"
+    },
+    {
+      "id": "hiram",
+      "title": "Hiram / Chiram Abiff",
+      "body": "Master craftsman of Solomon's temple, murdered at the gates for a word he would not give. Acacia on the grave. Hall reads him as a sun killed by three winter months. The lost word is a cryptogram the lodge pretends to seek.",
+      "links": [
+        {"word": "lost word", "to": "lost-word"},
+        {"word": "cipher", "to": "cipher"},
+        {"word": "Pyramid", "to": "pyramid"}
+      ],
+      "chapter": "hiramic"
+    },
+    {
+      "id": "lost-word",
+      "title": "The Lost Word",
+      "body": "Not missing because someone forgot it. Missing because it was designed as a cryptogram. Degrees on this board are a toy version: NFO public, TXT a key, FOL the padded text.",
+      "links": [
+        {"word": "Hiram", "to": "hiram"},
+        {"word": "cipher", "to": "cipher"}
+      ]
+    },
+    {
+      "id": "fool",
+      "title": "The Fool",
+      "body": "The unnumbered trump. The walker who can stand on any of the 22 paths. ROTA / TARO / TORA / ORAT. Hall's tarot is a shuffled Book of Thoth, not a drugstore fortune.",
+      "links": [
+        {"word": "tarot", "to": "tarot"},
+        {"word": "Hermes", "to": "hermes"},
+        {"word": "Tree", "to": "sephiroth"}
+      ],
+      "chapter": "tarot"
+    },
+    {
+      "id": "tarot",
+      "title": "Tarot",
+      "body": "22 trumps as letters, four suits as elements and worlds. The pictures are the doctrine; the game is the cover.",
+      "links": [
+        {"word": "Fool", "to": "fool"},
+        {"word": "Tree", "to": "sephiroth"},
+        {"word": "Hermes", "to": "hermes"}
+      ],
+      "chapter": "tarot"
+    },
+    {
+      "id": "sephiroth",
+      "title": "The Tree of the Sephiroth",
+      "body": "Ten globes, three pillars, twenty-two paths. 32 paths of wisdom. Daath in the abyss. Kircher's engraving is the map Western occultism never recovered from. HALL does not redraw Codex's gadget. HALL files things here.",
+      "links": [
+        {"word": "Hod", "to": "hod"},
+        {"word": "Qabbalah", "to": "qabbalah"},
+        {"word": "Fool", "to": "fool"}
+      ],
+      "chapter": "sephiroth"
+    },
+    {
+      "id": "qabbalah",
+      "title": "Qabbalah",
+      "body": "Beside the written Torah, an unwritten one: letters, numbers, and names as the same object. Sepher Yetzirah. Gematria, notarikon, temurah. Hall is a synthesist, not a rabbi.",
+      "links": [
+        {"word": "Tree", "to": "sephiroth"},
+        {"word": "cipher", "to": "cipher"}
+      ],
+      "chapter": "qabbalah"
+    },
+    {
+      "id": "cipher",
+      "title": "Cryptogram",
+      "body": "Verbose writers were not always drunk. Sometimes they were padding to conceal words. Bacon's biliteral. Acrostics. Numerical ciphers. Teletext page 033 is homework.",
+      "links": [
+        {"word": "lost word", "to": "lost-word"},
+        {"word": "Hiram", "to": "hiram"}
+      ],
+      "chapter": "cryptogram"
+    },
+    {
+      "id": "hour",
+      "title": "Planetary hour",
+      "body": "Chaldean order: Saturn, Jupiter, Mars, Sun, Venus, Mercury, Moon. The menubar may retitle itself. It may not add a fifth Workbench color. Mercury's metal is quicksilver.",
+      "links": [
+        {"word": "Mercury", "to": "mercury"}
+      ]
+    }
+  ]
+}

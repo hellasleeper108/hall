@@ -52,6 +52,10 @@ def load_seers():
     return _read_json(DATA / "seers.json")
 
 
+def load_guide():
+    return _read_json(DATA / "guide.json")
+
+
 def load_chapter(cid: str):
     path = DATA / "chapters" / f"{cid}.json"
     if not path.exists():

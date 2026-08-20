@@ -10,6 +10,8 @@
     who: null,
     hour: null,
     status: null,
+    guide: null,
+    guideNode: "mercury",
     selected: null,
     chapter: null,
     depth: "signal",
@@ -87,7 +89,7 @@
     "ATDT 1928",
     "CONNECT 2400",
     "Reading  SECRET.OS",
-    "Mounting DH0:Files  DH1:Scroll  NUM:Door",
+    "Mounting DH0:Files  DH1:Scroll  DH2:Guide  NUM:Door",
     "The veil of the Temple was rent from top to bottom.",
   ];
 
@@ -211,9 +213,16 @@
       $$(".icon").forEach((x) => x.classList.remove("selected"));
       ic.classList.add("selected");
     });
-    ic.addEventListener("dblclick", () => openWin(ic.dataset.open));
+    ic.addEventListener("dblclick", () => {
+      if (ic.dataset.href) { location.href = ic.dataset.href; return; }
+      openWin(ic.dataset.open);
+      if (ic.dataset.open === "guide") renderGuide(state.guideNode);
+    });
     ic.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") openWin(ic.dataset.open);
+      if (e.key === "Enter") {
+        if (ic.dataset.href) { location.href = ic.dataset.href; return; }
+        openWin(ic.dataset.open);
+      }
     });
   });
 
@@ -223,6 +232,8 @@
     if (e.key === "F3") { e.preventDefault(); openWin("scroll"); }
     if (e.key === "F4") { e.preventDefault(); openWin("xref"); }
     if (e.key === "F5") { e.preventDefault(); openWin("door"); }
+    if (e.key === "F6") { e.preventDefault(); openWin("guide"); renderGuide(state.guideNode); }
+    if (e.key === "F7") { e.preventDefault(); location.href = "/ceefax/"; }
     if (e.key === "Escape") {
       const top = [...$$(".win")].filter((w) => !w.hidden).sort((a, b) => (+b.style.zIndex || 0) - (+a.style.zIndex || 0))[0];
       if (top && document.activeElement?.id !== "cmdline") closeWin(top);
@@ -489,6 +500,46 @@
   $("#gem-go").addEventListener("click", () => runGem($("#gem-q").value));
   $("#gem-q").addEventListener("keydown", (e) => { if (e.key === "Enter") runGem($("#gem-q").value); });
 
+  function guideNode(id) {
+    const nodes = state.guide?.nodes || [];
+    return nodes.find((n) => n.id === id) || nodes[0];
+  }
+
+  function renderGuide(id) {
+    const start = id || state.guide?.start || "mercury";
+    const node = guideNode(start);
+    const box = $("#guide-body");
+    const src = $("#guide-src");
+    if (!node) {
+      box.innerHTML = "<p class='dim'>Guide not mounted.</p>";
+      return;
+    }
+    state.guideNode = node.id;
+    if (src) src.textContent = "@node " + node.id;
+    const body = esc(node.body || "");
+    box.innerHTML = `
+      <h3 style="margin:0 0 8px">${esc(node.title)}</h3>
+      <p>${body}</p>
+      <div class="stamps">
+        ${(node.links || []).map((ln) =>
+          `<a class="stamp" href="#" data-to="${esc(ln.to)}">${esc(ln.word)}</a>`
+        ).join("")}
+        ${node.chapter ? `<a class="stamp public" href="#" data-ch="${esc(node.chapter)}">READ ${esc(node.chapter)}</a>` : ""}
+      </div>`;
+    box.querySelectorAll("[data-to]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        renderGuide(a.dataset.to);
+      });
+    });
+    box.querySelectorAll("[data-ch]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        openScroll(a.dataset.ch);
+      });
+    });
+  }
+
   function renderAbout() {
     const box = $("#about-body");
     const s = state.status;
@@ -502,6 +553,7 @@
         <span>node <b>${esc(s?.node || "1:1928/1")}</b></span>
       </div>
       <p>Copied ${s?.copied ?? "—"} / ${s?.chapters ?? 50} chapters. Three depths: NFO / TXT / FOL.</p>
+      <p><a href="/ceefax/">CEEFAX 1928</a> · DH2:Guide is a correspondence stub, not Codex's Tree.</p>
       <p>CODEX keeps the Hebrew desk and the Tree gadget. BBSBENCH dials other boards. This node <i>is</i> a board.</p>
       <p>Homage to Workbench 1.3 / Kickstart — not a Commodore product.</p>
       <h3>WHO</h3>
@@ -578,6 +630,8 @@
     login: "handle", name: "handle",
     echo: "echoes", mail: "echoes",
     pin: "degree",
+    amigaguide: "guide", node: "guide",
+    teletext: "ceefax", minitel: "ceefax", prestel: "ceefax",
   };
 
   const HELP = `HALL 1.3 command binder
@@ -594,9 +648,11 @@
   degree               show / hint the raise
   rite                 show the mounted scroll's question
   find <q>             search titles and translations
+  guide [node]         DH2:Guide correspondence stub
+  ceefax               hang up into CEEFAX 1928
   about                SYS:About
 
-F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR.
+F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR · F6 GUIDE · F7 CEEFAX.
 
 Three depths. Neophyte sees NFO. Fellowcraft unlocks TXT.
 Adept unlocks FOL. Read three, pass a rite.`;
@@ -715,19 +771,31 @@ Adept unlocks FOL. Read three, pass a rite.`;
       renderAbout();
       openWin("about");
     },
+    guide(arg) {
+      const id = (arg || state.guideNode || "mercury").toLowerCase().replace(/\s+/g, "-");
+      openWin("guide");
+      renderGuide(id);
+      termPrint(`@node ${state.guideNode}`, "dim");
+    },
+    ceefax() {
+      termPrint("HOLD 100. Tuning CEEFAX…", "ora");
+      location.href = "/ceefax/";
+    },
   };
 
   async function refreshAll() {
-    const [catalog, who, hour, status] = await Promise.all([
+    const [catalog, who, hour, status, guide] = await Promise.all([
       api("/api/catalog"),
       api("/api/who"),
       api("/api/hour"),
       api("/api/status"),
+      api("/api/guide"),
     ]);
     state.catalog = catalog;
     state.who = who;
     state.hour = hour;
     state.status = status;
+    state.guide = guide;
     renderHour();
     renderEchoFilters();
     renderFiles();

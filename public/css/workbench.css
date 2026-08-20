@@ -596,6 +596,7 @@ table.wb tr.pin td { background: #ffe0b0; }
   #win-cli { top: auto !important; bottom: 16px !important; height: 22% !important; }
   #win-files { top: 24px !important; height: 46% !important; }
   #win-scroll { top: 24px !important; height: 52% !important; }
+  #win-guide { top: 24px !important; height: 52% !important; }
   #win-xref { top: 48% !important; height: 28% !important; }
   #desktop { overflow: hidden; }
   #menubar .brand { overflow: hidden; text-overflow: clip; max-width: 55%; }
@@ -631,6 +632,13 @@ table.wb tr.pin td { background: #ffe0b0; }
   margin-top: 8px;
 }
 #scroll-also { margin-top: 8px; }
+
+a.ag, #guide-body a.ag {
+  color: var(--blue);
+  text-decoration: underline;
+  cursor: none;
+}
+#guide-body p { line-height: 16px; }
 
 ::-webkit-scrollbar { width: 14px; height: 14px; }
 ::-webkit-scrollbar-track { background: var(--white); }

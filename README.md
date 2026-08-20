@@ -62,7 +62,13 @@ docker compose up --build -d
 1> degree
 ```
 
-F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR.
+F1 help · F2 FILES · F3 SCROLL · F4 XREF · F5 DOOR · F6 GUIDE · F7 CEEFAX.
+
+## CEEFAX 1928
+
+Same corpus, different furniture. https://hall.hellasleeper.com/ceefax
+
+Hall's folio pages are the keypad (`093` Hermes, `227` Hiram). Red NFO / green TXT / yellow FOL. Degrees still gate. Page `033` is not in the magazine.
 
 ## Notes
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CEEFAX 1928 — HALL</title>
+  <link rel="stylesheet" href="/ceefax/ceefax.css">
+</head>
+<body>
+  <div id="tv">
+    <div id="screen" aria-live="polite">
+      <div id="hdr"></div>
+      <pre id="page"></pre>
+      <div id="fast">
+        <button data-fast="red">NFO</button>
+        <button data-fast="green">TXT</button>
+        <button data-fast="yellow">FOL</button>
+        <button data-fast="cyan">100</button>
+      </div>
+    </div>
+    <div id="remote">
+      <label>PAGE <input id="digits" maxlength="4" inputmode="numeric" autocomplete="off" spellcheck="false" aria-label="page number"></label>
+      <button id="go">#</button>
+      <button id="hold">HOLD</button>
+      <button id="reveal">REVEAL</button>
+      <a id="wb" href="/">WB 1.3</a>
+    </div>
+    <p id="hint">Type a folio page — 093 Hermes, 227 Hiram, 100 index. *nnn# or three digits.</p>
+  </div>
+  <script src="/ceefax/ceefax.js"></script>
+</body>
+</html>
